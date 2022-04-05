@@ -30,7 +30,7 @@
         {
             this.btnComprobar = new System.Windows.Forms.Button();
             this.lblId = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblIngresarId = new System.Windows.Forms.Label();
             this.txtId = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -72,16 +72,16 @@
             this.lblId.TabIndex = 63;
             this.lblId.Text = "Id";
             // 
-            // label1
+            // lblIngresarId
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Gainsboro;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(269, 48);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(264, 22);
-            this.label1.TabIndex = 62;
-            this.label1.Text = "Ingrese Id que desea actualizar";
+            this.lblIngresarId.AutoSize = true;
+            this.lblIngresarId.BackColor = System.Drawing.Color.Gainsboro;
+            this.lblIngresarId.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblIngresarId.Location = new System.Drawing.Point(269, 48);
+            this.lblIngresarId.Name = "lblIngresarId";
+            this.lblIngresarId.Size = new System.Drawing.Size(264, 22);
+            this.lblIngresarId.TabIndex = 62;
+            this.lblIngresarId.Text = "Ingrese Id que desea actualizar";
             // 
             // txtId
             // 
@@ -257,7 +257,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnComprobar);
             this.Controls.Add(this.lblId);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblIngresarId);
             this.Controls.Add(this.txtId);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label7);
@@ -279,6 +279,7 @@
             this.Controls.Add(this.btnAtras);
             this.Controls.Add(this.btnActualizar);
             this.Name = "frmActualizarEmbarque";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmActualizarEmbarque";
             this.Load += new System.EventHandler(this.frmActualizarEmbarque_Load);
             this.ResumeLayout(false);
@@ -290,7 +291,7 @@
 
         private Button btnComprobar;
         private Label lblId;
-        private Label label1;
+        private Label lblIngresarId;
         private TextBox txtId;
         private Label label6;
         private Label label7;

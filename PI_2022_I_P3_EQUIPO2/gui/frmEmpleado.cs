@@ -33,5 +33,29 @@ namespace PI_2022_I_P3_EQUIPO2.gui
         {
             this.Close();
         }
+
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+            frmAgregarEmpleado frmAgregarEmpleado = new frmAgregarEmpleado();
+            frmAgregarEmpleado.Show();
+        }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            frmEliminarEmpleado frmEliminarEmpleado = new frmEliminarEmpleado();
+            frmEliminarEmpleado.Show();
+        }
+
+        private void btnActualizar_Click(object sender, EventArgs e)
+        {
+            frmActualizarEmpleado frmActualizarEmpleado = new frmActualizarEmpleado();
+            frmActualizarEmpleado.Show();
+        }
+
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+            frmBuscarEmpleado frmBuscarEmpleado= new frmBuscarEmpleado();
+            frmBuscarEmpleado.Show();
+        }
     }
 }

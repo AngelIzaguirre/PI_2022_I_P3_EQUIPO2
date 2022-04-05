@@ -234,6 +234,7 @@
             this.Controls.Add(this.btnAtras);
             this.Controls.Add(this.btnRegistrar);
             this.Name = "frmAgregarEmbarque";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmAgregarEmbarque";
             this.ResumeLayout(false);
             this.PerformLayout();

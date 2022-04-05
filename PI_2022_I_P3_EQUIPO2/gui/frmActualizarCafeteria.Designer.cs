@@ -30,8 +30,8 @@
         {
             this.btnComprobar = new System.Windows.Forms.Button();
             this.lblId = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.lblIngresarId = new System.Windows.Forms.Label();
+            this.txtId = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -57,7 +57,7 @@
             // 
             this.btnComprobar.Location = new System.Drawing.Point(440, 99);
             this.btnComprobar.Name = "btnComprobar";
-            this.btnComprobar.Size = new System.Drawing.Size(75, 23);
+            this.btnComprobar.Size = new System.Drawing.Size(79, 23);
             this.btnComprobar.TabIndex = 64;
             this.btnComprobar.Text = "Comprobar";
             this.btnComprobar.UseVisualStyleBackColor = true;
@@ -72,23 +72,23 @@
             this.lblId.TabIndex = 63;
             this.lblId.Text = "Id";
             // 
-            // label1
+            // lblIngresarId
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Gainsboro;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(269, 48);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(264, 22);
-            this.label1.TabIndex = 62;
-            this.label1.Text = "Ingrese Id que desea actualizar";
+            this.lblIngresarId.AutoSize = true;
+            this.lblIngresarId.BackColor = System.Drawing.Color.Gainsboro;
+            this.lblIngresarId.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblIngresarId.Location = new System.Drawing.Point(269, 48);
+            this.lblIngresarId.Name = "lblIngresarId";
+            this.lblIngresarId.Size = new System.Drawing.Size(264, 22);
+            this.lblIngresarId.TabIndex = 62;
+            this.lblIngresarId.Text = "Ingrese Id que desea actualizar";
             // 
-            // textBox9
+            // txtId
             // 
-            this.textBox9.Location = new System.Drawing.Point(314, 98);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(100, 23);
-            this.textBox9.TabIndex = 61;
+            this.txtId.Location = new System.Drawing.Point(314, 98);
+            this.txtId.Name = "txtId";
+            this.txtId.Size = new System.Drawing.Size(100, 23);
+            this.txtId.TabIndex = 61;
             // 
             // label6
             // 
@@ -257,8 +257,8 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnComprobar);
             this.Controls.Add(this.lblId);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox9);
+            this.Controls.Add(this.lblIngresarId);
+            this.Controls.Add(this.txtId);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label8);
@@ -279,6 +279,7 @@
             this.Controls.Add(this.btnAtras);
             this.Controls.Add(this.btnActualizar);
             this.Name = "frmActualizarCafeteria";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmActualizarCafeteria";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -289,8 +290,8 @@
 
         private Button btnComprobar;
         private Label lblId;
-        private Label label1;
-        private TextBox textBox9;
+        private Label lblIngresarId;
+        private TextBox txtId;
         private Label label6;
         private Label label7;
         private Label label8;

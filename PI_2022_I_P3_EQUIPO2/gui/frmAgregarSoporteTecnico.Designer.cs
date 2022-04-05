@@ -234,6 +234,7 @@
             this.Controls.Add(this.btnAtras);
             this.Controls.Add(this.btnRegistrar);
             this.Name = "frmAgregarSoporteTecnico";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmAgregarSoporteTecnico";
             this.ResumeLayout(false);
             this.PerformLayout();

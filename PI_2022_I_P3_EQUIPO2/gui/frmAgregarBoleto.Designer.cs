@@ -235,6 +235,7 @@
             this.Controls.Add(this.btnAtras);
             this.Controls.Add(this.btnRegistrar);
             this.Name = "frmAgregarBoleto";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmAgregarBoleto";
             this.ResumeLayout(false);
             this.PerformLayout();

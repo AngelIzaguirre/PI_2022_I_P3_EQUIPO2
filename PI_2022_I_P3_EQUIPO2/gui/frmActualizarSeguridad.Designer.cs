@@ -28,10 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnComprobar = new System.Windows.Forms.Button();
-            this.lblId = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtId = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -51,44 +47,11 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.btnAtras = new System.Windows.Forms.Button();
             this.btnActualizar = new System.Windows.Forms.Button();
+            this.btnComprobar = new System.Windows.Forms.Button();
+            this.lblId = new System.Windows.Forms.Label();
+            this.lblIngresarId = new System.Windows.Forms.Label();
+            this.txtId = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
-            // 
-            // btnComprobar
-            // 
-            this.btnComprobar.Location = new System.Drawing.Point(440, 99);
-            this.btnComprobar.Name = "btnComprobar";
-            this.btnComprobar.Size = new System.Drawing.Size(79, 23);
-            this.btnComprobar.TabIndex = 87;
-            this.btnComprobar.Text = "Comprobar";
-            this.btnComprobar.UseVisualStyleBackColor = true;
-            // 
-            // lblId
-            // 
-            this.lblId.AutoSize = true;
-            this.lblId.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblId.Location = new System.Drawing.Point(286, 99);
-            this.lblId.Name = "lblId";
-            this.lblId.Size = new System.Drawing.Size(22, 17);
-            this.lblId.TabIndex = 86;
-            this.lblId.Text = "Id";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Gainsboro;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(269, 48);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(264, 22);
-            this.label1.TabIndex = 85;
-            this.label1.Text = "Ingrese Id que desea actualizar";
-            // 
-            // txtId
-            // 
-            this.txtId.Location = new System.Drawing.Point(314, 98);
-            this.txtId.Name = "txtId";
-            this.txtId.Size = new System.Drawing.Size(100, 23);
-            this.txtId.TabIndex = 84;
             // 
             // label6
             // 
@@ -249,6 +212,44 @@
             this.btnActualizar.Text = "Actualizar";
             this.btnActualizar.UseVisualStyleBackColor = true;
             // 
+            // btnComprobar
+            // 
+            this.btnComprobar.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnComprobar.Location = new System.Drawing.Point(451, 100);
+            this.btnComprobar.Name = "btnComprobar";
+            this.btnComprobar.Size = new System.Drawing.Size(79, 23);
+            this.btnComprobar.TabIndex = 114;
+            this.btnComprobar.Text = "Comprobar";
+            this.btnComprobar.UseVisualStyleBackColor = true;
+            // 
+            // lblId
+            // 
+            this.lblId.AutoSize = true;
+            this.lblId.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblId.Location = new System.Drawing.Point(297, 100);
+            this.lblId.Name = "lblId";
+            this.lblId.Size = new System.Drawing.Size(22, 17);
+            this.lblId.TabIndex = 113;
+            this.lblId.Text = "Id";
+            // 
+            // lblIngresarId
+            // 
+            this.lblIngresarId.AutoSize = true;
+            this.lblIngresarId.BackColor = System.Drawing.Color.Gainsboro;
+            this.lblIngresarId.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblIngresarId.Location = new System.Drawing.Point(280, 49);
+            this.lblIngresarId.Name = "lblIngresarId";
+            this.lblIngresarId.Size = new System.Drawing.Size(264, 22);
+            this.lblIngresarId.TabIndex = 112;
+            this.lblIngresarId.Text = "Ingrese Id que desea actualizar";
+            // 
+            // txtId
+            // 
+            this.txtId.Location = new System.Drawing.Point(325, 99);
+            this.txtId.Name = "txtId";
+            this.txtId.Size = new System.Drawing.Size(100, 23);
+            this.txtId.TabIndex = 111;
+            // 
             // frmActualizarSeguridad
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -257,7 +258,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnComprobar);
             this.Controls.Add(this.lblId);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblIngresarId);
             this.Controls.Add(this.txtId);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label7);
@@ -279,6 +280,7 @@
             this.Controls.Add(this.btnAtras);
             this.Controls.Add(this.btnActualizar);
             this.Name = "frmActualizarSeguridad";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmActualizarSeguridad";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -286,11 +288,6 @@
         }
 
         #endregion
-
-        private Button btnComprobar;
-        private Label lblId;
-        private Label label1;
-        private TextBox txtId;
         private Label label6;
         private Label label7;
         private Label label8;
@@ -310,5 +307,9 @@
         private TextBox textBox1;
         private Button btnAtras;
         private Button btnActualizar;
+        private Button btnComprobar;
+        private Label lblId;
+        private Label lblIngresarId;
+        private TextBox txtId;
     }
 }

@@ -16,5 +16,10 @@ namespace PI_2022_I_P3_EQUIPO2.gui
         {
             InitializeComponent();
         }
+
+        private void lblIngrese_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

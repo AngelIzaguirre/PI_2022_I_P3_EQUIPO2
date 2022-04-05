@@ -30,9 +30,9 @@
         {
             this.lblId = new System.Windows.Forms.Label();
             this.lblIngrese = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtId = new System.Windows.Forms.TextBox();
             this.btnAtras = new System.Windows.Forms.Button();
-            this.btnRegistrar = new System.Windows.Forms.Button();
+            this.btnEliminar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblId
@@ -56,12 +56,12 @@
             this.lblIngrese.TabIndex = 29;
             this.lblIngrese.Text = "Ingrese Id que desea eliminar";
             // 
-            // textBox1
+            // txtId
             // 
-            this.textBox1.Location = new System.Drawing.Point(320, 147);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 23);
-            this.textBox1.TabIndex = 21;
+            this.txtId.Location = new System.Drawing.Point(320, 147);
+            this.txtId.Name = "txtId";
+            this.txtId.Size = new System.Drawing.Size(100, 23);
+            this.txtId.TabIndex = 21;
             // 
             // btnAtras
             // 
@@ -73,15 +73,15 @@
             this.btnAtras.Text = "Atras";
             this.btnAtras.UseVisualStyleBackColor = true;
             // 
-            // btnRegistrar
+            // btnEliminar
             // 
-            this.btnRegistrar.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnRegistrar.Location = new System.Drawing.Point(538, 322);
-            this.btnRegistrar.Name = "btnRegistrar";
-            this.btnRegistrar.Size = new System.Drawing.Size(75, 23);
-            this.btnRegistrar.TabIndex = 19;
-            this.btnRegistrar.Text = "Eliminar";
-            this.btnRegistrar.UseVisualStyleBackColor = true;
+            this.btnEliminar.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnEliminar.Location = new System.Drawing.Point(538, 322);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(75, 23);
+            this.btnEliminar.TabIndex = 19;
+            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.UseVisualStyleBackColor = true;
             // 
             // frmEliminarAerolinea
             // 
@@ -91,11 +91,12 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.lblId);
             this.Controls.Add(this.lblIngrese);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtId);
             this.Controls.Add(this.btnAtras);
-            this.Controls.Add(this.btnRegistrar);
+            this.Controls.Add(this.btnEliminar);
             this.Name = "frmEliminarAerolinea";
-            this.Text = "frmEliminarAerolinea";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "EliminarAerolinea";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -105,8 +106,8 @@
 
         private Label lblId;
         private Label lblIngrese;
-        private TextBox textBox1;
+        private TextBox txtId;
         private Button btnAtras;
-        private Button btnRegistrar;
+        private Button btnEliminar;
     }
 }

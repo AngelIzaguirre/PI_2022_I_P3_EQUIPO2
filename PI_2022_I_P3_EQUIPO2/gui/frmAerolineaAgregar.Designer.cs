@@ -135,6 +135,7 @@
             this.lblIngrese.Size = new System.Drawing.Size(233, 22);
             this.lblIngrese.TabIndex = 10;
             this.lblIngrese.Text = "Ingrese los siguientes datos";
+            this.lblIngrese.Click += new System.EventHandler(this.lblIngrese_Click);
             // 
             // label2
             // 

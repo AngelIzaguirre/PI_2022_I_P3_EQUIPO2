@@ -48,8 +48,8 @@
             this.btnAtras = new System.Windows.Forms.Button();
             this.btnActualizar = new System.Windows.Forms.Button();
             this.lblId = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.lblIngresar = new System.Windows.Forms.Label();
+            this.txtId = new System.Windows.Forms.TextBox();
             this.btnComprobar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -222,23 +222,23 @@
             this.lblId.TabIndex = 40;
             this.lblId.Text = "Id";
             // 
-            // label1
+            // lblIngresar
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Gainsboro;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(267, 44);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(264, 22);
-            this.label1.TabIndex = 39;
-            this.label1.Text = "Ingrese Id que desea actualizar";
+            this.lblIngresar.AutoSize = true;
+            this.lblIngresar.BackColor = System.Drawing.Color.Gainsboro;
+            this.lblIngresar.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblIngresar.Location = new System.Drawing.Point(267, 44);
+            this.lblIngresar.Name = "lblIngresar";
+            this.lblIngresar.Size = new System.Drawing.Size(264, 22);
+            this.lblIngresar.TabIndex = 39;
+            this.lblIngresar.Text = "Ingrese Id que desea actualizar";
             // 
-            // textBox9
+            // txtId
             // 
-            this.textBox9.Location = new System.Drawing.Point(312, 94);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(100, 23);
-            this.textBox9.TabIndex = 38;
+            this.txtId.Location = new System.Drawing.Point(312, 94);
+            this.txtId.Name = "txtId";
+            this.txtId.Size = new System.Drawing.Size(100, 23);
+            this.txtId.TabIndex = 38;
             // 
             // btnComprobar
             // 
@@ -257,8 +257,8 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnComprobar);
             this.Controls.Add(this.lblId);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox9);
+            this.Controls.Add(this.lblIngresar);
+            this.Controls.Add(this.txtId);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label8);
@@ -279,7 +279,8 @@
             this.Controls.Add(this.btnAtras);
             this.Controls.Add(this.btnActualizar);
             this.Name = "frmActualizarAerolinea";
-            this.Text = "frmActualizarAerolinea";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "ActualizarAerolinea";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -307,8 +308,8 @@
         private Button btnAtras;
         private Button btnActualizar;
         private Label lblId;
-        private Label label1;
-        private TextBox textBox9;
+        private Label lblIngresar;
+        private TextBox txtId;
         private Button btnComprobar;
     }
 }
