@@ -151,21 +151,21 @@
             // inicioToolStripMenuItem
             // 
             this.inicioToolStripMenuItem.Name = "inicioToolStripMenuItem";
-            this.inicioToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.inicioToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
             this.inicioToolStripMenuItem.Text = "Inicio";
             this.inicioToolStripMenuItem.Click += new System.EventHandler(this.inicioToolStripMenuItem_Click);
             // 
             // menuPrincipalToolStripMenuItem1
             // 
             this.menuPrincipalToolStripMenuItem1.Name = "menuPrincipalToolStripMenuItem1";
-            this.menuPrincipalToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.menuPrincipalToolStripMenuItem1.Size = new System.Drawing.Size(154, 22);
             this.menuPrincipalToolStripMenuItem1.Text = "Menu principal";
             this.menuPrincipalToolStripMenuItem1.Click += new System.EventHandler(this.menuPrincipalToolStripMenuItem1_Click);
             // 
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
@@ -185,8 +185,10 @@
             // 
             // dgvMostrar
             // 
+            this.dgvMostrar.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dgvMostrar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvMostrar.Location = new System.Drawing.Point(45, 398);
+            this.dgvMostrar.GridColor = System.Drawing.SystemColors.ButtonShadow;
+            this.dgvMostrar.Location = new System.Drawing.Point(56, 398);
             this.dgvMostrar.Name = "dgvMostrar";
             this.dgvMostrar.RowTemplate.Height = 25;
             this.dgvMostrar.Size = new System.Drawing.Size(563, 150);
@@ -195,6 +197,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.SystemColors.HighlightText;
             this.label1.Location = new System.Drawing.Point(72, 134);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(38, 15);
@@ -204,6 +207,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.SystemColors.HighlightText;
             this.label2.Location = new System.Drawing.Point(72, 196);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(38, 15);
@@ -213,6 +217,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.SystemColors.HighlightText;
             this.label3.Location = new System.Drawing.Point(72, 260);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(38, 15);
@@ -222,6 +227,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.SystemColors.HighlightText;
             this.label4.Location = new System.Drawing.Point(72, 319);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(38, 15);
@@ -240,6 +246,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.SystemColors.HighlightText;
             this.label5.Location = new System.Drawing.Point(645, 406);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(38, 15);
@@ -305,6 +312,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.SystemColors.HighlightText;
             this.label6.Location = new System.Drawing.Point(386, 319);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(38, 15);
@@ -314,6 +322,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.SystemColors.HighlightText;
             this.label7.Location = new System.Drawing.Point(386, 260);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(38, 15);
@@ -323,6 +332,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.SystemColors.HighlightText;
             this.label8.Location = new System.Drawing.Point(386, 196);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(38, 15);
@@ -332,6 +342,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.SystemColors.HighlightText;
             this.label9.Location = new System.Drawing.Point(386, 134);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(38, 15);
@@ -343,6 +354,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(924, 577);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox6);

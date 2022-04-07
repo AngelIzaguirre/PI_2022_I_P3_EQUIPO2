@@ -267,6 +267,7 @@
             // 
             // dgvMostrar
             // 
+            this.dgvMostrar.BackgroundColor = System.Drawing.Color.White;
             this.dgvMostrar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvMostrar.Location = new System.Drawing.Point(44, 396);
             this.dgvMostrar.Name = "dgvMostrar";
@@ -341,7 +342,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Firebrick;
+            this.BackColor = System.Drawing.Color.White;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(889, 575);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox6);

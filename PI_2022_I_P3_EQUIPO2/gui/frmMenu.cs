@@ -24,74 +24,74 @@ namespace PI_2022_I_P3_EQUIPO2.gui
 
         private void btnEmpleado_Click(object sender, EventArgs e)
         {
-            frmEmpleado frmEmpleado = new frmEmpleado();
-            frmEmpleado.Show();
+            frmRegistrarEmpleado frmRegistrarEmpleado = new frmRegistrarEmpleado();
+            frmRegistrarEmpleado.ShowDialog();
         }
 
         private void btnPersona_Click(object sender, EventArgs e)
         {
-            frmPersona frmPersona = new frmPersona();
-            frmPersona.Show();
+            frmRegistrarPersona frmRegistrarPersona = new frmRegistrarPersona();
+            frmRegistrarPersona.ShowDialog();
         }
 
         private void btnBoleto_Click(object sender, EventArgs e)
         {
-            frmBoleto frmBoleto = new frmBoleto();
-            frmBoleto.Show();
+            frmRegistrarBoleto frmRegistrarBoleto = new frmRegistrarBoleto();
+            frmRegistrarBoleto.ShowDialog();
         }
 
         private void btnMantenimiento_Click(object sender, EventArgs e)
         {
-            frmMantenimiento frmMantenimiento = new frmMantenimiento();
-            frmMantenimiento.Show();
+            frmRegistrarMantenimiento frmRegistrarMantenimiento = new frmRegistrarMantenimiento();
+            frmRegistrarMantenimiento.ShowDialog();
         }
 
         private void btnAerolinea_Click(object sender, EventArgs e)
         {
-            frmAerolinea frmAerolinea = new frmAerolinea();
-            frmAerolinea.Show();
+            frmRegistrarAerolinea frmRegistrarAerolinea = new frmRegistrarAerolinea();
+            frmRegistrarAerolinea.ShowDialog();
         }
 
         private void btnSoporteTecnico_Click(object sender, EventArgs e)
         {
-            frmSoporteTecnico frmSoporteTecnico = new frmSoporteTecnico();
-            frmSoporteTecnico.Show();
+            frmRegistrarSoporteTecnico frmRegistrarSoporteTecnico = new frmRegistrarSoporteTecnico();
+            frmRegistrarSoporteTecnico.ShowDialog();
         }
 
         private void btnEquipaje_Click(object sender, EventArgs e)
         {
-            frmEquipaje frmEquipaje = new frmEquipaje();
-            frmEquipaje.Show();
+            frmRegistrarEquipaje frmRegistrarEquipaje = new frmRegistrarEquipaje();
+            frmRegistrarEquipaje.ShowDialog();
         }
 
         private void btnEmbarque_Click(object sender, EventArgs e)
         {
-            frmEmbarque frmEmbarque = new frmEmbarque();
-            frmEmbarque.Show();
+            frmRegistrarEmbarque frmRegistrarEmbarque = new frmRegistrarEmbarque();
+            frmRegistrarEmbarque.ShowDialog();
         }
 
         private void btnMigracion_Click(object sender, EventArgs e)
         {
-            frmMigracion frmMigracion = new frmMigracion();
-            frmMigracion.Show();
+            frmRegistrarMigracion frmRegistrarMigracion = new frmRegistrarMigracion();
+            frmRegistrarMigracion.ShowDialog();
         }
 
         private void btnSeguridad_Click(object sender, EventArgs e)
         {
-            frmSeguridad frmSeguridad = new frmSeguridad();
-            frmSeguridad.Show();
+            frmRegistrarSeguridad frmRegistrarSeguridad = new frmRegistrarSeguridad();
+            frmRegistrarSeguridad.ShowDialog();
         }
 
         private void btnCafeteria_Click(object sender, EventArgs e)
         {
-            frmCafeteria frmCafeteria = new frmCafeteria();
-            frmCafeteria.Show();
+            frmRegistrarCafeteria frmRegistrarCafeteria = new frmRegistrarCafeteria();
+            frmRegistrarCafeteria.ShowDialog();
         }
 
         private void btnLimpieza_Click(object sender, EventArgs e)
         {
-            frmLimpieza frmLimpieza = new frmLimpieza();
-            frmLimpieza.Show();
+            frmRegistrarLimpieza frmRegistrarLimpieza = new frmRegistrarLimpieza();
+            frmRegistrarLimpieza.ShowDialog();
         }
 
         private void inicioToolStripMenuItem_Click(object sender, EventArgs e)
