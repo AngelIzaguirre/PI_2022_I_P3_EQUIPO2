@@ -12,6 +12,11 @@
   <ItemGroup>
     <None Remove="gui\frmMenu.Designer.cs~RFd1b4db3.TMP" />
     <None Remove="gui\qwzzt03b.xsq~" />
+    <None Remove="Objetos\frje3dp1.pw4~" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.OData.Edm" Version="7.10.0" />
   </ItemGroup>
 
   <ItemGroup>

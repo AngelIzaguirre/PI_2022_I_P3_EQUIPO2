@@ -34,21 +34,21 @@
             this.btnLecturaMantenimiento = new System.Windows.Forms.Button();
             this.btnRegistrar = new System.Windows.Forms.Button();
             this.btnGuardarComo = new System.Windows.Forms.Button();
-            this.txtCiudadSalida = new System.Windows.Forms.TextBox();
-            this.txtCiudadActual = new System.Windows.Forms.TextBox();
-            this.txtTipoBoleto = new System.Windows.Forms.TextBox();
-            this.txtNumeroBoleto = new System.Windows.Forms.TextBox();
+            this.txtHoraSalida = new System.Windows.Forms.TextBox();
+            this.txtHoraIngreso = new System.Windows.Forms.TextBox();
+            this.txtProblema = new System.Windows.Forms.TextBox();
+            this.txtNumeroSerie = new System.Windows.Forms.TextBox();
             this.lblHoraSalida = new System.Windows.Forms.Label();
-            this.lblMaterial = new System.Windows.Forms.Label();
+            this.lblCosto = new System.Windows.Forms.Label();
             this.lblEmpresa = new System.Windows.Forms.Label();
             this.lblNumeroSerie = new System.Windows.Forms.Label();
             this.txtFechaActual = new System.Windows.Forms.TextBox();
             this.txtCosto = new System.Windows.Forms.TextBox();
-            this.txtAerolinea = new System.Windows.Forms.TextBox();
+            this.txtMaterial = new System.Windows.Forms.TextBox();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.lblProblema = new System.Windows.Forms.Label();
             this.lblHoraIngreso = new System.Windows.Forms.Label();
-            this.lblFecha = new System.Windows.Forms.Label();
+            this.lblMaterial = new System.Windows.Forms.Label();
             this.lblNombre = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -114,33 +114,33 @@
             this.btnGuardarComo.Text = "Guardar Como";
             this.btnGuardarComo.UseVisualStyleBackColor = true;
             // 
-            // txtCiudadSalida
+            // txtHoraSalida
             // 
-            this.txtCiudadSalida.Location = new System.Drawing.Point(486, 359);
-            this.txtCiudadSalida.Name = "txtCiudadSalida";
-            this.txtCiudadSalida.Size = new System.Drawing.Size(140, 23);
-            this.txtCiudadSalida.TabIndex = 140;
+            this.txtHoraSalida.Location = new System.Drawing.Point(486, 359);
+            this.txtHoraSalida.Name = "txtHoraSalida";
+            this.txtHoraSalida.Size = new System.Drawing.Size(140, 23);
+            this.txtHoraSalida.TabIndex = 140;
             // 
-            // txtCiudadActual
+            // txtHoraIngreso
             // 
-            this.txtCiudadActual.Location = new System.Drawing.Point(486, 300);
-            this.txtCiudadActual.Name = "txtCiudadActual";
-            this.txtCiudadActual.Size = new System.Drawing.Size(140, 23);
-            this.txtCiudadActual.TabIndex = 139;
+            this.txtHoraIngreso.Location = new System.Drawing.Point(486, 300);
+            this.txtHoraIngreso.Name = "txtHoraIngreso";
+            this.txtHoraIngreso.Size = new System.Drawing.Size(140, 23);
+            this.txtHoraIngreso.TabIndex = 139;
             // 
-            // txtTipoBoleto
+            // txtProblema
             // 
-            this.txtTipoBoleto.Location = new System.Drawing.Point(486, 236);
-            this.txtTipoBoleto.Name = "txtTipoBoleto";
-            this.txtTipoBoleto.Size = new System.Drawing.Size(140, 23);
-            this.txtTipoBoleto.TabIndex = 138;
+            this.txtProblema.Location = new System.Drawing.Point(486, 236);
+            this.txtProblema.Name = "txtProblema";
+            this.txtProblema.Size = new System.Drawing.Size(140, 23);
+            this.txtProblema.TabIndex = 138;
             // 
-            // txtNumeroBoleto
+            // txtNumeroSerie
             // 
-            this.txtNumeroBoleto.Location = new System.Drawing.Point(486, 174);
-            this.txtNumeroBoleto.Name = "txtNumeroBoleto";
-            this.txtNumeroBoleto.Size = new System.Drawing.Size(140, 23);
-            this.txtNumeroBoleto.TabIndex = 137;
+            this.txtNumeroSerie.Location = new System.Drawing.Point(486, 174);
+            this.txtNumeroSerie.Name = "txtNumeroSerie";
+            this.txtNumeroSerie.Size = new System.Drawing.Size(140, 23);
+            this.txtNumeroSerie.TabIndex = 137;
             // 
             // lblHoraSalida
             // 
@@ -151,14 +151,14 @@
             this.lblHoraSalida.TabIndex = 136;
             this.lblHoraSalida.Text = "Hora de Salida";
             // 
-            // lblMaterial
+            // lblCosto
             // 
-            this.lblMaterial.AutoSize = true;
-            this.lblMaterial.Location = new System.Drawing.Point(69, 302);
-            this.lblMaterial.Name = "lblMaterial";
-            this.lblMaterial.Size = new System.Drawing.Size(50, 15);
-            this.lblMaterial.TabIndex = 135;
-            this.lblMaterial.Text = "Material";
+            this.lblCosto.AutoSize = true;
+            this.lblCosto.Location = new System.Drawing.Point(69, 302);
+            this.lblCosto.Name = "lblCosto";
+            this.lblCosto.Size = new System.Drawing.Size(38, 15);
+            this.lblCosto.TabIndex = 135;
+            this.lblCosto.Text = "Costo";
             // 
             // lblEmpresa
             // 
@@ -192,12 +192,12 @@
             this.txtCosto.Size = new System.Drawing.Size(140, 23);
             this.txtCosto.TabIndex = 131;
             // 
-            // txtAerolinea
+            // txtMaterial
             // 
-            this.txtAerolinea.Location = new System.Drawing.Point(159, 235);
-            this.txtAerolinea.Name = "txtAerolinea";
-            this.txtAerolinea.Size = new System.Drawing.Size(140, 23);
-            this.txtAerolinea.TabIndex = 130;
+            this.txtMaterial.Location = new System.Drawing.Point(159, 235);
+            this.txtMaterial.Name = "txtMaterial";
+            this.txtMaterial.Size = new System.Drawing.Size(140, 23);
+            this.txtMaterial.TabIndex = 130;
             // 
             // txtNombre
             // 
@@ -226,15 +226,15 @@
             this.lblHoraIngreso.Text = "Hora de Ingreso";
             this.lblHoraIngreso.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // lblFecha
+            // lblMaterial
             // 
-            this.lblFecha.AutoSize = true;
-            this.lblFecha.Location = new System.Drawing.Point(69, 243);
-            this.lblFecha.Name = "lblFecha";
-            this.lblFecha.Size = new System.Drawing.Size(38, 15);
-            this.lblFecha.TabIndex = 126;
-            this.lblFecha.Text = "Fecha";
-            this.lblFecha.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblMaterial.AutoSize = true;
+            this.lblMaterial.Location = new System.Drawing.Point(69, 243);
+            this.lblMaterial.Name = "lblMaterial";
+            this.lblMaterial.Size = new System.Drawing.Size(50, 15);
+            this.lblMaterial.TabIndex = 126;
+            this.lblMaterial.Text = "Material";
+            this.lblMaterial.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblNombre
             // 
@@ -254,21 +254,21 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(867, 450);
-            this.Controls.Add(this.txtCiudadSalida);
-            this.Controls.Add(this.txtCiudadActual);
-            this.Controls.Add(this.txtTipoBoleto);
-            this.Controls.Add(this.txtNumeroBoleto);
+            this.Controls.Add(this.txtHoraSalida);
+            this.Controls.Add(this.txtHoraIngreso);
+            this.Controls.Add(this.txtProblema);
+            this.Controls.Add(this.txtNumeroSerie);
             this.Controls.Add(this.lblHoraSalida);
-            this.Controls.Add(this.lblMaterial);
+            this.Controls.Add(this.lblCosto);
             this.Controls.Add(this.lblEmpresa);
             this.Controls.Add(this.lblNumeroSerie);
             this.Controls.Add(this.txtFechaActual);
             this.Controls.Add(this.txtCosto);
-            this.Controls.Add(this.txtAerolinea);
+            this.Controls.Add(this.txtMaterial);
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.lblProblema);
             this.Controls.Add(this.lblHoraIngreso);
-            this.Controls.Add(this.lblFecha);
+            this.Controls.Add(this.lblMaterial);
             this.Controls.Add(this.lblNombre);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnLecturaMantenimiento);
@@ -289,21 +289,21 @@
         private Button btnLecturaMantenimiento;
         private Button btnRegistrar;
         private Button btnGuardarComo;
-        private TextBox txtCiudadSalida;
-        private TextBox txtCiudadActual;
-        private TextBox txtTipoBoleto;
-        private TextBox txtNumeroBoleto;
+        private TextBox txtHoraSalida;
+        private TextBox txtHoraIngreso;
+        private TextBox txtProblema;
+        private TextBox txtNumeroSerie;
         private Label lblHoraSalida;
-        private Label lblMaterial;
+        private Label lblCosto;
         private Label lblEmpresa;
         private Label lblNumeroSerie;
         private TextBox txtFechaActual;
         private TextBox txtCosto;
-        private TextBox txtAerolinea;
+        private TextBox txtMaterial;
         private TextBox txtNombre;
         private Label lblProblema;
         private Label lblHoraIngreso;
-        private Label lblFecha;
+        private Label lblMaterial;
         private Label lblNombre;
     }
 }
