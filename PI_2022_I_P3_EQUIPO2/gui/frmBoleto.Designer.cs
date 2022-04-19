@@ -280,12 +280,11 @@
             this.btnMostrar.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnMostrar.Image = ((System.Drawing.Image)(resources.GetObject("btnMostrar.Image")));
             this.btnMostrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnMostrar.Location = new System.Drawing.Point(739, 243);
+            this.btnMostrar.Location = new System.Drawing.Point(739, 246);
             this.btnMostrar.Name = "btnMostrar";
-            this.btnMostrar.Size = new System.Drawing.Size(90, 29);
+            this.btnMostrar.Size = new System.Drawing.Size(144, 37);
             this.btnMostrar.TabIndex = 37;
             this.btnMostrar.Text = "Mostrar";
-            this.btnMostrar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnMostrar.UseVisualStyleBackColor = true;
             // 
             // btnSeleccionar
@@ -293,12 +292,11 @@
             this.btnSeleccionar.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnSeleccionar.Image = ((System.Drawing.Image)(resources.GetObject("btnSeleccionar.Image")));
             this.btnSeleccionar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSeleccionar.Location = new System.Drawing.Point(739, 303);
+            this.btnSeleccionar.Location = new System.Drawing.Point(739, 305);
             this.btnSeleccionar.Name = "btnSeleccionar";
-            this.btnSeleccionar.Size = new System.Drawing.Size(107, 28);
+            this.btnSeleccionar.Size = new System.Drawing.Size(144, 36);
             this.btnSeleccionar.TabIndex = 36;
             this.btnSeleccionar.Text = "Seleccionar";
-            this.btnSeleccionar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnSeleccionar.UseVisualStyleBackColor = true;
             // 
             // btnSiguientRegistro
@@ -306,9 +304,9 @@
             this.btnSiguientRegistro.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnSiguientRegistro.Image = ((System.Drawing.Image)(resources.GetObject("btnSiguientRegistro.Image")));
             this.btnSiguientRegistro.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSiguientRegistro.Location = new System.Drawing.Point(739, 181);
+            this.btnSiguientRegistro.Location = new System.Drawing.Point(739, 182);
             this.btnSiguientRegistro.Name = "btnSiguientRegistro";
-            this.btnSiguientRegistro.Size = new System.Drawing.Size(144, 28);
+            this.btnSiguientRegistro.Size = new System.Drawing.Size(144, 37);
             this.btnSiguientRegistro.TabIndex = 35;
             this.btnSiguientRegistro.Text = "Siguiente Registro";
             this.btnSiguientRegistro.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -319,12 +317,11 @@
             this.btnAbrirArchivo.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnAbrirArchivo.Image = ((System.Drawing.Image)(resources.GetObject("btnAbrirArchivo.Image")));
             this.btnAbrirArchivo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAbrirArchivo.Location = new System.Drawing.Point(739, 115);
+            this.btnAbrirArchivo.Location = new System.Drawing.Point(739, 118);
             this.btnAbrirArchivo.Name = "btnAbrirArchivo";
-            this.btnAbrirArchivo.Size = new System.Drawing.Size(120, 31);
+            this.btnAbrirArchivo.Size = new System.Drawing.Size(144, 37);
             this.btnAbrirArchivo.TabIndex = 34;
             this.btnAbrirArchivo.Text = "Abrir Archivo";
-            this.btnAbrirArchivo.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnAbrirArchivo.UseVisualStyleBackColor = true;
             // 
             // lblSeleccionar

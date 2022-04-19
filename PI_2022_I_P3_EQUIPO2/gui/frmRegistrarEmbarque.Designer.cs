@@ -45,11 +45,11 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.lblLlenar = new System.Windows.Forms.Label();
             this.btnSalir = new System.Windows.Forms.Button();
-            this.btnLecturaEmbarque = new System.Windows.Forms.Button();
+            this.btnLecturaBoleto = new System.Windows.Forms.Button();
             this.btnRegistrar = new System.Windows.Forms.Button();
             this.btnGuardarComo = new System.Windows.Forms.Button();
-            this.lblLlenar = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // textBox5
@@ -180,60 +180,6 @@
             this.label1.TabIndex = 83;
             this.label1.Text = "label1";
             // 
-            // btnSalir
-            // 
-            this.btnSalir.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnSalir.Image = ((System.Drawing.Image)(resources.GetObject("btnSalir.Image")));
-            this.btnSalir.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSalir.Location = new System.Drawing.Point(684, 352);
-            this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(90, 29);
-            this.btnSalir.TabIndex = 82;
-            this.btnSalir.Text = "Salir";
-            this.btnSalir.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnSalir.UseVisualStyleBackColor = true;
-            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
-            // 
-            // btnLecturaEmbarque
-            // 
-            this.btnLecturaEmbarque.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnLecturaEmbarque.Image = ((System.Drawing.Image)(resources.GetObject("btnLecturaEmbarque.Image")));
-            this.btnLecturaEmbarque.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLecturaEmbarque.Location = new System.Drawing.Point(684, 294);
-            this.btnLecturaEmbarque.Name = "btnLecturaEmbarque";
-            this.btnLecturaEmbarque.Size = new System.Drawing.Size(138, 28);
-            this.btnLecturaEmbarque.TabIndex = 81;
-            this.btnLecturaEmbarque.Text = "Lectura Embarque";
-            this.btnLecturaEmbarque.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnLecturaEmbarque.UseVisualStyleBackColor = true;
-            this.btnLecturaEmbarque.Click += new System.EventHandler(this.btnLecturaEmbarque_Click);
-            // 
-            // btnRegistrar
-            // 
-            this.btnRegistrar.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnRegistrar.Image = ((System.Drawing.Image)(resources.GetObject("btnRegistrar.Image")));
-            this.btnRegistrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRegistrar.Location = new System.Drawing.Point(684, 231);
-            this.btnRegistrar.Name = "btnRegistrar";
-            this.btnRegistrar.Size = new System.Drawing.Size(107, 28);
-            this.btnRegistrar.TabIndex = 80;
-            this.btnRegistrar.Text = "Registrar";
-            this.btnRegistrar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnRegistrar.UseVisualStyleBackColor = true;
-            // 
-            // btnGuardarComo
-            // 
-            this.btnGuardarComo.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnGuardarComo.Image = ((System.Drawing.Image)(resources.GetObject("btnGuardarComo.Image")));
-            this.btnGuardarComo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnGuardarComo.Location = new System.Drawing.Point(684, 165);
-            this.btnGuardarComo.Name = "btnGuardarComo";
-            this.btnGuardarComo.Size = new System.Drawing.Size(120, 31);
-            this.btnGuardarComo.TabIndex = 79;
-            this.btnGuardarComo.Text = "Guardar Como";
-            this.btnGuardarComo.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnGuardarComo.UseVisualStyleBackColor = true;
-            // 
             // lblLlenar
             // 
             this.lblLlenar.AutoSize = true;
@@ -245,6 +191,56 @@
             this.lblLlenar.TabIndex = 78;
             this.lblLlenar.Text = "Llenar los siguientes datos ";
             // 
+            // btnSalir
+            // 
+            this.btnSalir.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnSalir.Image = ((System.Drawing.Image)(resources.GetObject("btnSalir.Image")));
+            this.btnSalir.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSalir.Location = new System.Drawing.Point(663, 350);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(124, 31);
+            this.btnSalir.TabIndex = 102;
+            this.btnSalir.Text = "Salir";
+            this.btnSalir.UseVisualStyleBackColor = true;
+            // 
+            // btnLecturaBoleto
+            // 
+            this.btnLecturaBoleto.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnLecturaBoleto.Image = ((System.Drawing.Image)(resources.GetObject("btnLecturaBoleto.Image")));
+            this.btnLecturaBoleto.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnLecturaBoleto.Location = new System.Drawing.Point(663, 294);
+            this.btnLecturaBoleto.Name = "btnLecturaBoleto";
+            this.btnLecturaBoleto.Size = new System.Drawing.Size(124, 31);
+            this.btnLecturaBoleto.TabIndex = 101;
+            this.btnLecturaBoleto.Text = "Lectura Boleto";
+            this.btnLecturaBoleto.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnLecturaBoleto.UseVisualStyleBackColor = true;
+            // 
+            // btnRegistrar
+            // 
+            this.btnRegistrar.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnRegistrar.Image = ((System.Drawing.Image)(resources.GetObject("btnRegistrar.Image")));
+            this.btnRegistrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnRegistrar.Location = new System.Drawing.Point(663, 230);
+            this.btnRegistrar.Name = "btnRegistrar";
+            this.btnRegistrar.Size = new System.Drawing.Size(124, 31);
+            this.btnRegistrar.TabIndex = 100;
+            this.btnRegistrar.Text = "Registrar";
+            this.btnRegistrar.UseVisualStyleBackColor = true;
+            // 
+            // btnGuardarComo
+            // 
+            this.btnGuardarComo.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnGuardarComo.Image = ((System.Drawing.Image)(resources.GetObject("btnGuardarComo.Image")));
+            this.btnGuardarComo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnGuardarComo.Location = new System.Drawing.Point(663, 168);
+            this.btnGuardarComo.Name = "btnGuardarComo";
+            this.btnGuardarComo.Size = new System.Drawing.Size(124, 31);
+            this.btnGuardarComo.TabIndex = 99;
+            this.btnGuardarComo.Text = "Guardar Como";
+            this.btnGuardarComo.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnGuardarComo.UseVisualStyleBackColor = true;
+            // 
             // frmRegistrarEmbarque
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -253,6 +249,10 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(865, 450);
+            this.Controls.Add(this.btnSalir);
+            this.Controls.Add(this.btnLecturaBoleto);
+            this.Controls.Add(this.btnRegistrar);
+            this.Controls.Add(this.btnGuardarComo);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.textBox7);
@@ -269,10 +269,6 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.btnSalir);
-            this.Controls.Add(this.btnLecturaEmbarque);
-            this.Controls.Add(this.btnRegistrar);
-            this.Controls.Add(this.btnGuardarComo);
             this.Controls.Add(this.lblLlenar);
             this.Name = "frmRegistrarEmbarque";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -300,10 +296,10 @@
         private Label label3;
         private Label label2;
         private Label label1;
+        private Label lblLlenar;
         private Button btnSalir;
-        private Button btnLecturaEmbarque;
+        private Button btnLecturaBoleto;
         private Button btnRegistrar;
         private Button btnGuardarComo;
-        private Label lblLlenar;
     }
 }

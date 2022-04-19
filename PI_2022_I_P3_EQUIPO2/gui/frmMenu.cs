@@ -46,17 +46,7 @@ namespace PI_2022_I_P3_EQUIPO2.gui
             frmRegistrarMantenimiento.ShowDialog();
         }
 
-        private void btnAerolinea_Click(object sender, EventArgs e)
-        {
-            frmRegistrarAerolinea frmRegistrarAerolinea = new frmRegistrarAerolinea();
-            frmRegistrarAerolinea.ShowDialog();
-        }
-
-        private void btnSoporteTecnico_Click(object sender, EventArgs e)
-        {
-            frmRegistrarSoporteTecnico frmRegistrarSoporteTecnico = new frmRegistrarSoporteTecnico();
-            frmRegistrarSoporteTecnico.ShowDialog();
-        }
+      
 
         private void btnEquipaje_Click(object sender, EventArgs e)
         {
@@ -70,29 +60,7 @@ namespace PI_2022_I_P3_EQUIPO2.gui
             frmRegistrarEmbarque.ShowDialog();
         }
 
-        private void btnMigracion_Click(object sender, EventArgs e)
-        {
-            frmRegistrarMigracion frmRegistrarMigracion = new frmRegistrarMigracion();
-            frmRegistrarMigracion.ShowDialog();
-        }
-
-        private void btnSeguridad_Click(object sender, EventArgs e)
-        {
-            frmRegistrarSeguridad frmRegistrarSeguridad = new frmRegistrarSeguridad();
-            frmRegistrarSeguridad.ShowDialog();
-        }
-
-        private void btnCafeteria_Click(object sender, EventArgs e)
-        {
-            frmRegistrarCafeteria frmRegistrarCafeteria = new frmRegistrarCafeteria();
-            frmRegistrarCafeteria.ShowDialog();
-        }
-
-        private void btnLimpieza_Click(object sender, EventArgs e)
-        {
-            frmRegistrarLimpieza frmRegistrarLimpieza = new frmRegistrarLimpieza();
-            frmRegistrarLimpieza.ShowDialog();
-        }
+        
 
         private void inicioToolStripMenuItem_Click(object sender, EventArgs e)
         {

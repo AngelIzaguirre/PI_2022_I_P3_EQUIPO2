@@ -55,11 +55,11 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.dgvMostrar = new System.Windows.Forms.DataGridView();
+            this.lblSeleccionar = new System.Windows.Forms.Label();
             this.btnMostrar = new System.Windows.Forms.Button();
             this.btnSeleccionar = new System.Windows.Forms.Button();
             this.btnSiguientRegistro = new System.Windows.Forms.Button();
             this.btnAbrirArchivo = new System.Windows.Forms.Button();
-            this.lblSeleccionar = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMostrar)).BeginInit();
             this.SuspendLayout();
@@ -275,58 +275,6 @@
             this.dgvMostrar.Size = new System.Drawing.Size(563, 150);
             this.dgvMostrar.TabIndex = 38;
             // 
-            // btnMostrar
-            // 
-            this.btnMostrar.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnMostrar.Image = ((System.Drawing.Image)(resources.GetObject("btnMostrar.Image")));
-            this.btnMostrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnMostrar.Location = new System.Drawing.Point(699, 244);
-            this.btnMostrar.Name = "btnMostrar";
-            this.btnMostrar.Size = new System.Drawing.Size(90, 29);
-            this.btnMostrar.TabIndex = 37;
-            this.btnMostrar.Text = "Mostrar";
-            this.btnMostrar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnMostrar.UseVisualStyleBackColor = true;
-            // 
-            // btnSeleccionar
-            // 
-            this.btnSeleccionar.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnSeleccionar.Image = ((System.Drawing.Image)(resources.GetObject("btnSeleccionar.Image")));
-            this.btnSeleccionar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSeleccionar.Location = new System.Drawing.Point(699, 304);
-            this.btnSeleccionar.Name = "btnSeleccionar";
-            this.btnSeleccionar.Size = new System.Drawing.Size(107, 28);
-            this.btnSeleccionar.TabIndex = 36;
-            this.btnSeleccionar.Text = "Seleccionar";
-            this.btnSeleccionar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnSeleccionar.UseVisualStyleBackColor = true;
-            // 
-            // btnSiguientRegistro
-            // 
-            this.btnSiguientRegistro.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnSiguientRegistro.Image = ((System.Drawing.Image)(resources.GetObject("btnSiguientRegistro.Image")));
-            this.btnSiguientRegistro.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSiguientRegistro.Location = new System.Drawing.Point(699, 182);
-            this.btnSiguientRegistro.Name = "btnSiguientRegistro";
-            this.btnSiguientRegistro.Size = new System.Drawing.Size(144, 28);
-            this.btnSiguientRegistro.TabIndex = 35;
-            this.btnSiguientRegistro.Text = "Siguiente Registro";
-            this.btnSiguientRegistro.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnSiguientRegistro.UseVisualStyleBackColor = true;
-            // 
-            // btnAbrirArchivo
-            // 
-            this.btnAbrirArchivo.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnAbrirArchivo.Image = ((System.Drawing.Image)(resources.GetObject("btnAbrirArchivo.Image")));
-            this.btnAbrirArchivo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAbrirArchivo.Location = new System.Drawing.Point(699, 116);
-            this.btnAbrirArchivo.Name = "btnAbrirArchivo";
-            this.btnAbrirArchivo.Size = new System.Drawing.Size(120, 31);
-            this.btnAbrirArchivo.TabIndex = 34;
-            this.btnAbrirArchivo.Text = "Abrir Archivo";
-            this.btnAbrirArchivo.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnAbrirArchivo.UseVisualStyleBackColor = true;
-            // 
             // lblSeleccionar
             // 
             this.lblSeleccionar.AutoSize = true;
@@ -338,6 +286,55 @@
             this.lblSeleccionar.TabIndex = 33;
             this.lblSeleccionar.Text = "Seleccione una de las siguientes opciones";
             // 
+            // btnMostrar
+            // 
+            this.btnMostrar.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnMostrar.Image = ((System.Drawing.Image)(resources.GetObject("btnMostrar.Image")));
+            this.btnMostrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnMostrar.Location = new System.Drawing.Point(699, 247);
+            this.btnMostrar.Name = "btnMostrar";
+            this.btnMostrar.Size = new System.Drawing.Size(144, 37);
+            this.btnMostrar.TabIndex = 60;
+            this.btnMostrar.Text = "Mostrar";
+            this.btnMostrar.UseVisualStyleBackColor = true;
+            // 
+            // btnSeleccionar
+            // 
+            this.btnSeleccionar.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnSeleccionar.Image = ((System.Drawing.Image)(resources.GetObject("btnSeleccionar.Image")));
+            this.btnSeleccionar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSeleccionar.Location = new System.Drawing.Point(699, 306);
+            this.btnSeleccionar.Name = "btnSeleccionar";
+            this.btnSeleccionar.Size = new System.Drawing.Size(144, 36);
+            this.btnSeleccionar.TabIndex = 59;
+            this.btnSeleccionar.Text = "Seleccionar";
+            this.btnSeleccionar.UseVisualStyleBackColor = true;
+            // 
+            // btnSiguientRegistro
+            // 
+            this.btnSiguientRegistro.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnSiguientRegistro.Image = ((System.Drawing.Image)(resources.GetObject("btnSiguientRegistro.Image")));
+            this.btnSiguientRegistro.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSiguientRegistro.Location = new System.Drawing.Point(699, 183);
+            this.btnSiguientRegistro.Name = "btnSiguientRegistro";
+            this.btnSiguientRegistro.Size = new System.Drawing.Size(144, 37);
+            this.btnSiguientRegistro.TabIndex = 58;
+            this.btnSiguientRegistro.Text = "Siguiente Registro";
+            this.btnSiguientRegistro.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnSiguientRegistro.UseVisualStyleBackColor = true;
+            // 
+            // btnAbrirArchivo
+            // 
+            this.btnAbrirArchivo.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnAbrirArchivo.Image = ((System.Drawing.Image)(resources.GetObject("btnAbrirArchivo.Image")));
+            this.btnAbrirArchivo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAbrirArchivo.Location = new System.Drawing.Point(699, 119);
+            this.btnAbrirArchivo.Name = "btnAbrirArchivo";
+            this.btnAbrirArchivo.Size = new System.Drawing.Size(144, 37);
+            this.btnAbrirArchivo.TabIndex = 57;
+            this.btnAbrirArchivo.Text = "Abrir Archivo";
+            this.btnAbrirArchivo.UseVisualStyleBackColor = true;
+            // 
             // frmMantenimiento
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -346,6 +343,10 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(873, 577);
+            this.Controls.Add(this.btnMostrar);
+            this.Controls.Add(this.btnSeleccionar);
+            this.Controls.Add(this.btnSiguientRegistro);
+            this.Controls.Add(this.btnAbrirArchivo);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.textBox7);
@@ -365,10 +366,6 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dgvMostrar);
-            this.Controls.Add(this.btnMostrar);
-            this.Controls.Add(this.btnSeleccionar);
-            this.Controls.Add(this.btnSiguientRegistro);
-            this.Controls.Add(this.btnAbrirArchivo);
             this.Controls.Add(this.lblSeleccionar);
             this.Controls.Add(this.menuStrip1);
             this.Name = "frmMantenimiento";
@@ -409,10 +406,10 @@
         private Label label2;
         private Label label1;
         private DataGridView dgvMostrar;
+        private Label lblSeleccionar;
         private Button btnMostrar;
         private Button btnSeleccionar;
         private Button btnSiguientRegistro;
         private Button btnAbrirArchivo;
-        private Label lblSeleccionar;
     }
 }
