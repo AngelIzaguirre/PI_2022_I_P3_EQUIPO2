@@ -49,6 +49,7 @@
             this.btnRegistrar = new System.Windows.Forms.Button();
             this.btnGuardarComo = new System.Windows.Forms.Button();
             this.lblLlenar = new System.Windows.Forms.Label();
+            this.textBox5 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // textBox6
@@ -174,56 +175,65 @@
             // 
             // btnSalir
             // 
+            this.btnSalir.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnSalir.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnSalir.Image = ((System.Drawing.Image)(resources.GetObject("btnSalir.Image")));
             this.btnSalir.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSalir.Location = new System.Drawing.Point(679, 352);
+            this.btnSalir.Location = new System.Drawing.Point(679, 340);
             this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(90, 29);
+            this.btnSalir.Size = new System.Drawing.Size(197, 41);
             this.btnSalir.TabIndex = 103;
             this.btnSalir.Text = "Salir";
-            this.btnSalir.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnSalir.UseVisualStyleBackColor = true;
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // btnLecturaSoporteTecnico
             // 
+            this.btnLecturaSoporteTecnico.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnLecturaSoporteTecnico.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnLecturaSoporteTecnico.Image = ((System.Drawing.Image)(resources.GetObject("btnLecturaSoporteTecnico.Image")));
             this.btnLecturaSoporteTecnico.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLecturaSoporteTecnico.Location = new System.Drawing.Point(679, 294);
+            this.btnLecturaSoporteTecnico.Location = new System.Drawing.Point(679, 281);
             this.btnLecturaSoporteTecnico.Name = "btnLecturaSoporteTecnico";
-            this.btnLecturaSoporteTecnico.Size = new System.Drawing.Size(174, 28);
+            this.btnLecturaSoporteTecnico.Size = new System.Drawing.Size(197, 41);
             this.btnLecturaSoporteTecnico.TabIndex = 102;
             this.btnLecturaSoporteTecnico.Text = "Lectura Soporte Tecnico";
-            this.btnLecturaSoporteTecnico.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnLecturaSoporteTecnico.UseVisualStyleBackColor = true;
             this.btnLecturaSoporteTecnico.Click += new System.EventHandler(this.btnLecturaSoporteTecnico_Click);
             // 
             // btnRegistrar
             // 
+            this.btnRegistrar.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnRegistrar.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnRegistrar.Image = ((System.Drawing.Image)(resources.GetObject("btnRegistrar.Image")));
             this.btnRegistrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRegistrar.Location = new System.Drawing.Point(679, 231);
+            this.btnRegistrar.Location = new System.Drawing.Point(679, 217);
             this.btnRegistrar.Name = "btnRegistrar";
-            this.btnRegistrar.Size = new System.Drawing.Size(107, 28);
+            this.btnRegistrar.Size = new System.Drawing.Size(197, 41);
             this.btnRegistrar.TabIndex = 101;
             this.btnRegistrar.Text = "Registrar";
-            this.btnRegistrar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnRegistrar.UseVisualStyleBackColor = true;
             // 
             // btnGuardarComo
             // 
+            this.btnGuardarComo.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnGuardarComo.AutoSize = true;
             this.btnGuardarComo.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnGuardarComo.Image = ((System.Drawing.Image)(resources.GetObject("btnGuardarComo.Image")));
             this.btnGuardarComo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnGuardarComo.Location = new System.Drawing.Point(679, 165);
+            this.btnGuardarComo.Location = new System.Drawing.Point(679, 155);
             this.btnGuardarComo.Name = "btnGuardarComo";
-            this.btnGuardarComo.Size = new System.Drawing.Size(120, 31);
+            this.btnGuardarComo.Size = new System.Drawing.Size(197, 41);
             this.btnGuardarComo.TabIndex = 100;
             this.btnGuardarComo.Text = "Guardar Como";
-            this.btnGuardarComo.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnGuardarComo.UseVisualStyleBackColor = true;
             // 
             // lblLlenar
@@ -237,6 +247,13 @@
             this.lblLlenar.TabIndex = 99;
             this.lblLlenar.Text = "Llenar los siguientes datos ";
             // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(415, 356);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(140, 23);
+            this.textBox5.TabIndex = 119;
+            // 
             // frmRegistrarSoporteTecnico
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -244,7 +261,8 @@
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(862, 450);
+            this.ClientSize = new System.Drawing.Size(913, 450);
+            this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.textBox7);
             this.Controls.Add(this.textBox8);
@@ -294,5 +312,6 @@
         private Button btnRegistrar;
         private Button btnGuardarComo;
         private Label lblLlenar;
+        private TextBox textBox5;
     }
 }
