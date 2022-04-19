@@ -103,6 +103,7 @@
             this.btnRegistrar.TabIndex = 121;
             this.btnRegistrar.Text = "Registrar";
             this.btnRegistrar.UseVisualStyleBackColor = true;
+            this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
             // 
             // btnGuardarComo
             // 
@@ -116,6 +117,7 @@
             this.btnGuardarComo.Text = "Guardar Como";
             this.btnGuardarComo.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnGuardarComo.UseVisualStyleBackColor = true;
+            this.btnGuardarComo.Click += new System.EventHandler(this.btnGuardarComo_Click);
             // 
             // txtNacionalidad
             // 

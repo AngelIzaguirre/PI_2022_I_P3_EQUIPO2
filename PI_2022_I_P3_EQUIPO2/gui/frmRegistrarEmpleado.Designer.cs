@@ -34,17 +34,17 @@
             this.btnLecturaEmpleado = new System.Windows.Forms.Button();
             this.btnRegistrar = new System.Windows.Forms.Button();
             this.btnGuardarComo = new System.Windows.Forms.Button();
-            this.txtCiudadSalida = new System.Windows.Forms.TextBox();
-            this.txtCiudadActual = new System.Windows.Forms.TextBox();
-            this.txtTipoBoleto = new System.Windows.Forms.TextBox();
-            this.txtNumeroBoleto = new System.Windows.Forms.TextBox();
+            this.txtCargo = new System.Windows.Forms.TextBox();
+            this.txtEdad = new System.Windows.Forms.TextBox();
+            this.txtNumeroContrato = new System.Windows.Forms.TextBox();
+            this.txtTelefono = new System.Windows.Forms.TextBox();
             this.lblCargo = new System.Windows.Forms.Label();
             this.lblEdad = new System.Windows.Forms.Label();
             this.lblGenero = new System.Windows.Forms.Label();
             this.lblTelefono = new System.Windows.Forms.Label();
-            this.txtFechaActual = new System.Windows.Forms.TextBox();
-            this.txtCosto = new System.Windows.Forms.TextBox();
-            this.txtAerolinea = new System.Windows.Forms.TextBox();
+            this.txtGenero = new System.Windows.Forms.TextBox();
+            this.txtSalario = new System.Windows.Forms.TextBox();
+            this.txtDireccion = new System.Windows.Forms.TextBox();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.lblNumeroContrato = new System.Windows.Forms.Label();
             this.lblSalario = new System.Windows.Forms.Label();
@@ -103,6 +103,7 @@
             this.btnRegistrar.TabIndex = 121;
             this.btnRegistrar.Text = "Registrar";
             this.btnRegistrar.UseVisualStyleBackColor = true;
+            this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
             // 
             // btnGuardarComo
             // 
@@ -115,34 +116,35 @@
             this.btnGuardarComo.TabIndex = 120;
             this.btnGuardarComo.Text = "Guardar Como";
             this.btnGuardarComo.UseVisualStyleBackColor = true;
+            this.btnGuardarComo.Click += new System.EventHandler(this.btnGuardarComo_Click);
             // 
-            // txtCiudadSalida
+            // txtCargo
             // 
-            this.txtCiudadSalida.Location = new System.Drawing.Point(477, 348);
-            this.txtCiudadSalida.Name = "txtCiudadSalida";
-            this.txtCiudadSalida.Size = new System.Drawing.Size(140, 23);
-            this.txtCiudadSalida.TabIndex = 139;
+            this.txtCargo.Location = new System.Drawing.Point(477, 348);
+            this.txtCargo.Name = "txtCargo";
+            this.txtCargo.Size = new System.Drawing.Size(140, 23);
+            this.txtCargo.TabIndex = 139;
             // 
-            // txtCiudadActual
+            // txtEdad
             // 
-            this.txtCiudadActual.Location = new System.Drawing.Point(477, 289);
-            this.txtCiudadActual.Name = "txtCiudadActual";
-            this.txtCiudadActual.Size = new System.Drawing.Size(140, 23);
-            this.txtCiudadActual.TabIndex = 138;
+            this.txtEdad.Location = new System.Drawing.Point(477, 289);
+            this.txtEdad.Name = "txtEdad";
+            this.txtEdad.Size = new System.Drawing.Size(140, 23);
+            this.txtEdad.TabIndex = 138;
             // 
-            // txtTipoBoleto
+            // txtNumeroContrato
             // 
-            this.txtTipoBoleto.Location = new System.Drawing.Point(477, 225);
-            this.txtTipoBoleto.Name = "txtTipoBoleto";
-            this.txtTipoBoleto.Size = new System.Drawing.Size(140, 23);
-            this.txtTipoBoleto.TabIndex = 137;
+            this.txtNumeroContrato.Location = new System.Drawing.Point(477, 225);
+            this.txtNumeroContrato.Name = "txtNumeroContrato";
+            this.txtNumeroContrato.Size = new System.Drawing.Size(140, 23);
+            this.txtNumeroContrato.TabIndex = 137;
             // 
-            // txtNumeroBoleto
+            // txtTelefono
             // 
-            this.txtNumeroBoleto.Location = new System.Drawing.Point(477, 163);
-            this.txtNumeroBoleto.Name = "txtNumeroBoleto";
-            this.txtNumeroBoleto.Size = new System.Drawing.Size(140, 23);
-            this.txtNumeroBoleto.TabIndex = 136;
+            this.txtTelefono.Location = new System.Drawing.Point(477, 163);
+            this.txtTelefono.Name = "txtTelefono";
+            this.txtTelefono.Size = new System.Drawing.Size(140, 23);
+            this.txtTelefono.TabIndex = 136;
             // 
             // lblCargo
             // 
@@ -180,26 +182,26 @@
             this.lblTelefono.TabIndex = 132;
             this.lblTelefono.Text = "Telefono";
             // 
-            // txtFechaActual
+            // txtGenero
             // 
-            this.txtFechaActual.Location = new System.Drawing.Point(150, 347);
-            this.txtFechaActual.Name = "txtFechaActual";
-            this.txtFechaActual.Size = new System.Drawing.Size(140, 23);
-            this.txtFechaActual.TabIndex = 131;
+            this.txtGenero.Location = new System.Drawing.Point(150, 347);
+            this.txtGenero.Name = "txtGenero";
+            this.txtGenero.Size = new System.Drawing.Size(140, 23);
+            this.txtGenero.TabIndex = 131;
             // 
-            // txtCosto
+            // txtSalario
             // 
-            this.txtCosto.Location = new System.Drawing.Point(150, 288);
-            this.txtCosto.Name = "txtCosto";
-            this.txtCosto.Size = new System.Drawing.Size(140, 23);
-            this.txtCosto.TabIndex = 130;
+            this.txtSalario.Location = new System.Drawing.Point(150, 288);
+            this.txtSalario.Name = "txtSalario";
+            this.txtSalario.Size = new System.Drawing.Size(140, 23);
+            this.txtSalario.TabIndex = 130;
             // 
-            // txtAerolinea
+            // txtDireccion
             // 
-            this.txtAerolinea.Location = new System.Drawing.Point(150, 224);
-            this.txtAerolinea.Name = "txtAerolinea";
-            this.txtAerolinea.Size = new System.Drawing.Size(140, 23);
-            this.txtAerolinea.TabIndex = 129;
+            this.txtDireccion.Location = new System.Drawing.Point(150, 224);
+            this.txtDireccion.Name = "txtDireccion";
+            this.txtDireccion.Size = new System.Drawing.Size(140, 23);
+            this.txtDireccion.TabIndex = 129;
             // 
             // txtNombre
             // 
@@ -274,17 +276,17 @@
             this.ClientSize = new System.Drawing.Size(851, 450);
             this.Controls.Add(this.txtId);
             this.Controls.Add(this.lblId);
-            this.Controls.Add(this.txtCiudadSalida);
-            this.Controls.Add(this.txtCiudadActual);
-            this.Controls.Add(this.txtTipoBoleto);
-            this.Controls.Add(this.txtNumeroBoleto);
+            this.Controls.Add(this.txtCargo);
+            this.Controls.Add(this.txtEdad);
+            this.Controls.Add(this.txtNumeroContrato);
+            this.Controls.Add(this.txtTelefono);
             this.Controls.Add(this.lblCargo);
             this.Controls.Add(this.lblEdad);
             this.Controls.Add(this.lblGenero);
             this.Controls.Add(this.lblTelefono);
-            this.Controls.Add(this.txtFechaActual);
-            this.Controls.Add(this.txtCosto);
-            this.Controls.Add(this.txtAerolinea);
+            this.Controls.Add(this.txtGenero);
+            this.Controls.Add(this.txtSalario);
+            this.Controls.Add(this.txtDireccion);
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.lblNumeroContrato);
             this.Controls.Add(this.lblSalario);
@@ -309,17 +311,17 @@
         private Button btnLecturaEmpleado;
         private Button btnRegistrar;
         private Button btnGuardarComo;
-        private TextBox txtCiudadSalida;
-        private TextBox txtCiudadActual;
-        private TextBox txtTipoBoleto;
-        private TextBox txtNumeroBoleto;
+        private TextBox txtCargo;
+        private TextBox txtEdad;
+        private TextBox txtNumeroContrato;
+        private TextBox txtTelefono;
         private Label lblCargo;
         private Label lblEdad;
         private Label lblGenero;
         private Label lblTelefono;
-        private TextBox txtFechaActual;
-        private TextBox txtCosto;
-        private TextBox txtAerolinea;
+        private TextBox txtGenero;
+        private TextBox txtSalario;
+        private TextBox txtDireccion;
         private TextBox txtNombre;
         private Label lblNumeroContrato;
         private Label lblSalario;

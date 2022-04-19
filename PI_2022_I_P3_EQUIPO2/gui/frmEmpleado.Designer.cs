@@ -44,24 +44,24 @@
             this.btnSeleccionar = new System.Windows.Forms.Button();
             this.btnSiguientRegistro = new System.Windows.Forms.Button();
             this.btnAbrirArchivo = new System.Windows.Forms.Button();
-            this.txtCiudadSalida = new System.Windows.Forms.TextBox();
-            this.txtCiudadActual = new System.Windows.Forms.TextBox();
-            this.txtTipoBoleto = new System.Windows.Forms.TextBox();
-            this.txtNumeroBoleto = new System.Windows.Forms.TextBox();
+            this.txtId = new System.Windows.Forms.TextBox();
+            this.lblId = new System.Windows.Forms.Label();
+            this.txtCargo = new System.Windows.Forms.TextBox();
+            this.txtEdad = new System.Windows.Forms.TextBox();
+            this.txtNumeroContrato = new System.Windows.Forms.TextBox();
+            this.txtTelefono = new System.Windows.Forms.TextBox();
             this.lblCargo = new System.Windows.Forms.Label();
             this.lblEdad = new System.Windows.Forms.Label();
             this.lblGenero = new System.Windows.Forms.Label();
             this.lblTelefono = new System.Windows.Forms.Label();
-            this.txtFechaActual = new System.Windows.Forms.TextBox();
-            this.txtCosto = new System.Windows.Forms.TextBox();
-            this.txtAerolinea = new System.Windows.Forms.TextBox();
+            this.txtGenero = new System.Windows.Forms.TextBox();
+            this.txtSalario = new System.Windows.Forms.TextBox();
+            this.txtDireccion = new System.Windows.Forms.TextBox();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.lblNumeroContrato = new System.Windows.Forms.Label();
             this.lblSalario = new System.Windows.Forms.Label();
             this.lblDireccion = new System.Windows.Forms.Label();
             this.lblNombre = new System.Windows.Forms.Label();
-            this.txtId = new System.Windows.Forms.TextBox();
-            this.lblId = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMostrar)).BeginInit();
             this.SuspendLayout();
@@ -196,6 +196,7 @@
             this.btnSiguientRegistro.Text = "Siguiente Registro";
             this.btnSiguientRegistro.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnSiguientRegistro.UseVisualStyleBackColor = true;
+            this.btnSiguientRegistro.Click += new System.EventHandler(this.btnSiguientRegistro_Click);
             // 
             // btnAbrirArchivo
             // 
@@ -208,154 +209,155 @@
             this.btnAbrirArchivo.TabIndex = 57;
             this.btnAbrirArchivo.Text = "Abrir Archivo";
             this.btnAbrirArchivo.UseVisualStyleBackColor = true;
+            this.btnAbrirArchivo.Click += new System.EventHandler(this.btnAbrirArchivo_Click);
             // 
-            // txtCiudadSalida
+            // txtId
             // 
-            this.txtCiudadSalida.Location = new System.Drawing.Point(484, 337);
-            this.txtCiudadSalida.Name = "txtCiudadSalida";
-            this.txtCiudadSalida.Size = new System.Drawing.Size(140, 23);
-            this.txtCiudadSalida.TabIndex = 92;
+            this.txtId.Location = new System.Drawing.Point(154, 92);
+            this.txtId.Name = "txtId";
+            this.txtId.Size = new System.Drawing.Size(140, 23);
+            this.txtId.TabIndex = 159;
             // 
-            // txtCiudadActual
+            // lblId
             // 
-            this.txtCiudadActual.Location = new System.Drawing.Point(484, 278);
-            this.txtCiudadActual.Name = "txtCiudadActual";
-            this.txtCiudadActual.Size = new System.Drawing.Size(140, 23);
-            this.txtCiudadActual.TabIndex = 91;
+            this.lblId.AutoSize = true;
+            this.lblId.Location = new System.Drawing.Point(97, 100);
+            this.lblId.Name = "lblId";
+            this.lblId.Size = new System.Drawing.Size(18, 15);
+            this.lblId.TabIndex = 158;
+            this.lblId.Text = "ID";
             // 
-            // txtTipoBoleto
+            // txtCargo
             // 
-            this.txtTipoBoleto.Location = new System.Drawing.Point(484, 214);
-            this.txtTipoBoleto.Name = "txtTipoBoleto";
-            this.txtTipoBoleto.Size = new System.Drawing.Size(140, 23);
-            this.txtTipoBoleto.TabIndex = 90;
+            this.txtCargo.Location = new System.Drawing.Point(481, 335);
+            this.txtCargo.Name = "txtCargo";
+            this.txtCargo.Size = new System.Drawing.Size(140, 23);
+            this.txtCargo.TabIndex = 157;
             // 
-            // txtNumeroBoleto
+            // txtEdad
             // 
-            this.txtNumeroBoleto.Location = new System.Drawing.Point(484, 152);
-            this.txtNumeroBoleto.Name = "txtNumeroBoleto";
-            this.txtNumeroBoleto.Size = new System.Drawing.Size(140, 23);
-            this.txtNumeroBoleto.TabIndex = 89;
+            this.txtEdad.Location = new System.Drawing.Point(481, 276);
+            this.txtEdad.Name = "txtEdad";
+            this.txtEdad.Size = new System.Drawing.Size(140, 23);
+            this.txtEdad.TabIndex = 156;
+            // 
+            // txtNumeroContrato
+            // 
+            this.txtNumeroContrato.Location = new System.Drawing.Point(481, 212);
+            this.txtNumeroContrato.Name = "txtNumeroContrato";
+            this.txtNumeroContrato.Size = new System.Drawing.Size(140, 23);
+            this.txtNumeroContrato.TabIndex = 155;
+            // 
+            // txtTelefono
+            // 
+            this.txtTelefono.Location = new System.Drawing.Point(481, 150);
+            this.txtTelefono.Name = "txtTelefono";
+            this.txtTelefono.Size = new System.Drawing.Size(140, 23);
+            this.txtTelefono.TabIndex = 154;
             // 
             // lblCargo
             // 
             this.lblCargo.AutoSize = true;
-            this.lblCargo.Location = new System.Drawing.Point(358, 344);
+            this.lblCargo.Location = new System.Drawing.Point(355, 342);
             this.lblCargo.Name = "lblCargo";
             this.lblCargo.Size = new System.Drawing.Size(39, 15);
-            this.lblCargo.TabIndex = 88;
+            this.lblCargo.TabIndex = 153;
             this.lblCargo.Text = "Cargo";
             // 
             // lblEdad
             // 
             this.lblEdad.AutoSize = true;
-            this.lblEdad.Location = new System.Drawing.Point(358, 285);
+            this.lblEdad.Location = new System.Drawing.Point(355, 283);
             this.lblEdad.Name = "lblEdad";
             this.lblEdad.Size = new System.Drawing.Size(33, 15);
-            this.lblEdad.TabIndex = 87;
+            this.lblEdad.TabIndex = 152;
             this.lblEdad.Text = "Edad";
             // 
             // lblGenero
             // 
             this.lblGenero.AutoSize = true;
-            this.lblGenero.Location = new System.Drawing.Point(67, 344);
+            this.lblGenero.Location = new System.Drawing.Point(64, 342);
             this.lblGenero.Name = "lblGenero";
             this.lblGenero.Size = new System.Drawing.Size(45, 15);
-            this.lblGenero.TabIndex = 86;
+            this.lblGenero.TabIndex = 151;
             this.lblGenero.Text = "Genero";
             // 
             // lblTelefono
             // 
             this.lblTelefono.AutoSize = true;
-            this.lblTelefono.Location = new System.Drawing.Point(358, 157);
+            this.lblTelefono.Location = new System.Drawing.Point(355, 155);
             this.lblTelefono.Name = "lblTelefono";
             this.lblTelefono.Size = new System.Drawing.Size(52, 15);
-            this.lblTelefono.TabIndex = 85;
+            this.lblTelefono.TabIndex = 150;
             this.lblTelefono.Text = "Telefono";
             // 
-            // txtFechaActual
+            // txtGenero
             // 
-            this.txtFechaActual.Location = new System.Drawing.Point(157, 336);
-            this.txtFechaActual.Name = "txtFechaActual";
-            this.txtFechaActual.Size = new System.Drawing.Size(140, 23);
-            this.txtFechaActual.TabIndex = 84;
+            this.txtGenero.Location = new System.Drawing.Point(154, 334);
+            this.txtGenero.Name = "txtGenero";
+            this.txtGenero.Size = new System.Drawing.Size(140, 23);
+            this.txtGenero.TabIndex = 149;
             // 
-            // txtCosto
+            // txtSalario
             // 
-            this.txtCosto.Location = new System.Drawing.Point(157, 277);
-            this.txtCosto.Name = "txtCosto";
-            this.txtCosto.Size = new System.Drawing.Size(140, 23);
-            this.txtCosto.TabIndex = 83;
+            this.txtSalario.Location = new System.Drawing.Point(154, 275);
+            this.txtSalario.Name = "txtSalario";
+            this.txtSalario.Size = new System.Drawing.Size(140, 23);
+            this.txtSalario.TabIndex = 148;
             // 
-            // txtAerolinea
+            // txtDireccion
             // 
-            this.txtAerolinea.Location = new System.Drawing.Point(157, 213);
-            this.txtAerolinea.Name = "txtAerolinea";
-            this.txtAerolinea.Size = new System.Drawing.Size(140, 23);
-            this.txtAerolinea.TabIndex = 82;
+            this.txtDireccion.Location = new System.Drawing.Point(154, 211);
+            this.txtDireccion.Name = "txtDireccion";
+            this.txtDireccion.Size = new System.Drawing.Size(140, 23);
+            this.txtDireccion.TabIndex = 147;
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(157, 151);
+            this.txtNombre.Location = new System.Drawing.Point(154, 149);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(140, 23);
-            this.txtNombre.TabIndex = 81;
+            this.txtNombre.TabIndex = 146;
             // 
             // lblNumeroContrato
             // 
             this.lblNumeroContrato.AutoSize = true;
-            this.lblNumeroContrato.Location = new System.Drawing.Point(358, 223);
+            this.lblNumeroContrato.Location = new System.Drawing.Point(355, 221);
             this.lblNumeroContrato.Name = "lblNumeroContrato";
             this.lblNumeroContrato.Size = new System.Drawing.Size(117, 15);
-            this.lblNumeroContrato.TabIndex = 80;
+            this.lblNumeroContrato.TabIndex = 145;
             this.lblNumeroContrato.Text = "Numero de Contrato";
             this.lblNumeroContrato.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblSalario
             // 
             this.lblSalario.AutoSize = true;
-            this.lblSalario.Location = new System.Drawing.Point(67, 285);
+            this.lblSalario.Location = new System.Drawing.Point(64, 283);
             this.lblSalario.Name = "lblSalario";
             this.lblSalario.Size = new System.Drawing.Size(42, 15);
-            this.lblSalario.TabIndex = 79;
+            this.lblSalario.TabIndex = 144;
             this.lblSalario.Text = "Salario";
             this.lblSalario.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblDireccion
             // 
             this.lblDireccion.AutoSize = true;
-            this.lblDireccion.Location = new System.Drawing.Point(67, 221);
+            this.lblDireccion.Location = new System.Drawing.Point(64, 219);
             this.lblDireccion.Name = "lblDireccion";
             this.lblDireccion.Size = new System.Drawing.Size(57, 15);
-            this.lblDireccion.TabIndex = 78;
+            this.lblDireccion.TabIndex = 143;
             this.lblDireccion.Text = "Direccion";
             this.lblDireccion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblNombre
             // 
             this.lblNombre.AutoSize = true;
-            this.lblNombre.Location = new System.Drawing.Point(67, 159);
+            this.lblNombre.Location = new System.Drawing.Point(64, 157);
             this.lblNombre.Name = "lblNombre";
             this.lblNombre.Size = new System.Drawing.Size(51, 15);
-            this.lblNombre.TabIndex = 77;
+            this.lblNombre.TabIndex = 142;
             this.lblNombre.Text = "Nombre";
             this.lblNombre.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // txtId
-            // 
-            this.txtId.Location = new System.Drawing.Point(157, 98);
-            this.txtId.Name = "txtId";
-            this.txtId.Size = new System.Drawing.Size(140, 23);
-            this.txtId.TabIndex = 102;
-            // 
-            // lblId
-            // 
-            this.lblId.AutoSize = true;
-            this.lblId.Location = new System.Drawing.Point(100, 106);
-            this.lblId.Name = "lblId";
-            this.lblId.Size = new System.Drawing.Size(18, 15);
-            this.lblId.TabIndex = 101;
-            this.lblId.Text = "ID";
             // 
             // frmEmpleado
             // 
@@ -367,17 +369,17 @@
             this.ClientSize = new System.Drawing.Size(927, 565);
             this.Controls.Add(this.txtId);
             this.Controls.Add(this.lblId);
-            this.Controls.Add(this.txtCiudadSalida);
-            this.Controls.Add(this.txtCiudadActual);
-            this.Controls.Add(this.txtTipoBoleto);
-            this.Controls.Add(this.txtNumeroBoleto);
+            this.Controls.Add(this.txtCargo);
+            this.Controls.Add(this.txtEdad);
+            this.Controls.Add(this.txtNumeroContrato);
+            this.Controls.Add(this.txtTelefono);
             this.Controls.Add(this.lblCargo);
             this.Controls.Add(this.lblEdad);
             this.Controls.Add(this.lblGenero);
             this.Controls.Add(this.lblTelefono);
-            this.Controls.Add(this.txtFechaActual);
-            this.Controls.Add(this.txtCosto);
-            this.Controls.Add(this.txtAerolinea);
+            this.Controls.Add(this.txtGenero);
+            this.Controls.Add(this.txtSalario);
+            this.Controls.Add(this.txtDireccion);
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.lblNumeroContrato);
             this.Controls.Add(this.lblSalario);
@@ -419,23 +421,23 @@
         private Button btnSeleccionar;
         private Button btnSiguientRegistro;
         private Button btnAbrirArchivo;
-        private TextBox txtCiudadSalida;
-        private TextBox txtCiudadActual;
-        private TextBox txtTipoBoleto;
-        private TextBox txtNumeroBoleto;
+        private TextBox txtId;
+        private Label lblId;
+        private TextBox txtCargo;
+        private TextBox txtEdad;
+        private TextBox txtNumeroContrato;
+        private TextBox txtTelefono;
         private Label lblCargo;
         private Label lblEdad;
         private Label lblGenero;
         private Label lblTelefono;
-        private TextBox txtFechaActual;
-        private TextBox txtCosto;
-        private TextBox txtAerolinea;
+        private TextBox txtGenero;
+        private TextBox txtSalario;
+        private TextBox txtDireccion;
         private TextBox txtNombre;
         private Label lblNumeroContrato;
         private Label lblSalario;
         private Label lblDireccion;
         private Label lblNombre;
-        private TextBox txtId;
-        private Label lblId;
     }
 }

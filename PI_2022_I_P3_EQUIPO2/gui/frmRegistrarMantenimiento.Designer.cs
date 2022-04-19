@@ -42,7 +42,7 @@
             this.lblCosto = new System.Windows.Forms.Label();
             this.lblEmpresa = new System.Windows.Forms.Label();
             this.lblNumeroSerie = new System.Windows.Forms.Label();
-            this.txtFechaActual = new System.Windows.Forms.TextBox();
+            this.txtEmpresa = new System.Windows.Forms.TextBox();
             this.txtCosto = new System.Windows.Forms.TextBox();
             this.txtMaterial = new System.Windows.Forms.TextBox();
             this.txtNombre = new System.Windows.Forms.TextBox();
@@ -103,6 +103,7 @@
             this.btnRegistrar.TabIndex = 121;
             this.btnRegistrar.Text = "Registrar";
             this.btnRegistrar.UseVisualStyleBackColor = true;
+            this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
             // 
             // btnGuardarComo
             // 
@@ -115,6 +116,7 @@
             this.btnGuardarComo.TabIndex = 120;
             this.btnGuardarComo.Text = "Guardar Como";
             this.btnGuardarComo.UseVisualStyleBackColor = true;
+            this.btnGuardarComo.Click += new System.EventHandler(this.btnGuardarComo_Click);
             // 
             // txtHoraSalida
             // 
@@ -180,12 +182,12 @@
             this.lblNumeroSerie.TabIndex = 133;
             this.lblNumeroSerie.Text = "Numero de Serie";
             // 
-            // txtFechaActual
+            // txtEmpresa
             // 
-            this.txtFechaActual.Location = new System.Drawing.Point(159, 358);
-            this.txtFechaActual.Name = "txtFechaActual";
-            this.txtFechaActual.Size = new System.Drawing.Size(140, 23);
-            this.txtFechaActual.TabIndex = 132;
+            this.txtEmpresa.Location = new System.Drawing.Point(159, 358);
+            this.txtEmpresa.Name = "txtEmpresa";
+            this.txtEmpresa.Size = new System.Drawing.Size(140, 23);
+            this.txtEmpresa.TabIndex = 132;
             // 
             // txtCosto
             // 
@@ -282,7 +284,7 @@
             this.Controls.Add(this.lblCosto);
             this.Controls.Add(this.lblEmpresa);
             this.Controls.Add(this.lblNumeroSerie);
-            this.Controls.Add(this.txtFechaActual);
+            this.Controls.Add(this.txtEmpresa);
             this.Controls.Add(this.txtCosto);
             this.Controls.Add(this.txtMaterial);
             this.Controls.Add(this.txtNombre);
@@ -317,7 +319,7 @@
         private Label lblCosto;
         private Label lblEmpresa;
         private Label lblNumeroSerie;
-        private TextBox txtFechaActual;
+        private TextBox txtEmpresa;
         private TextBox txtCosto;
         private TextBox txtMaterial;
         private TextBox txtNombre;

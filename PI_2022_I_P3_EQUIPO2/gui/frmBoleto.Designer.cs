@@ -307,6 +307,7 @@
             // 
             // btnSiguientRegistro
             // 
+            this.btnSiguientRegistro.Enabled = false;
             this.btnSiguientRegistro.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnSiguientRegistro.Image = ((System.Drawing.Image)(resources.GetObject("btnSiguientRegistro.Image")));
             this.btnSiguientRegistro.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -317,6 +318,7 @@
             this.btnSiguientRegistro.Text = "Siguiente Registro";
             this.btnSiguientRegistro.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnSiguientRegistro.UseVisualStyleBackColor = true;
+            this.btnSiguientRegistro.Click += new System.EventHandler(this.btnSiguientRegistro_Click);
             // 
             // btnAbrirArchivo
             // 
@@ -329,6 +331,7 @@
             this.btnAbrirArchivo.TabIndex = 34;
             this.btnAbrirArchivo.Text = "Abrir Archivo";
             this.btnAbrirArchivo.UseVisualStyleBackColor = true;
+            this.btnAbrirArchivo.Click += new System.EventHandler(this.btnAbrirArchivo_Click);
             // 
             // lblSeleccionar
             // 

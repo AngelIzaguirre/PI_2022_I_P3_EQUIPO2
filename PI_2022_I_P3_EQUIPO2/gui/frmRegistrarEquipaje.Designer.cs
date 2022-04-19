@@ -34,17 +34,17 @@
             this.btnLecturaEquipaje = new System.Windows.Forms.Button();
             this.btnRegistrar = new System.Windows.Forms.Button();
             this.btnGuardarComo = new System.Windows.Forms.Button();
-            this.txtCiudadSalida = new System.Windows.Forms.TextBox();
-            this.txtCiudadActual = new System.Windows.Forms.TextBox();
-            this.txtTipoBoleto = new System.Windows.Forms.TextBox();
+            this.txtDestino = new System.Windows.Forms.TextBox();
             this.txtNumeroBoleto = new System.Windows.Forms.TextBox();
+            this.txtAerolinea = new System.Windows.Forms.TextBox();
+            this.txtClaseBoleto = new System.Windows.Forms.TextBox();
             this.lblDestino = new System.Windows.Forms.Label();
             this.lblNumeroBoleto = new System.Windows.Forms.Label();
             this.lblTipoEquipaje = new System.Windows.Forms.Label();
             this.lblClaseBoleto = new System.Windows.Forms.Label();
-            this.txtFechaActual = new System.Windows.Forms.TextBox();
-            this.txtCosto = new System.Windows.Forms.TextBox();
-            this.txtAerolinea = new System.Windows.Forms.TextBox();
+            this.txtPeso = new System.Windows.Forms.TextBox();
+            this.txtHora = new System.Windows.Forms.TextBox();
+            this.txtCantidad = new System.Windows.Forms.TextBox();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.lblAerolinea = new System.Windows.Forms.Label();
             this.lblHora = new System.Windows.Forms.Label();
@@ -103,6 +103,7 @@
             this.btnRegistrar.TabIndex = 121;
             this.btnRegistrar.Text = "Registrar";
             this.btnRegistrar.UseVisualStyleBackColor = true;
+            this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
             // 
             // btnGuardarComo
             // 
@@ -116,34 +117,35 @@
             this.btnGuardarComo.Text = "Guardar Como";
             this.btnGuardarComo.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnGuardarComo.UseVisualStyleBackColor = true;
+            this.btnGuardarComo.Click += new System.EventHandler(this.btnGuardarComo_Click);
             // 
-            // txtCiudadSalida
+            // txtDestino
             // 
-            this.txtCiudadSalida.Location = new System.Drawing.Point(479, 359);
-            this.txtCiudadSalida.Name = "txtCiudadSalida";
-            this.txtCiudadSalida.Size = new System.Drawing.Size(140, 23);
-            this.txtCiudadSalida.TabIndex = 139;
-            // 
-            // txtCiudadActual
-            // 
-            this.txtCiudadActual.Location = new System.Drawing.Point(479, 300);
-            this.txtCiudadActual.Name = "txtCiudadActual";
-            this.txtCiudadActual.Size = new System.Drawing.Size(140, 23);
-            this.txtCiudadActual.TabIndex = 138;
-            // 
-            // txtTipoBoleto
-            // 
-            this.txtTipoBoleto.Location = new System.Drawing.Point(479, 236);
-            this.txtTipoBoleto.Name = "txtTipoBoleto";
-            this.txtTipoBoleto.Size = new System.Drawing.Size(140, 23);
-            this.txtTipoBoleto.TabIndex = 137;
+            this.txtDestino.Location = new System.Drawing.Point(479, 359);
+            this.txtDestino.Name = "txtDestino";
+            this.txtDestino.Size = new System.Drawing.Size(140, 23);
+            this.txtDestino.TabIndex = 139;
             // 
             // txtNumeroBoleto
             // 
-            this.txtNumeroBoleto.Location = new System.Drawing.Point(479, 174);
+            this.txtNumeroBoleto.Location = new System.Drawing.Point(479, 300);
             this.txtNumeroBoleto.Name = "txtNumeroBoleto";
             this.txtNumeroBoleto.Size = new System.Drawing.Size(140, 23);
-            this.txtNumeroBoleto.TabIndex = 136;
+            this.txtNumeroBoleto.TabIndex = 138;
+            // 
+            // txtAerolinea
+            // 
+            this.txtAerolinea.Location = new System.Drawing.Point(479, 236);
+            this.txtAerolinea.Name = "txtAerolinea";
+            this.txtAerolinea.Size = new System.Drawing.Size(140, 23);
+            this.txtAerolinea.TabIndex = 137;
+            // 
+            // txtClaseBoleto
+            // 
+            this.txtClaseBoleto.Location = new System.Drawing.Point(479, 174);
+            this.txtClaseBoleto.Name = "txtClaseBoleto";
+            this.txtClaseBoleto.Size = new System.Drawing.Size(140, 23);
+            this.txtClaseBoleto.TabIndex = 136;
             // 
             // lblDestino
             // 
@@ -181,26 +183,26 @@
             this.lblClaseBoleto.TabIndex = 132;
             this.lblClaseBoleto.Text = "ClaseBoleto";
             // 
-            // txtFechaActual
+            // txtPeso
             // 
-            this.txtFechaActual.Location = new System.Drawing.Point(152, 358);
-            this.txtFechaActual.Name = "txtFechaActual";
-            this.txtFechaActual.Size = new System.Drawing.Size(140, 23);
-            this.txtFechaActual.TabIndex = 131;
+            this.txtPeso.Location = new System.Drawing.Point(152, 358);
+            this.txtPeso.Name = "txtPeso";
+            this.txtPeso.Size = new System.Drawing.Size(140, 23);
+            this.txtPeso.TabIndex = 131;
             // 
-            // txtCosto
+            // txtHora
             // 
-            this.txtCosto.Location = new System.Drawing.Point(152, 299);
-            this.txtCosto.Name = "txtCosto";
-            this.txtCosto.Size = new System.Drawing.Size(140, 23);
-            this.txtCosto.TabIndex = 130;
+            this.txtHora.Location = new System.Drawing.Point(152, 299);
+            this.txtHora.Name = "txtHora";
+            this.txtHora.Size = new System.Drawing.Size(140, 23);
+            this.txtHora.TabIndex = 130;
             // 
-            // txtAerolinea
+            // txtCantidad
             // 
-            this.txtAerolinea.Location = new System.Drawing.Point(152, 235);
-            this.txtAerolinea.Name = "txtAerolinea";
-            this.txtAerolinea.Size = new System.Drawing.Size(140, 23);
-            this.txtAerolinea.TabIndex = 129;
+            this.txtCantidad.Location = new System.Drawing.Point(152, 235);
+            this.txtCantidad.Name = "txtCantidad";
+            this.txtCantidad.Size = new System.Drawing.Size(140, 23);
+            this.txtCantidad.TabIndex = 129;
             // 
             // txtNombre
             // 
@@ -275,17 +277,17 @@
             this.ClientSize = new System.Drawing.Size(856, 450);
             this.Controls.Add(this.txtId);
             this.Controls.Add(this.lblId);
-            this.Controls.Add(this.txtCiudadSalida);
-            this.Controls.Add(this.txtCiudadActual);
-            this.Controls.Add(this.txtTipoBoleto);
+            this.Controls.Add(this.txtDestino);
             this.Controls.Add(this.txtNumeroBoleto);
+            this.Controls.Add(this.txtAerolinea);
+            this.Controls.Add(this.txtClaseBoleto);
             this.Controls.Add(this.lblDestino);
             this.Controls.Add(this.lblNumeroBoleto);
             this.Controls.Add(this.lblTipoEquipaje);
             this.Controls.Add(this.lblClaseBoleto);
-            this.Controls.Add(this.txtFechaActual);
-            this.Controls.Add(this.txtCosto);
-            this.Controls.Add(this.txtAerolinea);
+            this.Controls.Add(this.txtPeso);
+            this.Controls.Add(this.txtHora);
+            this.Controls.Add(this.txtCantidad);
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.lblAerolinea);
             this.Controls.Add(this.lblHora);
@@ -310,17 +312,17 @@
         private Button btnLecturaEquipaje;
         private Button btnRegistrar;
         private Button btnGuardarComo;
-        private TextBox txtCiudadSalida;
-        private TextBox txtCiudadActual;
-        private TextBox txtTipoBoleto;
+        private TextBox txtDestino;
         private TextBox txtNumeroBoleto;
+        private TextBox txtAerolinea;
+        private TextBox txtClaseBoleto;
         private Label lblDestino;
         private Label lblNumeroBoleto;
         private Label lblTipoEquipaje;
         private Label lblClaseBoleto;
-        private TextBox txtFechaActual;
-        private TextBox txtCosto;
-        private TextBox txtAerolinea;
+        private TextBox txtPeso;
+        private TextBox txtHora;
+        private TextBox txtCantidad;
         private TextBox txtNombre;
         private Label lblAerolinea;
         private Label lblHora;
