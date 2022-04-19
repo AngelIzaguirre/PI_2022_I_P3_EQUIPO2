@@ -36,30 +36,30 @@
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblPersona = new System.Windows.Forms.Label();
+            this.cbxPersona = new System.Windows.Forms.ComboBox();
             this.dgvMostrar = new System.Windows.Forms.DataGridView();
             this.lblSeleccionar = new System.Windows.Forms.Label();
             this.btnMostrar = new System.Windows.Forms.Button();
             this.btnSeleccionar = new System.Windows.Forms.Button();
             this.btnSiguientRegistro = new System.Windows.Forms.Button();
             this.btnAbrirArchivo = new System.Windows.Forms.Button();
+            this.txtNacionalidad = new System.Windows.Forms.TextBox();
+            this.txtTelefono = new System.Windows.Forms.TextBox();
+            this.txtNumeroPasaporte = new System.Windows.Forms.TextBox();
+            this.txtNumeroIdentidad = new System.Windows.Forms.TextBox();
+            this.lblNacionalidad = new System.Windows.Forms.Label();
+            this.lblIdentidad = new System.Windows.Forms.Label();
+            this.lblEdad = new System.Windows.Forms.Label();
+            this.lblNumeroIdentidad = new System.Windows.Forms.Label();
+            this.txtEdad = new System.Windows.Forms.TextBox();
+            this.txtGenero = new System.Windows.Forms.TextBox();
+            this.txtRTN = new System.Windows.Forms.TextBox();
+            this.txtNombre = new System.Windows.Forms.TextBox();
+            this.lblNumeroPasaporte = new System.Windows.Forms.Label();
+            this.lblTelefono = new System.Windows.Forms.Label();
+            this.lblRTN = new System.Windows.Forms.Label();
+            this.lblNombre = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMostrar)).BeginInit();
             this.SuspendLayout();
@@ -120,150 +120,22 @@
             this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
             this.acercaDeToolStripMenuItem.Text = "Acerca de";
             // 
-            // textBox5
+            // lblPersona
             // 
-            this.textBox5.Location = new System.Drawing.Point(449, 311);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(140, 23);
-            this.textBox5.TabIndex = 56;
+            this.lblPersona.AutoSize = true;
+            this.lblPersona.Location = new System.Drawing.Point(645, 406);
+            this.lblPersona.Name = "lblPersona";
+            this.lblPersona.Size = new System.Drawing.Size(49, 15);
+            this.lblPersona.TabIndex = 44;
+            this.lblPersona.Text = "Persona";
             // 
-            // textBox6
+            // cbxPersona
             // 
-            this.textBox6.Location = new System.Drawing.Point(449, 252);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(140, 23);
-            this.textBox6.TabIndex = 55;
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(449, 188);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(140, 23);
-            this.textBox7.TabIndex = 54;
-            // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(449, 126);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(140, 23);
-            this.textBox8.TabIndex = 53;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(386, 319);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(38, 15);
-            this.label6.TabIndex = 52;
-            this.label6.Text = "label6";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(386, 260);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(38, 15);
-            this.label7.TabIndex = 51;
-            this.label7.Text = "label7";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(386, 196);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(38, 15);
-            this.label8.TabIndex = 50;
-            this.label8.Text = "label8";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(386, 134);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(38, 15);
-            this.label9.TabIndex = 49;
-            this.label9.Text = "label9";
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(135, 311);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(140, 23);
-            this.textBox4.TabIndex = 48;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(135, 252);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(140, 23);
-            this.textBox3.TabIndex = 47;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(135, 188);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(140, 23);
-            this.textBox2.TabIndex = 46;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(135, 126);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(140, 23);
-            this.textBox1.TabIndex = 45;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(645, 406);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(38, 15);
-            this.label5.TabIndex = 44;
-            this.label5.Text = "label5";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(713, 398);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 23);
-            this.comboBox1.TabIndex = 43;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(72, 319);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(38, 15);
-            this.label4.TabIndex = 42;
-            this.label4.Text = "label4";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(72, 260);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(38, 15);
-            this.label3.TabIndex = 41;
-            this.label3.Text = "label3";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(72, 196);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(38, 15);
-            this.label2.TabIndex = 40;
-            this.label2.Text = "label2";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(72, 134);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 15);
-            this.label1.TabIndex = 39;
-            this.label1.Text = "label1";
+            this.cbxPersona.FormattingEnabled = true;
+            this.cbxPersona.Location = new System.Drawing.Point(713, 398);
+            this.cbxPersona.Name = "cbxPersona";
+            this.cbxPersona.Size = new System.Drawing.Size(121, 23);
+            this.cbxPersona.TabIndex = 43;
             // 
             // dgvMostrar
             // 
@@ -335,6 +207,138 @@
             this.btnAbrirArchivo.Text = "Abrir Archivo";
             this.btnAbrirArchivo.UseVisualStyleBackColor = true;
             // 
+            // txtNacionalidad
+            // 
+            this.txtNacionalidad.Location = new System.Drawing.Point(515, 321);
+            this.txtNacionalidad.Name = "txtNacionalidad";
+            this.txtNacionalidad.Size = new System.Drawing.Size(140, 23);
+            this.txtNacionalidad.TabIndex = 140;
+            // 
+            // txtTelefono
+            // 
+            this.txtTelefono.Location = new System.Drawing.Point(515, 262);
+            this.txtTelefono.Name = "txtTelefono";
+            this.txtTelefono.Size = new System.Drawing.Size(140, 23);
+            this.txtTelefono.TabIndex = 139;
+            // 
+            // txtNumeroPasaporte
+            // 
+            this.txtNumeroPasaporte.Location = new System.Drawing.Point(515, 198);
+            this.txtNumeroPasaporte.Name = "txtNumeroPasaporte";
+            this.txtNumeroPasaporte.Size = new System.Drawing.Size(140, 23);
+            this.txtNumeroPasaporte.TabIndex = 138;
+            // 
+            // txtNumeroIdentidad
+            // 
+            this.txtNumeroIdentidad.Location = new System.Drawing.Point(515, 136);
+            this.txtNumeroIdentidad.Name = "txtNumeroIdentidad";
+            this.txtNumeroIdentidad.Size = new System.Drawing.Size(140, 23);
+            this.txtNumeroIdentidad.TabIndex = 137;
+            // 
+            // lblNacionalidad
+            // 
+            this.lblNacionalidad.AutoSize = true;
+            this.lblNacionalidad.Location = new System.Drawing.Point(389, 328);
+            this.lblNacionalidad.Name = "lblNacionalidad";
+            this.lblNacionalidad.Size = new System.Drawing.Size(77, 15);
+            this.lblNacionalidad.TabIndex = 136;
+            this.lblNacionalidad.Text = "Nacionalidad";
+            // 
+            // lblIdentidad
+            // 
+            this.lblIdentidad.AutoSize = true;
+            this.lblIdentidad.Location = new System.Drawing.Point(98, 264);
+            this.lblIdentidad.Name = "lblIdentidad";
+            this.lblIdentidad.Size = new System.Drawing.Size(45, 15);
+            this.lblIdentidad.TabIndex = 135;
+            this.lblIdentidad.Text = "Genero";
+            // 
+            // lblEdad
+            // 
+            this.lblEdad.AutoSize = true;
+            this.lblEdad.Location = new System.Drawing.Point(98, 328);
+            this.lblEdad.Name = "lblEdad";
+            this.lblEdad.Size = new System.Drawing.Size(33, 15);
+            this.lblEdad.TabIndex = 134;
+            this.lblEdad.Text = "Edad";
+            // 
+            // lblNumeroIdentidad
+            // 
+            this.lblNumeroIdentidad.AutoSize = true;
+            this.lblNumeroIdentidad.Location = new System.Drawing.Point(389, 141);
+            this.lblNumeroIdentidad.Name = "lblNumeroIdentidad";
+            this.lblNumeroIdentidad.Size = new System.Drawing.Size(120, 15);
+            this.lblNumeroIdentidad.TabIndex = 133;
+            this.lblNumeroIdentidad.Text = "Numero de Identidad";
+            // 
+            // txtEdad
+            // 
+            this.txtEdad.Location = new System.Drawing.Point(188, 320);
+            this.txtEdad.Name = "txtEdad";
+            this.txtEdad.Size = new System.Drawing.Size(140, 23);
+            this.txtEdad.TabIndex = 132;
+            // 
+            // txtGenero
+            // 
+            this.txtGenero.Location = new System.Drawing.Point(188, 261);
+            this.txtGenero.Name = "txtGenero";
+            this.txtGenero.Size = new System.Drawing.Size(140, 23);
+            this.txtGenero.TabIndex = 131;
+            // 
+            // txtRTN
+            // 
+            this.txtRTN.Location = new System.Drawing.Point(188, 197);
+            this.txtRTN.Name = "txtRTN";
+            this.txtRTN.Size = new System.Drawing.Size(140, 23);
+            this.txtRTN.TabIndex = 130;
+            // 
+            // txtNombre
+            // 
+            this.txtNombre.Location = new System.Drawing.Point(188, 135);
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(140, 23);
+            this.txtNombre.TabIndex = 129;
+            // 
+            // lblNumeroPasaporte
+            // 
+            this.lblNumeroPasaporte.AutoSize = true;
+            this.lblNumeroPasaporte.Location = new System.Drawing.Point(389, 207);
+            this.lblNumeroPasaporte.Name = "lblNumeroPasaporte";
+            this.lblNumeroPasaporte.Size = new System.Drawing.Size(122, 15);
+            this.lblNumeroPasaporte.TabIndex = 128;
+            this.lblNumeroPasaporte.Text = "Numero de Pasaporte";
+            this.lblNumeroPasaporte.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblTelefono
+            // 
+            this.lblTelefono.AutoSize = true;
+            this.lblTelefono.Location = new System.Drawing.Point(389, 265);
+            this.lblTelefono.Name = "lblTelefono";
+            this.lblTelefono.Size = new System.Drawing.Size(52, 15);
+            this.lblTelefono.TabIndex = 127;
+            this.lblTelefono.Text = "Telefono";
+            this.lblTelefono.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblRTN
+            // 
+            this.lblRTN.AutoSize = true;
+            this.lblRTN.Location = new System.Drawing.Point(98, 205);
+            this.lblRTN.Name = "lblRTN";
+            this.lblRTN.Size = new System.Drawing.Size(28, 15);
+            this.lblRTN.TabIndex = 126;
+            this.lblRTN.Text = "RTN";
+            this.lblRTN.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblNombre
+            // 
+            this.lblNombre.AutoSize = true;
+            this.lblNombre.Location = new System.Drawing.Point(98, 143);
+            this.lblNombre.Name = "lblNombre";
+            this.lblNombre.Size = new System.Drawing.Size(51, 15);
+            this.lblNombre.TabIndex = 125;
+            this.lblNombre.Text = "Nombre";
+            this.lblNombre.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // frmPersona
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -343,28 +347,28 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(897, 574);
+            this.Controls.Add(this.txtNacionalidad);
+            this.Controls.Add(this.txtTelefono);
+            this.Controls.Add(this.txtNumeroPasaporte);
+            this.Controls.Add(this.txtNumeroIdentidad);
+            this.Controls.Add(this.lblNacionalidad);
+            this.Controls.Add(this.lblIdentidad);
+            this.Controls.Add(this.lblEdad);
+            this.Controls.Add(this.lblNumeroIdentidad);
+            this.Controls.Add(this.txtEdad);
+            this.Controls.Add(this.txtGenero);
+            this.Controls.Add(this.txtRTN);
+            this.Controls.Add(this.txtNombre);
+            this.Controls.Add(this.lblNumeroPasaporte);
+            this.Controls.Add(this.lblTelefono);
+            this.Controls.Add(this.lblRTN);
+            this.Controls.Add(this.lblNombre);
             this.Controls.Add(this.btnMostrar);
             this.Controls.Add(this.btnSeleccionar);
             this.Controls.Add(this.btnSiguientRegistro);
             this.Controls.Add(this.btnAbrirArchivo);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblPersona);
+            this.Controls.Add(this.cbxPersona);
             this.Controls.Add(this.dgvMostrar);
             this.Controls.Add(this.lblSeleccionar);
             this.Controls.Add(this.menuStrip1);
@@ -387,29 +391,29 @@
         private ToolStripMenuItem salirToolStripMenuItem;
         private ToolStripMenuItem ayudaToolStripMenuItem;
         private ToolStripMenuItem acercaDeToolStripMenuItem;
-        private TextBox textBox5;
-        private TextBox textBox6;
-        private TextBox textBox7;
-        private TextBox textBox8;
-        private Label label6;
-        private Label label7;
-        private Label label8;
-        private Label label9;
-        private TextBox textBox4;
-        private TextBox textBox3;
-        private TextBox textBox2;
-        private TextBox textBox1;
-        private Label label5;
-        private ComboBox comboBox1;
-        private Label label4;
-        private Label label3;
-        private Label label2;
-        private Label label1;
+        private Label lblPersona;
+        private ComboBox cbxPersona;
         private DataGridView dgvMostrar;
         private Label lblSeleccionar;
         private Button btnMostrar;
         private Button btnSeleccionar;
         private Button btnSiguientRegistro;
         private Button btnAbrirArchivo;
+        private TextBox txtNacionalidad;
+        private TextBox txtTelefono;
+        private TextBox txtNumeroPasaporte;
+        private TextBox txtNumeroIdentidad;
+        private Label lblNacionalidad;
+        private Label lblIdentidad;
+        private Label lblEdad;
+        private Label lblNumeroIdentidad;
+        private TextBox txtEdad;
+        private TextBox txtGenero;
+        private TextBox txtRTN;
+        private TextBox txtNombre;
+        private Label lblNumeroPasaporte;
+        private Label lblTelefono;
+        private Label lblRTN;
+        private Label lblNombre;
     }
 }

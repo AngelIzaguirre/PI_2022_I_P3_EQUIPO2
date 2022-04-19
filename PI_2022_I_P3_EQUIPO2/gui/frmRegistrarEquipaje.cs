@@ -19,7 +19,7 @@ namespace PI_2022_I_P3_EQUIPO2.gui
 
         private void btnLecturaEquipaje_Click(object sender, EventArgs e)
         {
-            frmEquipaje frmEquipaje = new frmEquipaje();   
+            frmEquipaje frmEquipaje = new frmEquipaje();
             frmEquipaje.ShowDialog();
         }
 

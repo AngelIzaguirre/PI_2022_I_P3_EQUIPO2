@@ -29,156 +29,28 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmRegistrarPersona));
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.lblLlenar = new System.Windows.Forms.Label();
             this.btnSalir = new System.Windows.Forms.Button();
-            this.btnLecturaBoleto = new System.Windows.Forms.Button();
+            this.btnLecturaPersona = new System.Windows.Forms.Button();
             this.btnRegistrar = new System.Windows.Forms.Button();
             this.btnGuardarComo = new System.Windows.Forms.Button();
+            this.txtNacionalidad = new System.Windows.Forms.TextBox();
+            this.txtTelefono = new System.Windows.Forms.TextBox();
+            this.txtNumeroPasaporte = new System.Windows.Forms.TextBox();
+            this.txtNumeroIdentidad = new System.Windows.Forms.TextBox();
+            this.lblNacionalidad = new System.Windows.Forms.Label();
+            this.lblIdentidad = new System.Windows.Forms.Label();
+            this.lblEdad = new System.Windows.Forms.Label();
+            this.lblNumeroIdentidad = new System.Windows.Forms.Label();
+            this.txtEdad = new System.Windows.Forms.TextBox();
+            this.txtGenero = new System.Windows.Forms.TextBox();
+            this.txtRTN = new System.Windows.Forms.TextBox();
+            this.txtNombre = new System.Windows.Forms.TextBox();
+            this.lblNumeroPasaporte = new System.Windows.Forms.Label();
+            this.lblTelefono = new System.Windows.Forms.Label();
+            this.lblRTN = new System.Windows.Forms.Label();
+            this.lblNombre = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(414, 358);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(140, 23);
-            this.textBox5.TabIndex = 119;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(414, 299);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(140, 23);
-            this.textBox6.TabIndex = 118;
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(414, 235);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(140, 23);
-            this.textBox7.TabIndex = 117;
-            // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(414, 173);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(140, 23);
-            this.textBox8.TabIndex = 116;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(351, 366);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(38, 15);
-            this.label6.TabIndex = 115;
-            this.label6.Text = "label6";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(351, 307);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(38, 15);
-            this.label7.TabIndex = 114;
-            this.label7.Text = "label7";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(351, 243);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(38, 15);
-            this.label8.TabIndex = 113;
-            this.label8.Text = "label8";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(351, 181);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(38, 15);
-            this.label9.TabIndex = 112;
-            this.label9.Text = "label9";
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(100, 358);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(140, 23);
-            this.textBox4.TabIndex = 111;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(100, 299);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(140, 23);
-            this.textBox3.TabIndex = 110;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(100, 235);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(140, 23);
-            this.textBox2.TabIndex = 109;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(100, 173);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(140, 23);
-            this.textBox1.TabIndex = 108;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(37, 366);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(38, 15);
-            this.label4.TabIndex = 107;
-            this.label4.Text = "label4";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(37, 307);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(38, 15);
-            this.label3.TabIndex = 106;
-            this.label3.Text = "label3";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(37, 243);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(38, 15);
-            this.label2.TabIndex = 105;
-            this.label2.Text = "label2";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(37, 181);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 15);
-            this.label1.TabIndex = 104;
-            this.label1.Text = "label1";
             // 
             // lblLlenar
             // 
@@ -198,23 +70,25 @@
             this.btnSalir.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSalir.Location = new System.Drawing.Point(678, 350);
             this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(124, 31);
+            this.btnSalir.Size = new System.Drawing.Size(132, 31);
             this.btnSalir.TabIndex = 123;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click_1);
             // 
-            // btnLecturaBoleto
+            // btnLecturaPersona
             // 
-            this.btnLecturaBoleto.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnLecturaBoleto.Image = ((System.Drawing.Image)(resources.GetObject("btnLecturaBoleto.Image")));
-            this.btnLecturaBoleto.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLecturaBoleto.Location = new System.Drawing.Point(678, 294);
-            this.btnLecturaBoleto.Name = "btnLecturaBoleto";
-            this.btnLecturaBoleto.Size = new System.Drawing.Size(124, 31);
-            this.btnLecturaBoleto.TabIndex = 122;
-            this.btnLecturaBoleto.Text = "Lectura Boleto";
-            this.btnLecturaBoleto.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnLecturaBoleto.UseVisualStyleBackColor = true;
+            this.btnLecturaPersona.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnLecturaPersona.Image = ((System.Drawing.Image)(resources.GetObject("btnLecturaPersona.Image")));
+            this.btnLecturaPersona.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnLecturaPersona.Location = new System.Drawing.Point(678, 294);
+            this.btnLecturaPersona.Name = "btnLecturaPersona";
+            this.btnLecturaPersona.Size = new System.Drawing.Size(132, 31);
+            this.btnLecturaPersona.TabIndex = 122;
+            this.btnLecturaPersona.Text = "Lectura Persona";
+            this.btnLecturaPersona.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnLecturaPersona.UseVisualStyleBackColor = true;
+            this.btnLecturaPersona.Click += new System.EventHandler(this.btnLecturaPersona_Click_1);
             // 
             // btnRegistrar
             // 
@@ -223,7 +97,7 @@
             this.btnRegistrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnRegistrar.Location = new System.Drawing.Point(678, 230);
             this.btnRegistrar.Name = "btnRegistrar";
-            this.btnRegistrar.Size = new System.Drawing.Size(124, 31);
+            this.btnRegistrar.Size = new System.Drawing.Size(132, 31);
             this.btnRegistrar.TabIndex = 121;
             this.btnRegistrar.Text = "Registrar";
             this.btnRegistrar.UseVisualStyleBackColor = true;
@@ -235,11 +109,143 @@
             this.btnGuardarComo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnGuardarComo.Location = new System.Drawing.Point(678, 168);
             this.btnGuardarComo.Name = "btnGuardarComo";
-            this.btnGuardarComo.Size = new System.Drawing.Size(124, 31);
+            this.btnGuardarComo.Size = new System.Drawing.Size(132, 31);
             this.btnGuardarComo.TabIndex = 120;
             this.btnGuardarComo.Text = "Guardar Como";
             this.btnGuardarComo.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnGuardarComo.UseVisualStyleBackColor = true;
+            // 
+            // txtNacionalidad
+            // 
+            this.txtNacionalidad.Location = new System.Drawing.Point(499, 359);
+            this.txtNacionalidad.Name = "txtNacionalidad";
+            this.txtNacionalidad.Size = new System.Drawing.Size(140, 23);
+            this.txtNacionalidad.TabIndex = 156;
+            // 
+            // txtTelefono
+            // 
+            this.txtTelefono.Location = new System.Drawing.Point(499, 300);
+            this.txtTelefono.Name = "txtTelefono";
+            this.txtTelefono.Size = new System.Drawing.Size(140, 23);
+            this.txtTelefono.TabIndex = 155;
+            // 
+            // txtNumeroPasaporte
+            // 
+            this.txtNumeroPasaporte.Location = new System.Drawing.Point(499, 236);
+            this.txtNumeroPasaporte.Name = "txtNumeroPasaporte";
+            this.txtNumeroPasaporte.Size = new System.Drawing.Size(140, 23);
+            this.txtNumeroPasaporte.TabIndex = 154;
+            // 
+            // txtNumeroIdentidad
+            // 
+            this.txtNumeroIdentidad.Location = new System.Drawing.Point(499, 174);
+            this.txtNumeroIdentidad.Name = "txtNumeroIdentidad";
+            this.txtNumeroIdentidad.Size = new System.Drawing.Size(140, 23);
+            this.txtNumeroIdentidad.TabIndex = 153;
+            // 
+            // lblNacionalidad
+            // 
+            this.lblNacionalidad.AutoSize = true;
+            this.lblNacionalidad.Location = new System.Drawing.Point(373, 366);
+            this.lblNacionalidad.Name = "lblNacionalidad";
+            this.lblNacionalidad.Size = new System.Drawing.Size(77, 15);
+            this.lblNacionalidad.TabIndex = 152;
+            this.lblNacionalidad.Text = "Nacionalidad";
+            // 
+            // lblIdentidad
+            // 
+            this.lblIdentidad.AutoSize = true;
+            this.lblIdentidad.Location = new System.Drawing.Point(82, 302);
+            this.lblIdentidad.Name = "lblIdentidad";
+            this.lblIdentidad.Size = new System.Drawing.Size(45, 15);
+            this.lblIdentidad.TabIndex = 151;
+            this.lblIdentidad.Text = "Genero";
+            // 
+            // lblEdad
+            // 
+            this.lblEdad.AutoSize = true;
+            this.lblEdad.Location = new System.Drawing.Point(82, 366);
+            this.lblEdad.Name = "lblEdad";
+            this.lblEdad.Size = new System.Drawing.Size(33, 15);
+            this.lblEdad.TabIndex = 150;
+            this.lblEdad.Text = "Edad";
+            // 
+            // lblNumeroIdentidad
+            // 
+            this.lblNumeroIdentidad.AutoSize = true;
+            this.lblNumeroIdentidad.Location = new System.Drawing.Point(373, 179);
+            this.lblNumeroIdentidad.Name = "lblNumeroIdentidad";
+            this.lblNumeroIdentidad.Size = new System.Drawing.Size(120, 15);
+            this.lblNumeroIdentidad.TabIndex = 149;
+            this.lblNumeroIdentidad.Text = "Numero de Identidad";
+            // 
+            // txtEdad
+            // 
+            this.txtEdad.Location = new System.Drawing.Point(172, 358);
+            this.txtEdad.Name = "txtEdad";
+            this.txtEdad.Size = new System.Drawing.Size(140, 23);
+            this.txtEdad.TabIndex = 148;
+            // 
+            // txtGenero
+            // 
+            this.txtGenero.Location = new System.Drawing.Point(172, 299);
+            this.txtGenero.Name = "txtGenero";
+            this.txtGenero.Size = new System.Drawing.Size(140, 23);
+            this.txtGenero.TabIndex = 147;
+            // 
+            // txtRTN
+            // 
+            this.txtRTN.Location = new System.Drawing.Point(172, 235);
+            this.txtRTN.Name = "txtRTN";
+            this.txtRTN.Size = new System.Drawing.Size(140, 23);
+            this.txtRTN.TabIndex = 146;
+            // 
+            // txtNombre
+            // 
+            this.txtNombre.Location = new System.Drawing.Point(172, 173);
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(140, 23);
+            this.txtNombre.TabIndex = 145;
+            // 
+            // lblNumeroPasaporte
+            // 
+            this.lblNumeroPasaporte.AutoSize = true;
+            this.lblNumeroPasaporte.Location = new System.Drawing.Point(373, 245);
+            this.lblNumeroPasaporte.Name = "lblNumeroPasaporte";
+            this.lblNumeroPasaporte.Size = new System.Drawing.Size(122, 15);
+            this.lblNumeroPasaporte.TabIndex = 144;
+            this.lblNumeroPasaporte.Text = "Numero de Pasaporte";
+            this.lblNumeroPasaporte.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblTelefono
+            // 
+            this.lblTelefono.AutoSize = true;
+            this.lblTelefono.Location = new System.Drawing.Point(373, 303);
+            this.lblTelefono.Name = "lblTelefono";
+            this.lblTelefono.Size = new System.Drawing.Size(52, 15);
+            this.lblTelefono.TabIndex = 143;
+            this.lblTelefono.Text = "Telefono";
+            this.lblTelefono.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblRTN
+            // 
+            this.lblRTN.AutoSize = true;
+            this.lblRTN.Location = new System.Drawing.Point(82, 243);
+            this.lblRTN.Name = "lblRTN";
+            this.lblRTN.Size = new System.Drawing.Size(28, 15);
+            this.lblRTN.TabIndex = 142;
+            this.lblRTN.Text = "RTN";
+            this.lblRTN.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblNombre
+            // 
+            this.lblNombre.AutoSize = true;
+            this.lblNombre.Location = new System.Drawing.Point(82, 181);
+            this.lblNombre.Name = "lblNombre";
+            this.lblNombre.Size = new System.Drawing.Size(51, 15);
+            this.lblNombre.TabIndex = 141;
+            this.lblNombre.Text = "Nombre";
+            this.lblNombre.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // frmRegistrarPersona
             // 
@@ -249,26 +255,26 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(852, 450);
+            this.Controls.Add(this.txtNacionalidad);
+            this.Controls.Add(this.txtTelefono);
+            this.Controls.Add(this.txtNumeroPasaporte);
+            this.Controls.Add(this.txtNumeroIdentidad);
+            this.Controls.Add(this.lblNacionalidad);
+            this.Controls.Add(this.lblIdentidad);
+            this.Controls.Add(this.lblEdad);
+            this.Controls.Add(this.lblNumeroIdentidad);
+            this.Controls.Add(this.txtEdad);
+            this.Controls.Add(this.txtGenero);
+            this.Controls.Add(this.txtRTN);
+            this.Controls.Add(this.txtNombre);
+            this.Controls.Add(this.lblNumeroPasaporte);
+            this.Controls.Add(this.lblTelefono);
+            this.Controls.Add(this.lblRTN);
+            this.Controls.Add(this.lblNombre);
             this.Controls.Add(this.btnSalir);
-            this.Controls.Add(this.btnLecturaBoleto);
+            this.Controls.Add(this.btnLecturaPersona);
             this.Controls.Add(this.btnRegistrar);
             this.Controls.Add(this.btnGuardarComo);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.lblLlenar);
             this.Name = "frmRegistrarPersona";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -279,27 +285,26 @@
         }
 
         #endregion
-
-        private TextBox textBox5;
-        private TextBox textBox6;
-        private TextBox textBox7;
-        private TextBox textBox8;
-        private Label label6;
-        private Label label7;
-        private Label label8;
-        private Label label9;
-        private TextBox textBox4;
-        private TextBox textBox3;
-        private TextBox textBox2;
-        private TextBox textBox1;
-        private Label label4;
-        private Label label3;
-        private Label label2;
-        private Label label1;
         private Label lblLlenar;
         private Button btnSalir;
-        private Button btnLecturaBoleto;
+        private Button btnLecturaPersona;
         private Button btnRegistrar;
         private Button btnGuardarComo;
+        private TextBox txtNacionalidad;
+        private TextBox txtTelefono;
+        private TextBox txtNumeroPasaporte;
+        private TextBox txtNumeroIdentidad;
+        private Label lblNacionalidad;
+        private Label lblIdentidad;
+        private Label lblEdad;
+        private Label lblNumeroIdentidad;
+        private TextBox txtEdad;
+        private TextBox txtGenero;
+        private TextBox txtRTN;
+        private TextBox txtNombre;
+        private Label lblNumeroPasaporte;
+        private Label lblTelefono;
+        private Label lblRTN;
+        private Label lblNombre;
     }
 }

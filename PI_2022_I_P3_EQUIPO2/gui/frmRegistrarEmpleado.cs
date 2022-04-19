@@ -17,8 +17,9 @@ namespace PI_2022_I_P3_EQUIPO2.gui
             InitializeComponent();
         }
 
-        private void btnLecturaEmpleado_Click(object sender, EventArgs e)
+        private void btnLecturaEmpleado_Click_1(object sender, EventArgs e)
         {
+
             frmEmpleado frmEmpleado = new frmEmpleado();
             frmEmpleado.ShowDialog();
         }

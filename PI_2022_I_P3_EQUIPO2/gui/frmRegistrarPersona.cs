@@ -17,15 +17,16 @@ namespace PI_2022_I_P3_EQUIPO2.gui
             InitializeComponent();
         }
 
-        private void btnLecturaPersona_Click(object sender, EventArgs e)
-        {
-            frmPersona persona = new frmPersona();
-            persona.ShowDialog();
-        }
-
-        private void btnSalir_Click(object sender, EventArgs e)
+        private void btnSalir_Click_1(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void btnLecturaPersona_Click_1(object sender, EventArgs e)
+        {
+
+            frmPersona persona = new frmPersona();
+            persona.ShowDialog();
         }
     }
 }

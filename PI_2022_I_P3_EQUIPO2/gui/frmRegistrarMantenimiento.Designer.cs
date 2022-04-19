@@ -29,156 +29,28 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmRegistrarMantenimiento));
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.lblLlenar = new System.Windows.Forms.Label();
             this.btnSalir = new System.Windows.Forms.Button();
-            this.btnLecturaBoleto = new System.Windows.Forms.Button();
+            this.btnLecturaMantenimiento = new System.Windows.Forms.Button();
             this.btnRegistrar = new System.Windows.Forms.Button();
             this.btnGuardarComo = new System.Windows.Forms.Button();
+            this.txtCiudadSalida = new System.Windows.Forms.TextBox();
+            this.txtCiudadActual = new System.Windows.Forms.TextBox();
+            this.txtTipoBoleto = new System.Windows.Forms.TextBox();
+            this.txtNumeroBoleto = new System.Windows.Forms.TextBox();
+            this.lblHoraSalida = new System.Windows.Forms.Label();
+            this.lblMaterial = new System.Windows.Forms.Label();
+            this.lblEmpresa = new System.Windows.Forms.Label();
+            this.lblNumeroSerie = new System.Windows.Forms.Label();
+            this.txtFechaActual = new System.Windows.Forms.TextBox();
+            this.txtCosto = new System.Windows.Forms.TextBox();
+            this.txtAerolinea = new System.Windows.Forms.TextBox();
+            this.txtNombre = new System.Windows.Forms.TextBox();
+            this.lblProblema = new System.Windows.Forms.Label();
+            this.lblHoraIngreso = new System.Windows.Forms.Label();
+            this.lblFecha = new System.Windows.Forms.Label();
+            this.lblNombre = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(418, 358);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(140, 23);
-            this.textBox5.TabIndex = 119;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(418, 299);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(140, 23);
-            this.textBox6.TabIndex = 118;
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(418, 235);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(140, 23);
-            this.textBox7.TabIndex = 117;
-            // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(418, 173);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(140, 23);
-            this.textBox8.TabIndex = 116;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(355, 366);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(38, 15);
-            this.label6.TabIndex = 115;
-            this.label6.Text = "label6";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(355, 307);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(38, 15);
-            this.label7.TabIndex = 114;
-            this.label7.Text = "label7";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(355, 243);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(38, 15);
-            this.label8.TabIndex = 113;
-            this.label8.Text = "label8";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(355, 181);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(38, 15);
-            this.label9.TabIndex = 112;
-            this.label9.Text = "label9";
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(104, 358);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(140, 23);
-            this.textBox4.TabIndex = 111;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(104, 299);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(140, 23);
-            this.textBox3.TabIndex = 110;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(104, 235);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(140, 23);
-            this.textBox2.TabIndex = 109;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(104, 173);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(140, 23);
-            this.textBox1.TabIndex = 108;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(41, 366);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(38, 15);
-            this.label4.TabIndex = 107;
-            this.label4.Text = "label4";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(41, 307);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(38, 15);
-            this.label3.TabIndex = 106;
-            this.label3.Text = "label3";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(41, 243);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(38, 15);
-            this.label2.TabIndex = 105;
-            this.label2.Text = "label2";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(41, 181);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 15);
-            this.label1.TabIndex = 104;
-            this.label1.Text = "label1";
             // 
             // lblLlenar
             // 
@@ -198,23 +70,25 @@
             this.btnSalir.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSalir.Location = new System.Drawing.Point(677, 350);
             this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(124, 31);
+            this.btnSalir.Size = new System.Drawing.Size(166, 31);
             this.btnSalir.TabIndex = 123;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
-            // btnLecturaBoleto
+            // btnLecturaMantenimiento
             // 
-            this.btnLecturaBoleto.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnLecturaBoleto.Image = ((System.Drawing.Image)(resources.GetObject("btnLecturaBoleto.Image")));
-            this.btnLecturaBoleto.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLecturaBoleto.Location = new System.Drawing.Point(677, 294);
-            this.btnLecturaBoleto.Name = "btnLecturaBoleto";
-            this.btnLecturaBoleto.Size = new System.Drawing.Size(124, 31);
-            this.btnLecturaBoleto.TabIndex = 122;
-            this.btnLecturaBoleto.Text = "Lectura Boleto";
-            this.btnLecturaBoleto.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnLecturaBoleto.UseVisualStyleBackColor = true;
+            this.btnLecturaMantenimiento.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnLecturaMantenimiento.Image = ((System.Drawing.Image)(resources.GetObject("btnLecturaMantenimiento.Image")));
+            this.btnLecturaMantenimiento.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnLecturaMantenimiento.Location = new System.Drawing.Point(677, 294);
+            this.btnLecturaMantenimiento.Name = "btnLecturaMantenimiento";
+            this.btnLecturaMantenimiento.Size = new System.Drawing.Size(166, 31);
+            this.btnLecturaMantenimiento.TabIndex = 122;
+            this.btnLecturaMantenimiento.Text = "Lectura Mantenimiento";
+            this.btnLecturaMantenimiento.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnLecturaMantenimiento.UseVisualStyleBackColor = true;
+            this.btnLecturaMantenimiento.Click += new System.EventHandler(this.btnLecturaMantenimiento_Click);
             // 
             // btnRegistrar
             // 
@@ -223,7 +97,7 @@
             this.btnRegistrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnRegistrar.Location = new System.Drawing.Point(677, 230);
             this.btnRegistrar.Name = "btnRegistrar";
-            this.btnRegistrar.Size = new System.Drawing.Size(124, 31);
+            this.btnRegistrar.Size = new System.Drawing.Size(166, 31);
             this.btnRegistrar.TabIndex = 121;
             this.btnRegistrar.Text = "Registrar";
             this.btnRegistrar.UseVisualStyleBackColor = true;
@@ -235,11 +109,142 @@
             this.btnGuardarComo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnGuardarComo.Location = new System.Drawing.Point(677, 168);
             this.btnGuardarComo.Name = "btnGuardarComo";
-            this.btnGuardarComo.Size = new System.Drawing.Size(124, 31);
+            this.btnGuardarComo.Size = new System.Drawing.Size(166, 31);
             this.btnGuardarComo.TabIndex = 120;
             this.btnGuardarComo.Text = "Guardar Como";
-            this.btnGuardarComo.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnGuardarComo.UseVisualStyleBackColor = true;
+            // 
+            // txtCiudadSalida
+            // 
+            this.txtCiudadSalida.Location = new System.Drawing.Point(486, 359);
+            this.txtCiudadSalida.Name = "txtCiudadSalida";
+            this.txtCiudadSalida.Size = new System.Drawing.Size(140, 23);
+            this.txtCiudadSalida.TabIndex = 140;
+            // 
+            // txtCiudadActual
+            // 
+            this.txtCiudadActual.Location = new System.Drawing.Point(486, 300);
+            this.txtCiudadActual.Name = "txtCiudadActual";
+            this.txtCiudadActual.Size = new System.Drawing.Size(140, 23);
+            this.txtCiudadActual.TabIndex = 139;
+            // 
+            // txtTipoBoleto
+            // 
+            this.txtTipoBoleto.Location = new System.Drawing.Point(486, 236);
+            this.txtTipoBoleto.Name = "txtTipoBoleto";
+            this.txtTipoBoleto.Size = new System.Drawing.Size(140, 23);
+            this.txtTipoBoleto.TabIndex = 138;
+            // 
+            // txtNumeroBoleto
+            // 
+            this.txtNumeroBoleto.Location = new System.Drawing.Point(486, 174);
+            this.txtNumeroBoleto.Name = "txtNumeroBoleto";
+            this.txtNumeroBoleto.Size = new System.Drawing.Size(140, 23);
+            this.txtNumeroBoleto.TabIndex = 137;
+            // 
+            // lblHoraSalida
+            // 
+            this.lblHoraSalida.AutoSize = true;
+            this.lblHoraSalida.Location = new System.Drawing.Point(360, 366);
+            this.lblHoraSalida.Name = "lblHoraSalida";
+            this.lblHoraSalida.Size = new System.Drawing.Size(83, 15);
+            this.lblHoraSalida.TabIndex = 136;
+            this.lblHoraSalida.Text = "Hora de Salida";
+            // 
+            // lblMaterial
+            // 
+            this.lblMaterial.AutoSize = true;
+            this.lblMaterial.Location = new System.Drawing.Point(69, 302);
+            this.lblMaterial.Name = "lblMaterial";
+            this.lblMaterial.Size = new System.Drawing.Size(50, 15);
+            this.lblMaterial.TabIndex = 135;
+            this.lblMaterial.Text = "Material";
+            // 
+            // lblEmpresa
+            // 
+            this.lblEmpresa.AutoSize = true;
+            this.lblEmpresa.Location = new System.Drawing.Point(69, 366);
+            this.lblEmpresa.Name = "lblEmpresa";
+            this.lblEmpresa.Size = new System.Drawing.Size(52, 15);
+            this.lblEmpresa.TabIndex = 134;
+            this.lblEmpresa.Text = "Empresa";
+            // 
+            // lblNumeroSerie
+            // 
+            this.lblNumeroSerie.AutoSize = true;
+            this.lblNumeroSerie.Location = new System.Drawing.Point(360, 179);
+            this.lblNumeroSerie.Name = "lblNumeroSerie";
+            this.lblNumeroSerie.Size = new System.Drawing.Size(95, 15);
+            this.lblNumeroSerie.TabIndex = 133;
+            this.lblNumeroSerie.Text = "Numero de Serie";
+            // 
+            // txtFechaActual
+            // 
+            this.txtFechaActual.Location = new System.Drawing.Point(159, 358);
+            this.txtFechaActual.Name = "txtFechaActual";
+            this.txtFechaActual.Size = new System.Drawing.Size(140, 23);
+            this.txtFechaActual.TabIndex = 132;
+            // 
+            // txtCosto
+            // 
+            this.txtCosto.Location = new System.Drawing.Point(159, 299);
+            this.txtCosto.Name = "txtCosto";
+            this.txtCosto.Size = new System.Drawing.Size(140, 23);
+            this.txtCosto.TabIndex = 131;
+            // 
+            // txtAerolinea
+            // 
+            this.txtAerolinea.Location = new System.Drawing.Point(159, 235);
+            this.txtAerolinea.Name = "txtAerolinea";
+            this.txtAerolinea.Size = new System.Drawing.Size(140, 23);
+            this.txtAerolinea.TabIndex = 130;
+            // 
+            // txtNombre
+            // 
+            this.txtNombre.Location = new System.Drawing.Point(159, 173);
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(140, 23);
+            this.txtNombre.TabIndex = 129;
+            // 
+            // lblProblema
+            // 
+            this.lblProblema.AutoSize = true;
+            this.lblProblema.Location = new System.Drawing.Point(360, 245);
+            this.lblProblema.Name = "lblProblema";
+            this.lblProblema.Size = new System.Drawing.Size(58, 15);
+            this.lblProblema.TabIndex = 128;
+            this.lblProblema.Text = "Problema";
+            this.lblProblema.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblHoraIngreso
+            // 
+            this.lblHoraIngreso.AutoSize = true;
+            this.lblHoraIngreso.Location = new System.Drawing.Point(360, 303);
+            this.lblHoraIngreso.Name = "lblHoraIngreso";
+            this.lblHoraIngreso.Size = new System.Drawing.Size(91, 15);
+            this.lblHoraIngreso.TabIndex = 127;
+            this.lblHoraIngreso.Text = "Hora de Ingreso";
+            this.lblHoraIngreso.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblFecha
+            // 
+            this.lblFecha.AutoSize = true;
+            this.lblFecha.Location = new System.Drawing.Point(69, 243);
+            this.lblFecha.Name = "lblFecha";
+            this.lblFecha.Size = new System.Drawing.Size(38, 15);
+            this.lblFecha.TabIndex = 126;
+            this.lblFecha.Text = "Fecha";
+            this.lblFecha.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblNombre
+            // 
+            this.lblNombre.AutoSize = true;
+            this.lblNombre.Location = new System.Drawing.Point(69, 181);
+            this.lblNombre.Name = "lblNombre";
+            this.lblNombre.Size = new System.Drawing.Size(51, 15);
+            this.lblNombre.TabIndex = 125;
+            this.lblNombre.Text = "Nombre";
+            this.lblNombre.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // frmRegistrarMantenimiento
             // 
@@ -248,27 +253,27 @@
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(860, 450);
+            this.ClientSize = new System.Drawing.Size(867, 450);
+            this.Controls.Add(this.txtCiudadSalida);
+            this.Controls.Add(this.txtCiudadActual);
+            this.Controls.Add(this.txtTipoBoleto);
+            this.Controls.Add(this.txtNumeroBoleto);
+            this.Controls.Add(this.lblHoraSalida);
+            this.Controls.Add(this.lblMaterial);
+            this.Controls.Add(this.lblEmpresa);
+            this.Controls.Add(this.lblNumeroSerie);
+            this.Controls.Add(this.txtFechaActual);
+            this.Controls.Add(this.txtCosto);
+            this.Controls.Add(this.txtAerolinea);
+            this.Controls.Add(this.txtNombre);
+            this.Controls.Add(this.lblProblema);
+            this.Controls.Add(this.lblHoraIngreso);
+            this.Controls.Add(this.lblFecha);
+            this.Controls.Add(this.lblNombre);
             this.Controls.Add(this.btnSalir);
-            this.Controls.Add(this.btnLecturaBoleto);
+            this.Controls.Add(this.btnLecturaMantenimiento);
             this.Controls.Add(this.btnRegistrar);
             this.Controls.Add(this.btnGuardarComo);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.lblLlenar);
             this.Name = "frmRegistrarMantenimiento";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -279,27 +284,26 @@
         }
 
         #endregion
-
-        private TextBox textBox5;
-        private TextBox textBox6;
-        private TextBox textBox7;
-        private TextBox textBox8;
-        private Label label6;
-        private Label label7;
-        private Label label8;
-        private Label label9;
-        private TextBox textBox4;
-        private TextBox textBox3;
-        private TextBox textBox2;
-        private TextBox textBox1;
-        private Label label4;
-        private Label label3;
-        private Label label2;
-        private Label label1;
         private Label lblLlenar;
         private Button btnSalir;
-        private Button btnLecturaBoleto;
+        private Button btnLecturaMantenimiento;
         private Button btnRegistrar;
         private Button btnGuardarComo;
+        private TextBox txtCiudadSalida;
+        private TextBox txtCiudadActual;
+        private TextBox txtTipoBoleto;
+        private TextBox txtNumeroBoleto;
+        private Label lblHoraSalida;
+        private Label lblMaterial;
+        private Label lblEmpresa;
+        private Label lblNumeroSerie;
+        private TextBox txtFechaActual;
+        private TextBox txtCosto;
+        private TextBox txtAerolinea;
+        private TextBox txtNombre;
+        private Label lblProblema;
+        private Label lblHoraIngreso;
+        private Label lblFecha;
+        private Label lblNombre;
     }
 }

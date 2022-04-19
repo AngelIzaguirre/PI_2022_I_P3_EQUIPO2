@@ -17,15 +17,17 @@ namespace PI_2022_I_P3_EQUIPO2.gui
             InitializeComponent();
         }
 
-        private void btnSalir_Click(object sender, EventArgs e)
-        {
-           this.Close();
-        }
 
-        private void btnLecturaEmbarque_Click(object sender, EventArgs e)
+        private void btnLecturaEmbarque_Click_1(object sender, EventArgs e)
         {
+
             frmEmbarque frmEmbarque = new frmEmbarque();
             frmEmbarque.ShowDialog(this);
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

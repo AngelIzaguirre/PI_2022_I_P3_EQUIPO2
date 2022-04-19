@@ -29,156 +29,28 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmRegistrarEquipaje));
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.lblLlenar = new System.Windows.Forms.Label();
             this.btnSalir = new System.Windows.Forms.Button();
-            this.btnLecturaBoleto = new System.Windows.Forms.Button();
+            this.btnLecturaEquipaje = new System.Windows.Forms.Button();
             this.btnRegistrar = new System.Windows.Forms.Button();
             this.btnGuardarComo = new System.Windows.Forms.Button();
+            this.txtCiudadSalida = new System.Windows.Forms.TextBox();
+            this.txtCiudadActual = new System.Windows.Forms.TextBox();
+            this.txtTipoBoleto = new System.Windows.Forms.TextBox();
+            this.txtNumeroBoleto = new System.Windows.Forms.TextBox();
+            this.lblDestino = new System.Windows.Forms.Label();
+            this.lblNumeroBoleto = new System.Windows.Forms.Label();
+            this.lblTipoEquipaje = new System.Windows.Forms.Label();
+            this.lblClaseBoleto = new System.Windows.Forms.Label();
+            this.txtFechaActual = new System.Windows.Forms.TextBox();
+            this.txtCosto = new System.Windows.Forms.TextBox();
+            this.txtAerolinea = new System.Windows.Forms.TextBox();
+            this.txtNombre = new System.Windows.Forms.TextBox();
+            this.lblAerolinea = new System.Windows.Forms.Label();
+            this.lblHora = new System.Windows.Forms.Label();
+            this.lblCantidad = new System.Windows.Forms.Label();
+            this.lblNombre = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(416, 358);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(140, 23);
-            this.textBox5.TabIndex = 119;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(416, 299);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(140, 23);
-            this.textBox6.TabIndex = 118;
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(416, 235);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(140, 23);
-            this.textBox7.TabIndex = 117;
-            // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(416, 173);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(140, 23);
-            this.textBox8.TabIndex = 116;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(353, 366);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(38, 15);
-            this.label6.TabIndex = 115;
-            this.label6.Text = "label6";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(353, 307);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(38, 15);
-            this.label7.TabIndex = 114;
-            this.label7.Text = "label7";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(353, 243);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(38, 15);
-            this.label8.TabIndex = 113;
-            this.label8.Text = "label8";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(353, 181);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(38, 15);
-            this.label9.TabIndex = 112;
-            this.label9.Text = "label9";
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(102, 358);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(140, 23);
-            this.textBox4.TabIndex = 111;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(102, 299);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(140, 23);
-            this.textBox3.TabIndex = 110;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(102, 235);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(140, 23);
-            this.textBox2.TabIndex = 109;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(102, 173);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(140, 23);
-            this.textBox1.TabIndex = 108;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(39, 366);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(38, 15);
-            this.label4.TabIndex = 107;
-            this.label4.Text = "label4";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(39, 307);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(38, 15);
-            this.label3.TabIndex = 106;
-            this.label3.Text = "label3";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(39, 243);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(38, 15);
-            this.label2.TabIndex = 105;
-            this.label2.Text = "label2";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(39, 181);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 15);
-            this.label1.TabIndex = 104;
-            this.label1.Text = "label1";
             // 
             // lblLlenar
             // 
@@ -198,23 +70,25 @@
             this.btnSalir.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSalir.Location = new System.Drawing.Point(671, 350);
             this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(124, 31);
+            this.btnSalir.Size = new System.Drawing.Size(135, 31);
             this.btnSalir.TabIndex = 123;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
-            // btnLecturaBoleto
+            // btnLecturaEquipaje
             // 
-            this.btnLecturaBoleto.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnLecturaBoleto.Image = ((System.Drawing.Image)(resources.GetObject("btnLecturaBoleto.Image")));
-            this.btnLecturaBoleto.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLecturaBoleto.Location = new System.Drawing.Point(671, 294);
-            this.btnLecturaBoleto.Name = "btnLecturaBoleto";
-            this.btnLecturaBoleto.Size = new System.Drawing.Size(124, 31);
-            this.btnLecturaBoleto.TabIndex = 122;
-            this.btnLecturaBoleto.Text = "Lectura Boleto";
-            this.btnLecturaBoleto.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnLecturaBoleto.UseVisualStyleBackColor = true;
+            this.btnLecturaEquipaje.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnLecturaEquipaje.Image = ((System.Drawing.Image)(resources.GetObject("btnLecturaEquipaje.Image")));
+            this.btnLecturaEquipaje.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnLecturaEquipaje.Location = new System.Drawing.Point(671, 294);
+            this.btnLecturaEquipaje.Name = "btnLecturaEquipaje";
+            this.btnLecturaEquipaje.Size = new System.Drawing.Size(135, 31);
+            this.btnLecturaEquipaje.TabIndex = 122;
+            this.btnLecturaEquipaje.Text = "Lectura Equipaje";
+            this.btnLecturaEquipaje.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnLecturaEquipaje.UseVisualStyleBackColor = true;
+            this.btnLecturaEquipaje.Click += new System.EventHandler(this.btnLecturaEquipaje_Click);
             // 
             // btnRegistrar
             // 
@@ -223,7 +97,7 @@
             this.btnRegistrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnRegistrar.Location = new System.Drawing.Point(671, 230);
             this.btnRegistrar.Name = "btnRegistrar";
-            this.btnRegistrar.Size = new System.Drawing.Size(124, 31);
+            this.btnRegistrar.Size = new System.Drawing.Size(135, 31);
             this.btnRegistrar.TabIndex = 121;
             this.btnRegistrar.Text = "Registrar";
             this.btnRegistrar.UseVisualStyleBackColor = true;
@@ -235,11 +109,143 @@
             this.btnGuardarComo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnGuardarComo.Location = new System.Drawing.Point(671, 168);
             this.btnGuardarComo.Name = "btnGuardarComo";
-            this.btnGuardarComo.Size = new System.Drawing.Size(124, 31);
+            this.btnGuardarComo.Size = new System.Drawing.Size(135, 31);
             this.btnGuardarComo.TabIndex = 120;
             this.btnGuardarComo.Text = "Guardar Como";
             this.btnGuardarComo.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnGuardarComo.UseVisualStyleBackColor = true;
+            // 
+            // txtCiudadSalida
+            // 
+            this.txtCiudadSalida.Location = new System.Drawing.Point(479, 359);
+            this.txtCiudadSalida.Name = "txtCiudadSalida";
+            this.txtCiudadSalida.Size = new System.Drawing.Size(140, 23);
+            this.txtCiudadSalida.TabIndex = 139;
+            // 
+            // txtCiudadActual
+            // 
+            this.txtCiudadActual.Location = new System.Drawing.Point(479, 300);
+            this.txtCiudadActual.Name = "txtCiudadActual";
+            this.txtCiudadActual.Size = new System.Drawing.Size(140, 23);
+            this.txtCiudadActual.TabIndex = 138;
+            // 
+            // txtTipoBoleto
+            // 
+            this.txtTipoBoleto.Location = new System.Drawing.Point(479, 236);
+            this.txtTipoBoleto.Name = "txtTipoBoleto";
+            this.txtTipoBoleto.Size = new System.Drawing.Size(140, 23);
+            this.txtTipoBoleto.TabIndex = 137;
+            // 
+            // txtNumeroBoleto
+            // 
+            this.txtNumeroBoleto.Location = new System.Drawing.Point(479, 174);
+            this.txtNumeroBoleto.Name = "txtNumeroBoleto";
+            this.txtNumeroBoleto.Size = new System.Drawing.Size(140, 23);
+            this.txtNumeroBoleto.TabIndex = 136;
+            // 
+            // lblDestino
+            // 
+            this.lblDestino.AutoSize = true;
+            this.lblDestino.Location = new System.Drawing.Point(353, 366);
+            this.lblDestino.Name = "lblDestino";
+            this.lblDestino.Size = new System.Drawing.Size(47, 15);
+            this.lblDestino.TabIndex = 135;
+            this.lblDestino.Text = "Destino";
+            // 
+            // lblNumeroBoleto
+            // 
+            this.lblNumeroBoleto.AutoSize = true;
+            this.lblNumeroBoleto.Location = new System.Drawing.Point(353, 307);
+            this.lblNumeroBoleto.Name = "lblNumeroBoleto";
+            this.lblNumeroBoleto.Size = new System.Drawing.Size(104, 15);
+            this.lblNumeroBoleto.TabIndex = 134;
+            this.lblNumeroBoleto.Text = "Numero de Boleto";
+            // 
+            // lblTipoEquipaje
+            // 
+            this.lblTipoEquipaje.AutoSize = true;
+            this.lblTipoEquipaje.Location = new System.Drawing.Point(62, 366);
+            this.lblTipoEquipaje.Name = "lblTipoEquipaje";
+            this.lblTipoEquipaje.Size = new System.Drawing.Size(32, 15);
+            this.lblTipoEquipaje.TabIndex = 133;
+            this.lblTipoEquipaje.Text = "Peso";
+            // 
+            // lblClaseBoleto
+            // 
+            this.lblClaseBoleto.AutoSize = true;
+            this.lblClaseBoleto.Location = new System.Drawing.Point(353, 179);
+            this.lblClaseBoleto.Name = "lblClaseBoleto";
+            this.lblClaseBoleto.Size = new System.Drawing.Size(69, 15);
+            this.lblClaseBoleto.TabIndex = 132;
+            this.lblClaseBoleto.Text = "ClaseBoleto";
+            // 
+            // txtFechaActual
+            // 
+            this.txtFechaActual.Location = new System.Drawing.Point(152, 358);
+            this.txtFechaActual.Name = "txtFechaActual";
+            this.txtFechaActual.Size = new System.Drawing.Size(140, 23);
+            this.txtFechaActual.TabIndex = 131;
+            // 
+            // txtCosto
+            // 
+            this.txtCosto.Location = new System.Drawing.Point(152, 299);
+            this.txtCosto.Name = "txtCosto";
+            this.txtCosto.Size = new System.Drawing.Size(140, 23);
+            this.txtCosto.TabIndex = 130;
+            // 
+            // txtAerolinea
+            // 
+            this.txtAerolinea.Location = new System.Drawing.Point(152, 235);
+            this.txtAerolinea.Name = "txtAerolinea";
+            this.txtAerolinea.Size = new System.Drawing.Size(140, 23);
+            this.txtAerolinea.TabIndex = 129;
+            // 
+            // txtNombre
+            // 
+            this.txtNombre.Location = new System.Drawing.Point(152, 173);
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(140, 23);
+            this.txtNombre.TabIndex = 128;
+            // 
+            // lblAerolinea
+            // 
+            this.lblAerolinea.AutoSize = true;
+            this.lblAerolinea.Location = new System.Drawing.Point(353, 245);
+            this.lblAerolinea.Name = "lblAerolinea";
+            this.lblAerolinea.Size = new System.Drawing.Size(57, 15);
+            this.lblAerolinea.TabIndex = 127;
+            this.lblAerolinea.Text = "Aerolinea";
+            this.lblAerolinea.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblHora
+            // 
+            this.lblHora.AutoSize = true;
+            this.lblHora.Location = new System.Drawing.Point(62, 307);
+            this.lblHora.Name = "lblHora";
+            this.lblHora.Size = new System.Drawing.Size(33, 15);
+            this.lblHora.TabIndex = 126;
+            this.lblHora.Text = "Hora";
+            this.lblHora.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblCantidad
+            // 
+            this.lblCantidad.AutoSize = true;
+            this.lblCantidad.Location = new System.Drawing.Point(62, 243);
+            this.lblCantidad.Name = "lblCantidad";
+            this.lblCantidad.Size = new System.Drawing.Size(55, 15);
+            this.lblCantidad.TabIndex = 125;
+            this.lblCantidad.Text = "Cantidad";
+            this.lblCantidad.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblNombre
+            // 
+            this.lblNombre.AutoSize = true;
+            this.lblNombre.Location = new System.Drawing.Point(62, 181);
+            this.lblNombre.Name = "lblNombre";
+            this.lblNombre.Size = new System.Drawing.Size(51, 15);
+            this.lblNombre.TabIndex = 124;
+            this.lblNombre.Text = "Nombre";
+            this.lblNombre.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // frmRegistrarEquipaje
             // 
@@ -249,26 +255,26 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(856, 450);
+            this.Controls.Add(this.txtCiudadSalida);
+            this.Controls.Add(this.txtCiudadActual);
+            this.Controls.Add(this.txtTipoBoleto);
+            this.Controls.Add(this.txtNumeroBoleto);
+            this.Controls.Add(this.lblDestino);
+            this.Controls.Add(this.lblNumeroBoleto);
+            this.Controls.Add(this.lblTipoEquipaje);
+            this.Controls.Add(this.lblClaseBoleto);
+            this.Controls.Add(this.txtFechaActual);
+            this.Controls.Add(this.txtCosto);
+            this.Controls.Add(this.txtAerolinea);
+            this.Controls.Add(this.txtNombre);
+            this.Controls.Add(this.lblAerolinea);
+            this.Controls.Add(this.lblHora);
+            this.Controls.Add(this.lblCantidad);
+            this.Controls.Add(this.lblNombre);
             this.Controls.Add(this.btnSalir);
-            this.Controls.Add(this.btnLecturaBoleto);
+            this.Controls.Add(this.btnLecturaEquipaje);
             this.Controls.Add(this.btnRegistrar);
             this.Controls.Add(this.btnGuardarComo);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.lblLlenar);
             this.Name = "frmRegistrarEquipaje";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -279,27 +285,26 @@
         }
 
         #endregion
-
-        private TextBox textBox5;
-        private TextBox textBox6;
-        private TextBox textBox7;
-        private TextBox textBox8;
-        private Label label6;
-        private Label label7;
-        private Label label8;
-        private Label label9;
-        private TextBox textBox4;
-        private TextBox textBox3;
-        private TextBox textBox2;
-        private TextBox textBox1;
-        private Label label4;
-        private Label label3;
-        private Label label2;
-        private Label label1;
         private Label lblLlenar;
         private Button btnSalir;
-        private Button btnLecturaBoleto;
+        private Button btnLecturaEquipaje;
         private Button btnRegistrar;
         private Button btnGuardarComo;
+        private TextBox txtCiudadSalida;
+        private TextBox txtCiudadActual;
+        private TextBox txtTipoBoleto;
+        private TextBox txtNumeroBoleto;
+        private Label lblDestino;
+        private Label lblNumeroBoleto;
+        private Label lblTipoEquipaje;
+        private Label lblClaseBoleto;
+        private TextBox txtFechaActual;
+        private TextBox txtCosto;
+        private TextBox txtAerolinea;
+        private TextBox txtNombre;
+        private Label lblAerolinea;
+        private Label lblHora;
+        private Label lblCantidad;
+        private Label lblNombre;
     }
 }
