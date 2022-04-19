@@ -60,6 +60,8 @@
             this.btnSiguientRegistro = new System.Windows.Forms.Button();
             this.btnAbrirArchivo = new System.Windows.Forms.Button();
             this.lblSeleccionar = new System.Windows.Forms.Label();
+            this.txtId = new System.Windows.Forms.TextBox();
+            this.lblId = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMostrar)).BeginInit();
             this.SuspendLayout();
@@ -122,28 +124,28 @@
             // 
             // txtCiudadSalida
             // 
-            this.txtCiudadSalida.Location = new System.Drawing.Point(475, 308);
+            this.txtCiudadSalida.Location = new System.Drawing.Point(486, 350);
             this.txtCiudadSalida.Name = "txtCiudadSalida";
             this.txtCiudadSalida.Size = new System.Drawing.Size(140, 23);
             this.txtCiudadSalida.TabIndex = 56;
             // 
             // txtCiudadActual
             // 
-            this.txtCiudadActual.Location = new System.Drawing.Point(475, 249);
+            this.txtCiudadActual.Location = new System.Drawing.Point(486, 291);
             this.txtCiudadActual.Name = "txtCiudadActual";
             this.txtCiudadActual.Size = new System.Drawing.Size(140, 23);
             this.txtCiudadActual.TabIndex = 55;
             // 
             // txtTipoBoleto
             // 
-            this.txtTipoBoleto.Location = new System.Drawing.Point(475, 185);
+            this.txtTipoBoleto.Location = new System.Drawing.Point(486, 227);
             this.txtTipoBoleto.Name = "txtTipoBoleto";
             this.txtTipoBoleto.Size = new System.Drawing.Size(140, 23);
             this.txtTipoBoleto.TabIndex = 54;
             // 
             // txtNumeroBoleto
             // 
-            this.txtNumeroBoleto.Location = new System.Drawing.Point(475, 123);
+            this.txtNumeroBoleto.Location = new System.Drawing.Point(486, 165);
             this.txtNumeroBoleto.Name = "txtNumeroBoleto";
             this.txtNumeroBoleto.Size = new System.Drawing.Size(140, 23);
             this.txtNumeroBoleto.TabIndex = 53;
@@ -151,7 +153,7 @@
             // lblCiudadSalida
             // 
             this.lblCiudadSalida.AutoSize = true;
-            this.lblCiudadSalida.Location = new System.Drawing.Point(362, 316);
+            this.lblCiudadSalida.Location = new System.Drawing.Point(373, 358);
             this.lblCiudadSalida.Name = "lblCiudadSalida";
             this.lblCiudadSalida.Size = new System.Drawing.Size(95, 15);
             this.lblCiudadSalida.TabIndex = 52;
@@ -160,7 +162,7 @@
             // lblCiudadActual
             // 
             this.lblCiudadActual.AutoSize = true;
-            this.lblCiudadActual.Location = new System.Drawing.Point(362, 257);
+            this.lblCiudadActual.Location = new System.Drawing.Point(373, 299);
             this.lblCiudadActual.Name = "lblCiudadActual";
             this.lblCiudadActual.Size = new System.Drawing.Size(82, 15);
             this.lblCiudadActual.TabIndex = 51;
@@ -169,7 +171,7 @@
             // lblFechaActual
             // 
             this.lblFechaActual.AutoSize = true;
-            this.lblFechaActual.Location = new System.Drawing.Point(71, 316);
+            this.lblFechaActual.Location = new System.Drawing.Point(82, 358);
             this.lblFechaActual.Name = "lblFechaActual";
             this.lblFechaActual.Size = new System.Drawing.Size(75, 15);
             this.lblFechaActual.TabIndex = 50;
@@ -178,7 +180,7 @@
             // lblNumeroBoleto
             // 
             this.lblNumeroBoleto.AutoSize = true;
-            this.lblNumeroBoleto.Location = new System.Drawing.Point(362, 129);
+            this.lblNumeroBoleto.Location = new System.Drawing.Point(373, 171);
             this.lblNumeroBoleto.Name = "lblNumeroBoleto";
             this.lblNumeroBoleto.Size = new System.Drawing.Size(107, 15);
             this.lblNumeroBoleto.TabIndex = 49;
@@ -186,28 +188,28 @@
             // 
             // txtFechaActual
             // 
-            this.txtFechaActual.Location = new System.Drawing.Point(161, 308);
+            this.txtFechaActual.Location = new System.Drawing.Point(172, 350);
             this.txtFechaActual.Name = "txtFechaActual";
             this.txtFechaActual.Size = new System.Drawing.Size(140, 23);
             this.txtFechaActual.TabIndex = 48;
             // 
             // txtCosto
             // 
-            this.txtCosto.Location = new System.Drawing.Point(161, 249);
+            this.txtCosto.Location = new System.Drawing.Point(172, 291);
             this.txtCosto.Name = "txtCosto";
             this.txtCosto.Size = new System.Drawing.Size(140, 23);
             this.txtCosto.TabIndex = 47;
             // 
             // txtAerolinea
             // 
-            this.txtAerolinea.Location = new System.Drawing.Point(161, 185);
+            this.txtAerolinea.Location = new System.Drawing.Point(172, 227);
             this.txtAerolinea.Name = "txtAerolinea";
             this.txtAerolinea.Size = new System.Drawing.Size(140, 23);
             this.txtAerolinea.TabIndex = 46;
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(161, 123);
+            this.txtNombre.Location = new System.Drawing.Point(172, 165);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(140, 23);
             this.txtNombre.TabIndex = 45;
@@ -232,7 +234,7 @@
             // lblTipoBoleto
             // 
             this.lblTipoBoleto.AutoSize = true;
-            this.lblTipoBoleto.Location = new System.Drawing.Point(362, 193);
+            this.lblTipoBoleto.Location = new System.Drawing.Point(373, 235);
             this.lblTipoBoleto.Name = "lblTipoBoleto";
             this.lblTipoBoleto.Size = new System.Drawing.Size(83, 15);
             this.lblTipoBoleto.TabIndex = 42;
@@ -242,7 +244,7 @@
             // lblCosto
             // 
             this.lblCosto.AutoSize = true;
-            this.lblCosto.Location = new System.Drawing.Point(71, 257);
+            this.lblCosto.Location = new System.Drawing.Point(82, 299);
             this.lblCosto.Name = "lblCosto";
             this.lblCosto.Size = new System.Drawing.Size(38, 15);
             this.lblCosto.TabIndex = 41;
@@ -252,7 +254,7 @@
             // lblAerolinea
             // 
             this.lblAerolinea.AutoSize = true;
-            this.lblAerolinea.Location = new System.Drawing.Point(71, 193);
+            this.lblAerolinea.Location = new System.Drawing.Point(82, 235);
             this.lblAerolinea.Name = "lblAerolinea";
             this.lblAerolinea.Size = new System.Drawing.Size(57, 15);
             this.lblAerolinea.TabIndex = 40;
@@ -262,7 +264,7 @@
             // lblNombre
             // 
             this.lblNombre.AutoSize = true;
-            this.lblNombre.Location = new System.Drawing.Point(71, 131);
+            this.lblNombre.Location = new System.Drawing.Point(82, 173);
             this.lblNombre.Name = "lblNombre";
             this.lblNombre.Size = new System.Drawing.Size(51, 15);
             this.lblNombre.TabIndex = 39;
@@ -273,7 +275,7 @@
             // 
             this.dgvMostrar.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dgvMostrar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvMostrar.Location = new System.Drawing.Point(71, 395);
+            this.dgvMostrar.Location = new System.Drawing.Point(80, 403);
             this.dgvMostrar.Name = "dgvMostrar";
             this.dgvMostrar.RowTemplate.Height = 25;
             this.dgvMostrar.Size = new System.Drawing.Size(563, 150);
@@ -333,11 +335,27 @@
             this.lblSeleccionar.AutoSize = true;
             this.lblSeleccionar.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.lblSeleccionar.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblSeleccionar.Location = new System.Drawing.Point(214, 48);
+            this.lblSeleccionar.Location = new System.Drawing.Point(241, 44);
             this.lblSeleccionar.Name = "lblSeleccionar";
             this.lblSeleccionar.Size = new System.Drawing.Size(344, 22);
             this.lblSeleccionar.TabIndex = 33;
             this.lblSeleccionar.Text = "Seleccione una de las siguientes opciones";
+            // 
+            // txtId
+            // 
+            this.txtId.Location = new System.Drawing.Point(172, 107);
+            this.txtId.Name = "txtId";
+            this.txtId.Size = new System.Drawing.Size(140, 23);
+            this.txtId.TabIndex = 102;
+            // 
+            // lblId
+            // 
+            this.lblId.AutoSize = true;
+            this.lblId.Location = new System.Drawing.Point(115, 115);
+            this.lblId.Name = "lblId";
+            this.lblId.Size = new System.Drawing.Size(18, 15);
+            this.lblId.TabIndex = 101;
+            this.lblId.Text = "ID";
             // 
             // frmBoleto
             // 
@@ -347,6 +365,8 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(941, 582);
+            this.Controls.Add(this.txtId);
+            this.Controls.Add(this.lblId);
             this.Controls.Add(this.txtCiudadSalida);
             this.Controls.Add(this.txtCiudadActual);
             this.Controls.Add(this.txtTipoBoleto);
@@ -415,5 +435,7 @@
         private Button btnSiguientRegistro;
         private Button btnAbrirArchivo;
         private Label lblSeleccionar;
+        private TextBox txtId;
+        private Label lblId;
     }
 }

@@ -60,6 +60,8 @@
             this.lblTelefono = new System.Windows.Forms.Label();
             this.lblRTN = new System.Windows.Forms.Label();
             this.lblNombre = new System.Windows.Forms.Label();
+            this.txtId = new System.Windows.Forms.TextBox();
+            this.lblId = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMostrar)).BeginInit();
             this.SuspendLayout();
@@ -152,7 +154,7 @@
             this.lblSeleccionar.AutoSize = true;
             this.lblSeleccionar.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.lblSeleccionar.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblSeleccionar.Location = new System.Drawing.Point(188, 51);
+            this.lblSeleccionar.Location = new System.Drawing.Point(205, 40);
             this.lblSeleccionar.Name = "lblSeleccionar";
             this.lblSeleccionar.Size = new System.Drawing.Size(344, 22);
             this.lblSeleccionar.TabIndex = 33;
@@ -209,28 +211,28 @@
             // 
             // txtNacionalidad
             // 
-            this.txtNacionalidad.Location = new System.Drawing.Point(515, 321);
+            this.txtNacionalidad.Location = new System.Drawing.Point(465, 337);
             this.txtNacionalidad.Name = "txtNacionalidad";
             this.txtNacionalidad.Size = new System.Drawing.Size(140, 23);
             this.txtNacionalidad.TabIndex = 140;
             // 
             // txtTelefono
             // 
-            this.txtTelefono.Location = new System.Drawing.Point(515, 262);
+            this.txtTelefono.Location = new System.Drawing.Point(465, 278);
             this.txtTelefono.Name = "txtTelefono";
             this.txtTelefono.Size = new System.Drawing.Size(140, 23);
             this.txtTelefono.TabIndex = 139;
             // 
             // txtNumeroPasaporte
             // 
-            this.txtNumeroPasaporte.Location = new System.Drawing.Point(515, 198);
+            this.txtNumeroPasaporte.Location = new System.Drawing.Point(465, 214);
             this.txtNumeroPasaporte.Name = "txtNumeroPasaporte";
             this.txtNumeroPasaporte.Size = new System.Drawing.Size(140, 23);
             this.txtNumeroPasaporte.TabIndex = 138;
             // 
             // txtNumeroIdentidad
             // 
-            this.txtNumeroIdentidad.Location = new System.Drawing.Point(515, 136);
+            this.txtNumeroIdentidad.Location = new System.Drawing.Point(465, 152);
             this.txtNumeroIdentidad.Name = "txtNumeroIdentidad";
             this.txtNumeroIdentidad.Size = new System.Drawing.Size(140, 23);
             this.txtNumeroIdentidad.TabIndex = 137;
@@ -238,7 +240,7 @@
             // lblNacionalidad
             // 
             this.lblNacionalidad.AutoSize = true;
-            this.lblNacionalidad.Location = new System.Drawing.Point(389, 328);
+            this.lblNacionalidad.Location = new System.Drawing.Point(339, 344);
             this.lblNacionalidad.Name = "lblNacionalidad";
             this.lblNacionalidad.Size = new System.Drawing.Size(77, 15);
             this.lblNacionalidad.TabIndex = 136;
@@ -247,7 +249,7 @@
             // lblIdentidad
             // 
             this.lblIdentidad.AutoSize = true;
-            this.lblIdentidad.Location = new System.Drawing.Point(98, 264);
+            this.lblIdentidad.Location = new System.Drawing.Point(48, 280);
             this.lblIdentidad.Name = "lblIdentidad";
             this.lblIdentidad.Size = new System.Drawing.Size(45, 15);
             this.lblIdentidad.TabIndex = 135;
@@ -256,7 +258,7 @@
             // lblEdad
             // 
             this.lblEdad.AutoSize = true;
-            this.lblEdad.Location = new System.Drawing.Point(98, 328);
+            this.lblEdad.Location = new System.Drawing.Point(48, 344);
             this.lblEdad.Name = "lblEdad";
             this.lblEdad.Size = new System.Drawing.Size(33, 15);
             this.lblEdad.TabIndex = 134;
@@ -265,7 +267,7 @@
             // lblNumeroIdentidad
             // 
             this.lblNumeroIdentidad.AutoSize = true;
-            this.lblNumeroIdentidad.Location = new System.Drawing.Point(389, 141);
+            this.lblNumeroIdentidad.Location = new System.Drawing.Point(339, 157);
             this.lblNumeroIdentidad.Name = "lblNumeroIdentidad";
             this.lblNumeroIdentidad.Size = new System.Drawing.Size(120, 15);
             this.lblNumeroIdentidad.TabIndex = 133;
@@ -273,28 +275,28 @@
             // 
             // txtEdad
             // 
-            this.txtEdad.Location = new System.Drawing.Point(188, 320);
+            this.txtEdad.Location = new System.Drawing.Point(138, 336);
             this.txtEdad.Name = "txtEdad";
             this.txtEdad.Size = new System.Drawing.Size(140, 23);
             this.txtEdad.TabIndex = 132;
             // 
             // txtGenero
             // 
-            this.txtGenero.Location = new System.Drawing.Point(188, 261);
+            this.txtGenero.Location = new System.Drawing.Point(138, 277);
             this.txtGenero.Name = "txtGenero";
             this.txtGenero.Size = new System.Drawing.Size(140, 23);
             this.txtGenero.TabIndex = 131;
             // 
             // txtRTN
             // 
-            this.txtRTN.Location = new System.Drawing.Point(188, 197);
+            this.txtRTN.Location = new System.Drawing.Point(138, 213);
             this.txtRTN.Name = "txtRTN";
             this.txtRTN.Size = new System.Drawing.Size(140, 23);
             this.txtRTN.TabIndex = 130;
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(188, 135);
+            this.txtNombre.Location = new System.Drawing.Point(138, 151);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(140, 23);
             this.txtNombre.TabIndex = 129;
@@ -302,7 +304,7 @@
             // lblNumeroPasaporte
             // 
             this.lblNumeroPasaporte.AutoSize = true;
-            this.lblNumeroPasaporte.Location = new System.Drawing.Point(389, 207);
+            this.lblNumeroPasaporte.Location = new System.Drawing.Point(339, 223);
             this.lblNumeroPasaporte.Name = "lblNumeroPasaporte";
             this.lblNumeroPasaporte.Size = new System.Drawing.Size(122, 15);
             this.lblNumeroPasaporte.TabIndex = 128;
@@ -312,7 +314,7 @@
             // lblTelefono
             // 
             this.lblTelefono.AutoSize = true;
-            this.lblTelefono.Location = new System.Drawing.Point(389, 265);
+            this.lblTelefono.Location = new System.Drawing.Point(339, 281);
             this.lblTelefono.Name = "lblTelefono";
             this.lblTelefono.Size = new System.Drawing.Size(52, 15);
             this.lblTelefono.TabIndex = 127;
@@ -322,7 +324,7 @@
             // lblRTN
             // 
             this.lblRTN.AutoSize = true;
-            this.lblRTN.Location = new System.Drawing.Point(98, 205);
+            this.lblRTN.Location = new System.Drawing.Point(48, 221);
             this.lblRTN.Name = "lblRTN";
             this.lblRTN.Size = new System.Drawing.Size(28, 15);
             this.lblRTN.TabIndex = 126;
@@ -332,12 +334,28 @@
             // lblNombre
             // 
             this.lblNombre.AutoSize = true;
-            this.lblNombre.Location = new System.Drawing.Point(98, 143);
+            this.lblNombre.Location = new System.Drawing.Point(48, 159);
             this.lblNombre.Name = "lblNombre";
             this.lblNombre.Size = new System.Drawing.Size(51, 15);
             this.lblNombre.TabIndex = 125;
             this.lblNombre.Text = "Nombre";
             this.lblNombre.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // txtId
+            // 
+            this.txtId.Location = new System.Drawing.Point(138, 92);
+            this.txtId.Name = "txtId";
+            this.txtId.Size = new System.Drawing.Size(140, 23);
+            this.txtId.TabIndex = 142;
+            // 
+            // lblId
+            // 
+            this.lblId.AutoSize = true;
+            this.lblId.Location = new System.Drawing.Point(81, 100);
+            this.lblId.Name = "lblId";
+            this.lblId.Size = new System.Drawing.Size(18, 15);
+            this.lblId.TabIndex = 141;
+            this.lblId.Text = "ID";
             // 
             // frmPersona
             // 
@@ -347,6 +365,8 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(897, 574);
+            this.Controls.Add(this.txtId);
+            this.Controls.Add(this.lblId);
             this.Controls.Add(this.txtNacionalidad);
             this.Controls.Add(this.txtTelefono);
             this.Controls.Add(this.txtNumeroPasaporte);
@@ -415,5 +435,7 @@
         private Label lblTelefono;
         private Label lblRTN;
         private Label lblNombre;
+        private TextBox txtId;
+        private Label lblId;
     }
 }

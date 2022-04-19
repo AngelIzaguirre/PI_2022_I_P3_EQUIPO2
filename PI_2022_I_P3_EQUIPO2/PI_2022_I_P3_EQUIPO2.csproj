@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <None Remove="gui\frmMenu.Designer.cs~RFd1b4db3.TMP" />
+    <None Remove="gui\frmPersona.Designer.cs~RF468dbbb.TMP" />
     <None Remove="gui\qwzzt03b.xsq~" />
     <None Remove="Objetos\frje3dp1.pw4~" />
   </ItemGroup>

@@ -60,6 +60,8 @@
             this.lblHoraIngreso = new System.Windows.Forms.Label();
             this.lblFecha = new System.Windows.Forms.Label();
             this.lblNombre = new System.Windows.Forms.Label();
+            this.txtId = new System.Windows.Forms.TextBox();
+            this.lblId = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMostrar)).BeginInit();
             this.SuspendLayout();
@@ -152,7 +154,7 @@
             this.lblSeleccionar.AutoSize = true;
             this.lblSeleccionar.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.lblSeleccionar.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblSeleccionar.Location = new System.Drawing.Point(174, 49);
+            this.lblSeleccionar.Location = new System.Drawing.Point(194, 39);
             this.lblSeleccionar.Name = "lblSeleccionar";
             this.lblSeleccionar.Size = new System.Drawing.Size(344, 22);
             this.lblSeleccionar.TabIndex = 33;
@@ -209,28 +211,28 @@
             // 
             // txtCiudadSalida
             // 
-            this.txtCiudadSalida.Location = new System.Drawing.Point(487, 319);
+            this.txtCiudadSalida.Location = new System.Drawing.Point(452, 334);
             this.txtCiudadSalida.Name = "txtCiudadSalida";
             this.txtCiudadSalida.Size = new System.Drawing.Size(140, 23);
             this.txtCiudadSalida.TabIndex = 124;
             // 
             // txtCiudadActual
             // 
-            this.txtCiudadActual.Location = new System.Drawing.Point(487, 260);
+            this.txtCiudadActual.Location = new System.Drawing.Point(452, 275);
             this.txtCiudadActual.Name = "txtCiudadActual";
             this.txtCiudadActual.Size = new System.Drawing.Size(140, 23);
             this.txtCiudadActual.TabIndex = 123;
             // 
             // txtTipoBoleto
             // 
-            this.txtTipoBoleto.Location = new System.Drawing.Point(487, 196);
+            this.txtTipoBoleto.Location = new System.Drawing.Point(452, 211);
             this.txtTipoBoleto.Name = "txtTipoBoleto";
             this.txtTipoBoleto.Size = new System.Drawing.Size(140, 23);
             this.txtTipoBoleto.TabIndex = 122;
             // 
             // txtNumeroBoleto
             // 
-            this.txtNumeroBoleto.Location = new System.Drawing.Point(487, 134);
+            this.txtNumeroBoleto.Location = new System.Drawing.Point(452, 149);
             this.txtNumeroBoleto.Name = "txtNumeroBoleto";
             this.txtNumeroBoleto.Size = new System.Drawing.Size(140, 23);
             this.txtNumeroBoleto.TabIndex = 121;
@@ -238,7 +240,7 @@
             // lblHoraSalida
             // 
             this.lblHoraSalida.AutoSize = true;
-            this.lblHoraSalida.Location = new System.Drawing.Point(361, 326);
+            this.lblHoraSalida.Location = new System.Drawing.Point(326, 341);
             this.lblHoraSalida.Name = "lblHoraSalida";
             this.lblHoraSalida.Size = new System.Drawing.Size(83, 15);
             this.lblHoraSalida.TabIndex = 120;
@@ -247,7 +249,7 @@
             // lblMaterial
             // 
             this.lblMaterial.AutoSize = true;
-            this.lblMaterial.Location = new System.Drawing.Point(70, 262);
+            this.lblMaterial.Location = new System.Drawing.Point(35, 277);
             this.lblMaterial.Name = "lblMaterial";
             this.lblMaterial.Size = new System.Drawing.Size(50, 15);
             this.lblMaterial.TabIndex = 119;
@@ -256,7 +258,7 @@
             // lblEmpresa
             // 
             this.lblEmpresa.AutoSize = true;
-            this.lblEmpresa.Location = new System.Drawing.Point(70, 326);
+            this.lblEmpresa.Location = new System.Drawing.Point(35, 341);
             this.lblEmpresa.Name = "lblEmpresa";
             this.lblEmpresa.Size = new System.Drawing.Size(52, 15);
             this.lblEmpresa.TabIndex = 118;
@@ -265,7 +267,7 @@
             // lblNumeroSerie
             // 
             this.lblNumeroSerie.AutoSize = true;
-            this.lblNumeroSerie.Location = new System.Drawing.Point(361, 139);
+            this.lblNumeroSerie.Location = new System.Drawing.Point(326, 154);
             this.lblNumeroSerie.Name = "lblNumeroSerie";
             this.lblNumeroSerie.Size = new System.Drawing.Size(95, 15);
             this.lblNumeroSerie.TabIndex = 117;
@@ -273,28 +275,28 @@
             // 
             // txtFechaActual
             // 
-            this.txtFechaActual.Location = new System.Drawing.Point(160, 318);
+            this.txtFechaActual.Location = new System.Drawing.Point(125, 333);
             this.txtFechaActual.Name = "txtFechaActual";
             this.txtFechaActual.Size = new System.Drawing.Size(140, 23);
             this.txtFechaActual.TabIndex = 116;
             // 
             // txtCosto
             // 
-            this.txtCosto.Location = new System.Drawing.Point(160, 259);
+            this.txtCosto.Location = new System.Drawing.Point(125, 274);
             this.txtCosto.Name = "txtCosto";
             this.txtCosto.Size = new System.Drawing.Size(140, 23);
             this.txtCosto.TabIndex = 115;
             // 
             // txtAerolinea
             // 
-            this.txtAerolinea.Location = new System.Drawing.Point(160, 195);
+            this.txtAerolinea.Location = new System.Drawing.Point(125, 210);
             this.txtAerolinea.Name = "txtAerolinea";
             this.txtAerolinea.Size = new System.Drawing.Size(140, 23);
             this.txtAerolinea.TabIndex = 114;
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(160, 133);
+            this.txtNombre.Location = new System.Drawing.Point(125, 148);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(140, 23);
             this.txtNombre.TabIndex = 113;
@@ -302,7 +304,7 @@
             // lblProblema
             // 
             this.lblProblema.AutoSize = true;
-            this.lblProblema.Location = new System.Drawing.Point(361, 205);
+            this.lblProblema.Location = new System.Drawing.Point(326, 220);
             this.lblProblema.Name = "lblProblema";
             this.lblProblema.Size = new System.Drawing.Size(58, 15);
             this.lblProblema.TabIndex = 112;
@@ -312,7 +314,7 @@
             // lblHoraIngreso
             // 
             this.lblHoraIngreso.AutoSize = true;
-            this.lblHoraIngreso.Location = new System.Drawing.Point(361, 263);
+            this.lblHoraIngreso.Location = new System.Drawing.Point(326, 278);
             this.lblHoraIngreso.Name = "lblHoraIngreso";
             this.lblHoraIngreso.Size = new System.Drawing.Size(91, 15);
             this.lblHoraIngreso.TabIndex = 111;
@@ -322,7 +324,7 @@
             // lblFecha
             // 
             this.lblFecha.AutoSize = true;
-            this.lblFecha.Location = new System.Drawing.Point(70, 203);
+            this.lblFecha.Location = new System.Drawing.Point(35, 218);
             this.lblFecha.Name = "lblFecha";
             this.lblFecha.Size = new System.Drawing.Size(38, 15);
             this.lblFecha.TabIndex = 110;
@@ -332,12 +334,28 @@
             // lblNombre
             // 
             this.lblNombre.AutoSize = true;
-            this.lblNombre.Location = new System.Drawing.Point(70, 141);
+            this.lblNombre.Location = new System.Drawing.Point(35, 156);
             this.lblNombre.Name = "lblNombre";
             this.lblNombre.Size = new System.Drawing.Size(51, 15);
             this.lblNombre.TabIndex = 109;
             this.lblNombre.Text = "Nombre";
             this.lblNombre.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // txtId
+            // 
+            this.txtId.Location = new System.Drawing.Point(125, 96);
+            this.txtId.Name = "txtId";
+            this.txtId.Size = new System.Drawing.Size(140, 23);
+            this.txtId.TabIndex = 126;
+            // 
+            // lblId
+            // 
+            this.lblId.AutoSize = true;
+            this.lblId.Location = new System.Drawing.Point(68, 104);
+            this.lblId.Name = "lblId";
+            this.lblId.Size = new System.Drawing.Size(18, 15);
+            this.lblId.TabIndex = 125;
+            this.lblId.Text = "ID";
             // 
             // frmMantenimiento
             // 
@@ -347,6 +365,8 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(873, 577);
+            this.Controls.Add(this.txtId);
+            this.Controls.Add(this.lblId);
             this.Controls.Add(this.txtCiudadSalida);
             this.Controls.Add(this.txtCiudadActual);
             this.Controls.Add(this.txtTipoBoleto);
@@ -415,5 +435,7 @@
         private Label lblHoraIngreso;
         private Label lblFecha;
         private Label lblNombre;
+        private TextBox txtId;
+        private Label lblId;
     }
 }

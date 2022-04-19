@@ -50,6 +50,8 @@
             this.lblHora = new System.Windows.Forms.Label();
             this.lblCantidad = new System.Windows.Forms.Label();
             this.lblNombre = new System.Windows.Forms.Label();
+            this.txtId = new System.Windows.Forms.TextBox();
+            this.lblId = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblLlenar
@@ -57,7 +59,7 @@
             this.lblLlenar.AutoSize = true;
             this.lblLlenar.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.lblLlenar.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblLlenar.Location = new System.Drawing.Point(195, 69);
+            this.lblLlenar.Location = new System.Drawing.Point(277, 41);
             this.lblLlenar.Name = "lblLlenar";
             this.lblLlenar.Size = new System.Drawing.Size(231, 22);
             this.lblLlenar.TabIndex = 99;
@@ -247,6 +249,22 @@
             this.lblNombre.Text = "Nombre";
             this.lblNombre.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // txtId
+            // 
+            this.txtId.Location = new System.Drawing.Point(152, 114);
+            this.txtId.Name = "txtId";
+            this.txtId.Size = new System.Drawing.Size(140, 23);
+            this.txtId.TabIndex = 141;
+            // 
+            // lblId
+            // 
+            this.lblId.AutoSize = true;
+            this.lblId.Location = new System.Drawing.Point(95, 122);
+            this.lblId.Name = "lblId";
+            this.lblId.Size = new System.Drawing.Size(18, 15);
+            this.lblId.TabIndex = 140;
+            this.lblId.Text = "ID";
+            // 
             // frmRegistrarEquipaje
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -255,6 +273,8 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(856, 450);
+            this.Controls.Add(this.txtId);
+            this.Controls.Add(this.lblId);
             this.Controls.Add(this.txtCiudadSalida);
             this.Controls.Add(this.txtCiudadActual);
             this.Controls.Add(this.txtTipoBoleto);
@@ -306,5 +326,7 @@
         private Label lblHora;
         private Label lblCantidad;
         private Label lblNombre;
+        private TextBox txtId;
+        private Label lblId;
     }
 }
