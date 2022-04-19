@@ -8,8 +8,8 @@ namespace PI_2022_I_P3_EQUIPO2.Properties
 {
     internal class Empleado
     {
-        public string Nombre { get; set; }
         public int ID { get; set; }
+        public string Nombre { get; set; }
         public string Direccion { get; set; }
         public decimal Salario { get; set; }
         public string Genero { get; set; }
@@ -19,22 +19,23 @@ namespace PI_2022_I_P3_EQUIPO2.Properties
         public string Cargo { get; set; }
 
 
-        public Empleado() : this(string.Empty, 0, string.Empty, 0.00M, string.Empty, 0, 0, 0, 
+        public Empleado() : this(0,string.Empty, string.Empty, 0.00M, string.Empty, 0, 0, 0, 
             string.Empty)
         {
         }
 
-        public Empleado(string nombre, int iD, string direccion, decimal salario, string genero, int telefono, int numeroContrato, int edad, string cargo)
+        public Empleado(int pId, string pNombre, string pDireccion, decimal pSalario, string pGenero, int pTelefono, 
+            int pNumeroContrato, int pEdad, string pCargo)
         {
-            Nombre = nombre;
-            ID = iD;
-            Direccion = direccion;
-            Salario = salario;
-            Genero = genero;
-            Telefono = telefono;
-            NumeroContrato = numeroContrato;
-            Edad = edad;
-            Cargo = cargo;
+            ID = pId;
+            Nombre = pNombre;
+            Direccion = pDireccion;
+            Salario = pSalario;
+            Genero = pGenero;
+            Telefono = pTelefono;
+            NumeroContrato = pNumeroContrato;
+            Edad = pEdad;
+            Cargo = pCargo;
         }
     }
 }

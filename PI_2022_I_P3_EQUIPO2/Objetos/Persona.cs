@@ -8,8 +8,8 @@ namespace PI_2022_I_P3_EQUIPO2.Properties
 {
     internal class Persona
     {
-        public string Nombre { get; set; }
         public int ID { get; set; }
+        public string Nombre { get; set; }
         public int RTN { get; set; }
         public string Genero { get; set; }
         public int Edad { get; set; }
@@ -19,22 +19,23 @@ namespace PI_2022_I_P3_EQUIPO2.Properties
         public string Nacionalidad { get; set; }
 
 
-        public Persona() : this(string.Empty, 0,0, string.Empty, 0, string.Empty, string.Empty, 0,
+        public Persona() : this(0,string.Empty,0, string.Empty, 0, string.Empty, string.Empty, 0,
             string.Empty)
         {
         }
 
-        public Persona(string nombre, int iD, int rTN, string genero, int edad, string numeroIdentidad, string numeroPasaporte, int telefono, string nacionalidad)
+        public Persona(int pId,string pNombre, int pRTN, string pGenero, int pEdad, string pNumeroIdentidad, string pNumeroPasaporte,
+            int pTelefono, string pNacionalidad)
         {
-            Nombre = nombre;
-            ID = iD;
-            RTN = rTN;
-            Genero = genero;
-            Edad = edad;
-            NumeroIdentidad = numeroIdentidad;
-            NumeroPasaporte = numeroPasaporte;
-            Telefono = telefono;
-            Nacionalidad = nacionalidad;
+            ID = pId;
+            Nombre = pNombre;
+            RTN = pRTN;
+            Genero = pGenero;
+            Edad = pEdad;
+            NumeroIdentidad = pNumeroIdentidad;
+            NumeroPasaporte = pNumeroPasaporte;
+            Telefono = pTelefono;
+            Nacionalidad = pNacionalidad;
         }
     }
 }

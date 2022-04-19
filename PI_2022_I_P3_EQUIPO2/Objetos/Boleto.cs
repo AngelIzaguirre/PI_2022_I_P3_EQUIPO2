@@ -10,8 +10,9 @@ namespace PI_2022_I_P3_EQUIPO2.Properties
 {
     internal class Boleto
     {
-        public string Nombre { get; set; }
+
         public int ID { get; set; }
+        public string Nombre { get; set; }
         public string Aerolinea { get; set; }
         public decimal Costo { get; set; }
         public string FechaActual { get; set; }
@@ -21,22 +22,22 @@ namespace PI_2022_I_P3_EQUIPO2.Properties
         public string CiudadSalida { get; set; }
 
 
-        public Boleto() : this(string.Empty, 0, string.Empty, 0.00M, string.Empty,0, string.Empty, string.Empty,
+        public Boleto() : this(0,string.Empty, string.Empty, 0.00M, string.Empty,0, string.Empty, string.Empty,
             string.Empty)
         {
         }
 
-        public Boleto(string nombre, int iD, string aerolinea, decimal costo, string fechaActual, int numeroBoleto, string tipoBoleto, string ciudadActual, string ciudadSalida)
+        public Boleto( int pID, string pNombre, string pAerolinea, decimal pCosto, string pFechaActual, int pNumeroBoleto, string pTipoBoleto, string pCiudadActual, string pCiudadSalida)
         {
-            Nombre = nombre;
-            ID = iD;
-            Aerolinea = aerolinea;
-            Costo = costo;
-            FechaActual = fechaActual;
-            NumeroBoleto = numeroBoleto;
-            TipoBoleto = tipoBoleto;
-            CiudadActual = ciudadActual;
-            CiudadSalida = ciudadSalida;
+            ID = pID;
+            Nombre = pNombre;
+            Aerolinea = pAerolinea;
+            Costo = pCosto;
+            FechaActual = pFechaActual;
+            NumeroBoleto = pNumeroBoleto;
+            TipoBoleto = pTipoBoleto;
+            CiudadActual = pCiudadActual;
+            CiudadSalida = pCiudadSalida;
         }
     }
 }

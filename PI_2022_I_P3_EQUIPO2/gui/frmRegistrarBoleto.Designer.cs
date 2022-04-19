@@ -50,6 +50,8 @@
             this.lblCosto = new System.Windows.Forms.Label();
             this.lblAerolinea = new System.Windows.Forms.Label();
             this.lblNombre = new System.Windows.Forms.Label();
+            this.lblId = new System.Windows.Forms.Label();
+            this.txtId = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnSalir
@@ -249,6 +251,22 @@
             this.lblNombre.Text = "Nombre";
             this.lblNombre.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // lblId
+            // 
+            this.lblId.AutoSize = true;
+            this.lblId.Location = new System.Drawing.Point(60, 406);
+            this.lblId.Name = "lblId";
+            this.lblId.Size = new System.Drawing.Size(18, 15);
+            this.lblId.TabIndex = 99;
+            this.lblId.Text = "ID";
+            // 
+            // txtId
+            // 
+            this.txtId.Location = new System.Drawing.Point(150, 398);
+            this.txtId.Name = "txtId";
+            this.txtId.Size = new System.Drawing.Size(140, 23);
+            this.txtId.TabIndex = 100;
+            // 
             // frmRegistrarBoleto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -257,6 +275,8 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(850, 450);
+            this.Controls.Add(this.txtId);
+            this.Controls.Add(this.lblId);
             this.Controls.Add(this.txtCiudadSalida);
             this.Controls.Add(this.txtCiudadActual);
             this.Controls.Add(this.txtTipoBoleto);
@@ -308,5 +328,7 @@
         private Label lblCosto;
         private Label lblAerolinea;
         private Label lblNombre;
+        private Label lblId;
+        private TextBox txtId;
     }
 }

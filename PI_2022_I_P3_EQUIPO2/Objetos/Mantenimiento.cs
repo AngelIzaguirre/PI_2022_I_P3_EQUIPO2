@@ -9,8 +9,8 @@ namespace PI_2022_I_P3_EQUIPO2.Properties
 {
     internal class Mantenimiento
     {
-        public string Nombre { get; set; }
         public int ID { get; set; }
+        public string Nombre { get; set; }
         public string Material { get; set; }
         public decimal Costo { get; set; }
         public string Empresa { get; set; }
@@ -20,22 +20,23 @@ namespace PI_2022_I_P3_EQUIPO2.Properties
         public string HoraSalida { get; set; }
 
 
-        public Mantenimiento() : this(string.Empty, 0, string.Empty, 0.00M, string.Empty, 0, string.Empty, string.Empty,
+        public Mantenimiento() : this(0, string.Empty, string.Empty, 0.00M, string.Empty, 0, string.Empty, string.Empty,
             string.Empty)
         {
         }
 
-        public Mantenimiento(string nombre, int iD, string material, decimal costo, string empresa, int numeroSerie, string problema, string horaIngreso, string horaSalida)
+        public Mantenimiento(int pId,string pNombre, string pMaterial, decimal pCosto, string pEmpresa, int pNumeroSerie,
+            string pProblema, string pHoraIngreso, string pHoraSalida)
         {
-            Nombre = nombre;
-            ID = iD;
-            Material = material;
-            Costo = costo;
-            Empresa = empresa;
-            NumeroSerie = numeroSerie;
-            Problema = problema;
-            HoraIngreso = horaIngreso;
-            HoraSalida = horaSalida;
+            ID = pId;
+            Nombre = pNombre;
+            Material = pMaterial;
+            Costo = pCosto;
+            Empresa = pEmpresa;
+            NumeroSerie = pNumeroSerie;
+            Problema = pProblema;
+            HoraIngreso = pHoraIngreso;
+            HoraSalida = pHoraSalida;
         }
     }
 }

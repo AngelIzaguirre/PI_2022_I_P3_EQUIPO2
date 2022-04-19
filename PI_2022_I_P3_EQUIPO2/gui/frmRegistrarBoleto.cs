@@ -13,14 +13,14 @@ namespace PI_2022_I_P3_EQUIPO2.gui
 {
     public partial class frmRegistrarBoleto : Form
     {
-        protected int ContadorTextBox { get; set; } = 7;
+        protected int ContadorTextBox { get; set; } = 9;
         List<Boleto> registroGrid = new List<Boleto>();
         StreamWriter archivoWriter;
         StreamReader archivoReader;
         enum IndicesTextBox
         {
-            Nombre,
             Id,
+            Nombre,
             Aerolinea,
             Costo,
             FechaActual,
@@ -35,10 +35,41 @@ namespace PI_2022_I_P3_EQUIPO2.gui
             InitializeComponent();
         }
 
-        
+        public void LimpiarTextBox()
+        {
+            foreach (Control ControlGUI in Controls)
+            {
+                (ControlGUI as TextBox)?.Clear();
+            }
+        }
+        public string[] ObtenerValoresTextBox()
+        {
+            return new string[]
+            {
+                txtId.Text,
+                txtNombre.Text,
+                txtAerolinea.Text,
+                txtCosto.Text,
+                txtFechaActual.Text,
+                txtNumeroBoleto.Text,
+                txtTipoBoleto.Text,
+                txtCiudadActual.Text,
+                txtCiudadSalida.Text
+            
+            };
+        }
         private void btnSalir_Click(object sender, EventArgs e)
         {
-           this.Close();
+            try
+            {
+                archivoWriter?.Close();
+            }
+            catch (IOException)
+            {
+                MessageBox.Show("No se puede cerrar el archivo", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+            }
+            Application.Exit();
         }
         private void btnLecturaBoleto_Click(object sender, EventArgs e)
         {
@@ -80,13 +111,7 @@ namespace PI_2022_I_P3_EQUIPO2.gui
                 }
             }
         }
-        public void LimpiarTextBox()
-        {
-            foreach (Control ControlGUI in Controls)
-            {
-                (ControlGUI as TextBox)?.Clear();
-            }
-        }
+        
         private void btnRegistrar_Click(object sender, EventArgs e)
         {
             string[] valores = ObtenerValoresTextBox();
@@ -94,22 +119,22 @@ namespace PI_2022_I_P3_EQUIPO2.gui
             {
                 try
                 {
-                    int NumeroId = int.Parse(valores[(int)IndicesTextBox.Id]);
-                    if (NumeroId > 0)
+                    int numero = int.Parse(valores[(int)IndicesTextBox.Id]);
+                    if (numero > 0)
                     {
                         var cuenta = new Boleto(
-                            NumeroId,
-                            valores[(int)IndicesTextBox.Cliente],
-                            valores[(int)IndicesTextBox.RTN],
-                            valores[(int)IndicesTextBox.Comida],
-                            valores[(int)IndicesTextBox.Refrescos],
-                            valores[(int)IndicesTextBox.Postre],
-                            valores[(int)IndicesTextBox.Fundacion]
+                            numero,
+                            valores[(int)IndicesTextBox.Nombre],      
+                            valores[(int)IndicesTextBox.Aerolinea],
+                            decimal.Parse(valores[(int)IndicesTextBox.Costo]),
+                            valores[(int)IndicesTextBox.FechaActual],
+                            int.Parse(valores[(int)IndicesTextBox.NumeroBoleto]),
+                            valores[(int)IndicesTextBox.TipoBoleto],
+                            valores[(int)IndicesTextBox.CiudadActual],
+                            valores[(int)IndicesTextBox.CiudadSalida]
                             );
-                        archivoWriter.WriteLine(
-                            $"{cuenta.ID}, {cuenta.NombreCliente},{cuenta.RTN},{cuenta.Comida},{cuenta.Fresco}," +
-                            $"{cuenta.Postre},{cuenta.Fundacion}"
-                            );
+                        archivoWriter.WriteLine($"{cuenta.ID},{cuenta.Nombre},{cuenta.Aerolinea},{cuenta.Costo},{cuenta.FechaActual}," +
+                            $"{cuenta.NumeroBoleto},{cuenta.TipoBoleto},{cuenta.CiudadActual},{cuenta.CiudadSalida}");
                     }
                     else
                     {

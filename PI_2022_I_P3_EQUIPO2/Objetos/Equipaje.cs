@@ -8,8 +8,8 @@ namespace PI_2022_I_P3_EQUIPO2.Properties
 {
     internal class Equipaje
     {
-        public string Nombre { get; set; }
         public int ID { get; set; }
+        public string Nombre { get; set; }
         public int Cantidad { get; set; }
         public string Hora { get; set; }
         public decimal Peso { get; set; }
@@ -19,22 +19,23 @@ namespace PI_2022_I_P3_EQUIPO2.Properties
         public string Destino { get; set; }
 
 
-        public Equipaje() : this(string.Empty, 0,0, string.Empty, 0.00M, string.Empty, string.Empty,0, 
+        public Equipaje() : this(0,string.Empty,0, string.Empty, 0.00M, string.Empty, string.Empty,0, 
             string.Empty)
         {
         }
 
-        public Equipaje(string nombre, int iD, int cantidad, string hora, decimal peso, string claseBoleto, string aerolinea, int numeroBoleto, string destino)
+        public Equipaje(int pId,string pNombre, int pCantidad, string pHora, decimal pPeso, string pClaseBoleto, string pAerolinea,
+            int pNumeroBoleto, string pDestino)
         {
-            Nombre = nombre;
-            ID = iD;
-            Cantidad = cantidad;
-            Hora = hora;
-            Peso = peso;
-            ClaseBoleto = claseBoleto;
-            Aerolinea = aerolinea;
-            NumeroBoleto = numeroBoleto;
-            Destino = destino;
+            ID = pId;
+            Nombre = pNombre;
+            Cantidad = pCantidad;
+            Hora = pHora;
+            Peso = pPeso;
+            ClaseBoleto = pClaseBoleto;
+            Aerolinea = pAerolinea;
+            NumeroBoleto = pNumeroBoleto;
+            Destino = pDestino;
         }
     }
 }
