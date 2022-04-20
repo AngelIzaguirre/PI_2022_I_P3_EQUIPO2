@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PI_2022_I_P3_EQUIPO2.Properties;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,6 +15,7 @@ namespace PI_2022_I_P3_EQUIPO2.gui
     {
         private int ContadorTextBox { get; set; } = 9;
         private StreamReader archivoReader;
+        List<Mantenimiento> registroGrid = new List<Mantenimiento>();
         enum IndicesTextBox
         {
             Id,
@@ -130,9 +132,22 @@ namespace PI_2022_I_P3_EQUIPO2.gui
                 txtProblema.Text = valores[(int)IndicesTextBox.Problema];
                 txtHoraIngreso.Text = valores[(int)IndicesTextBox.HoraIngreso];
                 txtHoraSalida.Text = valores[(int)IndicesTextBox.HoraSalida];
-
+                registroGrid.Add(new Mantenimiento(
+                    Convert.ToInt32(txtId.Text),
+                    txtNombre.Text,
+                txtMaterial.Text,
+                decimal.Parse(txtCosto.Text),
+                txtEmpresa.Text,
+                int.Parse(txtNumeroSerie.Text),
+                txtProblema.Text,
+                txtHoraIngreso.Text,
+                txtHoraSalida.Text));
             }
         }
 
+        private void btnMostrar_Click(object sender, EventArgs e)
+        {
+            dgvMostrar.DataSource = registroGrid;
+        }
     }
 }

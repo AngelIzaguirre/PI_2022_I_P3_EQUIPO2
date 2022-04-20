@@ -292,6 +292,7 @@
             this.btnMostrar.TabIndex = 37;
             this.btnMostrar.Text = "Mostrar";
             this.btnMostrar.UseVisualStyleBackColor = true;
+            this.btnMostrar.Click += new System.EventHandler(this.btnMostrar_Click);
             // 
             // btnSeleccionar
             // 
@@ -304,6 +305,7 @@
             this.btnSeleccionar.TabIndex = 36;
             this.btnSeleccionar.Text = "Seleccionar";
             this.btnSeleccionar.UseVisualStyleBackColor = true;
+            this.btnSeleccionar.Click += new System.EventHandler(this.btnSeleccionar_Click);
             // 
             // btnSiguientRegistro
             // 
@@ -395,6 +397,7 @@
             this.Controls.Add(this.btnAbrirArchivo);
             this.Controls.Add(this.lblSeleccionar);
             this.Controls.Add(this.menuStrip1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmBoleto";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Boleto";

@@ -1,4 +1,6 @@
-﻿using System;
+﻿using PI_2022_I_P3_EQUIPO2.Objetos;
+using PI_2022_I_P3_EQUIPO2.Properties;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,6 +16,8 @@ namespace PI_2022_I_P3_EQUIPO2.gui
     {
         private int ContadorTextBox { get; set; }=9;
         private StreamReader archivoReader;
+        List<Boleto> registroGrid = new List<Boleto>();
+        List<ComboBoxItem> registrosCombo = new List<ComboBoxItem>();
         enum IndicesTextBox
         {
             Id,
@@ -131,8 +135,39 @@ namespace PI_2022_I_P3_EQUIPO2.gui
                 txtTipoBoleto.Text = valores[(int)IndicesTextBox.TipoBoleto];
                 txtCiudadActual.Text = valores[(int)IndicesTextBox.CiudadActual];
                 txtCiudadSalida.Text = valores[(int)IndicesTextBox.CiudadSalida];
-                
+                registroGrid.Add(new Boleto(
+                    Convert.ToInt32(txtId.Text),
+                txtNombre.Text,
+                txtAerolinea.Text,
+                decimal.Parse(txtCosto.Text),
+                txtFechaActual.Text,
+                int.Parse(txtNumeroBoleto.Text),
+                txtTipoBoleto.Text,
+                txtCiudadActual.Text,
+                txtCiudadSalida.Text));
+                registrosCombo.Add(new ComboBoxItem(
+                   txtId.Text, 
+                   txtNombre.Text
+                ));
             }
+        }
+
+        private void btnMostrar_Click(object sender, EventArgs e)
+        {
+            dgvMostrar.DataSource = registroGrid;
+            cbxBoleto.DisplayMember = "Text";
+            cbxBoleto.ValueMember = "Value";
+            cbxBoleto.DataSource = registrosCombo;
+        }
+
+        private void btnSeleccionar_Click(object sender, EventArgs e)
+        {
+            int filaSeleccionada = dgvMostrar.CurrentCell.RowIndex;
+            MessageBox.Show($"Grid {dgvMostrar.Rows[filaSeleccionada].Cells[0].Value}");
+
+            ComboBoxItem itemSeleccionado = (ComboBoxItem)cbxBoleto.SelectedItem;
+            int valorSeleccionado=Convert.ToInt32(itemSeleccionado.Value);
+            MessageBox.Show($"ComboBox {itemSeleccionado} y {valorSeleccionado}");
         }
     }
 }

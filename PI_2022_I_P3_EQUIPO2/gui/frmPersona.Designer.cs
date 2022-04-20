@@ -171,6 +171,7 @@
             this.btnMostrar.TabIndex = 60;
             this.btnMostrar.Text = "Mostrar";
             this.btnMostrar.UseVisualStyleBackColor = true;
+            this.btnMostrar.Click += new System.EventHandler(this.btnMostrar_Click);
             // 
             // btnSeleccionar
             // 
@@ -394,6 +395,7 @@
             this.Controls.Add(this.dgvMostrar);
             this.Controls.Add(this.lblSeleccionar);
             this.Controls.Add(this.menuStrip1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmPersona";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Persona";

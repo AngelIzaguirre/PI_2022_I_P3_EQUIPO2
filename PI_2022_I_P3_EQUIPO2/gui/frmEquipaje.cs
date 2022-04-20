@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PI_2022_I_P3_EQUIPO2.Properties;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,6 +15,7 @@ namespace PI_2022_I_P3_EQUIPO2.gui
     {
         private int ContadorTextBox { get; set; } = 9;
         private StreamReader archivoReader;
+        List<Equipaje> registroGrid = new List<Equipaje>();
         enum IndicesTextBox
         {
             Id,
@@ -131,10 +133,23 @@ namespace PI_2022_I_P3_EQUIPO2.gui
                 txtAerolinea.Text = valores[(int)IndicesTextBox.Aerolinea];
                 txtNumeroBoleto.Text = valores[(int)IndicesTextBox.NumeroBoleto];
                 txtDestino.Text = valores[(int)IndicesTextBox.Destino];
-
+                registroGrid.Add(new Equipaje(
+                    Convert.ToInt32(txtId.Text),
+                    txtNombre.Text,
+                int.Parse(txtCantidad.Text),
+                txtHora.Text,
+                decimal.Parse(txtPeso.Text),
+                txtClaseBoleto.Text,
+                txtAerolinea.Text,
+                int.Parse(txtNumeroBoleto.Text),
+                txtDestino.Text));
             }
 
         }
 
+        private void btnMostrar_Click(object sender, EventArgs e)
+        {
+            dgvMostrar.DataSource = registroGrid;
+        }
     }
 }

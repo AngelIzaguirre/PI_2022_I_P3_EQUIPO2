@@ -94,6 +94,7 @@
             // 
             // btnRegistrar
             // 
+            this.btnRegistrar.Enabled = false;
             this.btnRegistrar.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnRegistrar.Image = ((System.Drawing.Image)(resources.GetObject("btnRegistrar.Image")));
             this.btnRegistrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -298,6 +299,7 @@
             this.Controls.Add(this.btnRegistrar);
             this.Controls.Add(this.btnGuardarComo);
             this.Controls.Add(this.lblLlenar);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmRegistrarEquipaje";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "RegistroEquipaje";

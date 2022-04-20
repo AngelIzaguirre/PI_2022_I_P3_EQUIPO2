@@ -1,4 +1,5 @@
-﻿using PI_2022_I_P3_EQUIPO2.Properties;
+﻿using PI_2022_I_P3_EQUIPO2.Objetos;
+using PI_2022_I_P3_EQUIPO2.Properties;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;

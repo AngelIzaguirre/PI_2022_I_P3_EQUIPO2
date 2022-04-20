@@ -198,6 +198,7 @@
             this.Controls.Add(this.btnMantenimiento);
             this.Controls.Add(this.btnBoleto);
             this.Controls.Add(this.btnPersona);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu";
