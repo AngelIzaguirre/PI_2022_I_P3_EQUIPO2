@@ -67,7 +67,16 @@ namespace PI_2022_I_P3_EQUIPO2.gui
 
         private void btnSalir_Click(object sender, EventArgs e)
         {
-            this.Close();
+            try
+            {
+                archivoWriter?.Close();
+            }
+            catch (IOException)
+            {
+                MessageBox.Show("No se puede cerrar el archivo", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+            }
+            Application.Exit();
         }
 
         private void btnGuardarComo_Click(object sender, EventArgs e)
