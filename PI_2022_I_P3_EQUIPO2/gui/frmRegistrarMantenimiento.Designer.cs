@@ -126,6 +126,7 @@
             this.txtHoraSalida.Size = new System.Drawing.Size(140, 23);
             this.txtHoraSalida.TabIndex = 140;
             this.txtHoraSalida.TextChanged += new System.EventHandler(this.txtHoraSalida_TextChanged);
+            this.txtHoraSalida.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtHoraSalida_KeyPress);
             // 
             // txtHoraIngreso
             // 
@@ -134,6 +135,7 @@
             this.txtHoraIngreso.Size = new System.Drawing.Size(140, 23);
             this.txtHoraIngreso.TabIndex = 139;
             this.txtHoraIngreso.TextChanged += new System.EventHandler(this.txtHoraIngreso_TextChanged);
+            this.txtHoraIngreso.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtHoraIngreso_KeyPress);
             // 
             // txtProblema
             // 
@@ -142,6 +144,7 @@
             this.txtProblema.Size = new System.Drawing.Size(140, 23);
             this.txtProblema.TabIndex = 138;
             this.txtProblema.TextChanged += new System.EventHandler(this.txtProblema_TextChanged);
+            this.txtProblema.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtProblema_KeyPress);
             // 
             // txtNumeroSerie
             // 
@@ -150,6 +153,7 @@
             this.txtNumeroSerie.Size = new System.Drawing.Size(140, 23);
             this.txtNumeroSerie.TabIndex = 137;
             this.txtNumeroSerie.TextChanged += new System.EventHandler(this.txtNumeroSerie_TextChanged);
+            this.txtNumeroSerie.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNumeroSerie_KeyPress);
             // 
             // lblHoraSalida
             // 
@@ -194,6 +198,7 @@
             this.txtEmpresa.Size = new System.Drawing.Size(140, 23);
             this.txtEmpresa.TabIndex = 132;
             this.txtEmpresa.TextChanged += new System.EventHandler(this.txtEmpresa_TextChanged);
+            this.txtEmpresa.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtEmpresa_KeyPress);
             // 
             // txtCosto
             // 
@@ -202,6 +207,7 @@
             this.txtCosto.Size = new System.Drawing.Size(140, 23);
             this.txtCosto.TabIndex = 131;
             this.txtCosto.TextChanged += new System.EventHandler(this.txtCosto_TextChanged);
+            this.txtCosto.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCosto_KeyPress);
             // 
             // txtMaterial
             // 
@@ -210,6 +216,7 @@
             this.txtMaterial.Size = new System.Drawing.Size(140, 23);
             this.txtMaterial.TabIndex = 130;
             this.txtMaterial.TextChanged += new System.EventHandler(this.txtMaterial_TextChanged);
+            this.txtMaterial.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtMaterial_KeyPress);
             // 
             // txtNombre
             // 
@@ -218,6 +225,7 @@
             this.txtNombre.Size = new System.Drawing.Size(140, 23);
             this.txtNombre.TabIndex = 129;
             this.txtNombre.TextChanged += new System.EventHandler(this.txtNombre_TextChanged);
+            this.txtNombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNombre_KeyPress);
             // 
             // lblProblema
             // 
@@ -266,6 +274,7 @@
             this.txtId.Size = new System.Drawing.Size(140, 23);
             this.txtId.TabIndex = 142;
             this.txtId.TextChanged += new System.EventHandler(this.txtId_TextChanged);
+            this.txtId.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtId_KeyPress);
             // 
             // lblId
             // 

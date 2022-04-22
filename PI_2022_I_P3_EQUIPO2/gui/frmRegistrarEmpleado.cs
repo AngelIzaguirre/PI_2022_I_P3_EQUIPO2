@@ -206,5 +206,85 @@ namespace PI_2022_I_P3_EQUIPO2.gui
         {
             ValidarVacio();
         }
+
+        private void txtNombre_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (Char.IsNumber(e.KeyChar))
+            {
+                MessageBox.Show("Solo letras");
+                e.Handled = true;
+                return;
+            }
+        }
+
+        private void txtGenero_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (Char.IsNumber(e.KeyChar))
+            {
+                MessageBox.Show("Solo letras");
+                e.Handled = true;
+                return;
+            }
+        }
+
+        private void txtCargo_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (Char.IsNumber(e.KeyChar))
+            {
+                MessageBox.Show("Solo letras");
+                e.Handled = true;
+                return;
+            }
+        }
+
+        private void txtId_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (Char.IsLetter(e.KeyChar))
+            {
+                MessageBox.Show("Solo Numeros");
+                e.Handled = true;
+                return;
+            }
+        }
+
+        private void txtSalario_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (Char.IsLetter(e.KeyChar))
+            {
+                MessageBox.Show("Solo Numeros");
+                e.Handled = true;
+                return;
+            }
+        }
+
+        private void txtTelefono_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (Char.IsLetter(e.KeyChar))
+            {
+                MessageBox.Show("Solo Numeros");
+                e.Handled = true;
+                return;
+            }
+        }
+
+        private void txtNumeroContrato_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (Char.IsLetter(e.KeyChar))
+            {
+                MessageBox.Show("Solo Numeros");
+                e.Handled = true;
+                return;
+            }
+        }
+
+        private void txtEdad_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (Char.IsLetter(e.KeyChar))
+            {
+                MessageBox.Show("Solo Numeros");
+                e.Handled = true;
+                return;
+            }
+        }
     }
 }

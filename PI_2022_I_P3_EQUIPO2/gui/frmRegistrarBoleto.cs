@@ -158,6 +158,8 @@ namespace PI_2022_I_P3_EQUIPO2.gui
             }
             LimpiarTextBox();
         }
+
+        
         private void ValidarVacio()
         {
             var var = !string.IsNullOrEmpty(txtId.Text) && !string.IsNullOrEmpty(txtNombre.Text) && !string.IsNullOrEmpty(txtAerolinea.Text) &&
@@ -174,6 +176,7 @@ namespace PI_2022_I_P3_EQUIPO2.gui
         private void txtNombre_TextChanged(object sender, EventArgs e)
         {
             ValidarVacio();
+
         }
 
         private void txtAerolinea_TextChanged(object sender, EventArgs e)
@@ -209,6 +212,76 @@ namespace PI_2022_I_P3_EQUIPO2.gui
         private void txtCiudadSalida_TextChanged(object sender, EventArgs e)
         {
             ValidarVacio();
+        }
+
+        private void txtNombre_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (Char.IsNumber(e.KeyChar))
+            {
+                MessageBox.Show("Solo letras");
+                e.Handled = true;
+                return;
+            }
+        }
+
+        private void txtAerolinea_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (Char.IsNumber(e.KeyChar))
+            {
+                MessageBox.Show("Solo letras");
+                e.Handled = true;
+                return;
+            }
+        }
+
+        private void txtTipoBoleto_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (Char.IsNumber(e.KeyChar))
+            {
+                MessageBox.Show("Solo letras");
+                e.Handled = true;
+                return;
+            }
+        }
+
+        private void txtId_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (Char.IsLetter(e.KeyChar))
+            {
+                MessageBox.Show("Solo Numeros");
+                e.Handled = true;
+                return;
+            }
+        }
+
+        private void txtCosto_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (Char.IsLetter(e.KeyChar))
+            {
+                MessageBox.Show("Solo Numeros");
+                e.Handled = true;
+                return;
+            }
+        }
+
+        private void txtFechaActual_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (Char.IsLetter(e.KeyChar))
+            {
+                MessageBox.Show("Solo Numeros");
+                e.Handled = true;
+                return;
+            }
+        }
+
+        private void txtNumeroBoleto_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (Char.IsLetter(e.KeyChar))
+            {
+                MessageBox.Show("Solo Numeros");
+                e.Handled = true;
+                return;
+            }
         }
     }
 }

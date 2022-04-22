@@ -135,6 +135,7 @@
             this.txtNumeroBoleto.Size = new System.Drawing.Size(140, 23);
             this.txtNumeroBoleto.TabIndex = 138;
             this.txtNumeroBoleto.TextChanged += new System.EventHandler(this.txtNumeroBoleto_TextChanged);
+            this.txtNumeroBoleto.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNumeroBoleto_KeyPress);
             // 
             // txtAerolinea
             // 
@@ -143,6 +144,7 @@
             this.txtAerolinea.Size = new System.Drawing.Size(140, 23);
             this.txtAerolinea.TabIndex = 137;
             this.txtAerolinea.TextChanged += new System.EventHandler(this.txtAerolinea_TextChanged);
+            this.txtAerolinea.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtAerolinea_KeyPress);
             // 
             // txtClaseBoleto
             // 
@@ -151,6 +153,7 @@
             this.txtClaseBoleto.Size = new System.Drawing.Size(140, 23);
             this.txtClaseBoleto.TabIndex = 136;
             this.txtClaseBoleto.TextChanged += new System.EventHandler(this.txtClaseBoleto_TextChanged);
+            this.txtClaseBoleto.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtClaseBoleto_KeyPress);
             // 
             // lblDestino
             // 
@@ -195,6 +198,7 @@
             this.txtPeso.Size = new System.Drawing.Size(140, 23);
             this.txtPeso.TabIndex = 131;
             this.txtPeso.TextChanged += new System.EventHandler(this.txtPeso_TextChanged);
+            this.txtPeso.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPeso_KeyPress);
             // 
             // txtHora
             // 
@@ -203,6 +207,7 @@
             this.txtHora.Size = new System.Drawing.Size(140, 23);
             this.txtHora.TabIndex = 130;
             this.txtHora.TextChanged += new System.EventHandler(this.txtHora_TextChanged);
+            this.txtHora.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtHora_KeyPress);
             // 
             // txtCantidad
             // 
@@ -211,6 +216,7 @@
             this.txtCantidad.Size = new System.Drawing.Size(140, 23);
             this.txtCantidad.TabIndex = 129;
             this.txtCantidad.TextChanged += new System.EventHandler(this.txtCantidad_TextChanged);
+            this.txtCantidad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCantidad_KeyPress);
             // 
             // txtNombre
             // 
@@ -219,6 +225,7 @@
             this.txtNombre.Size = new System.Drawing.Size(140, 23);
             this.txtNombre.TabIndex = 128;
             this.txtNombre.TextChanged += new System.EventHandler(this.txtNombre_TextChanged);
+            this.txtNombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNombre_KeyPress);
             // 
             // lblAerolinea
             // 
@@ -267,6 +274,7 @@
             this.txtId.Size = new System.Drawing.Size(140, 23);
             this.txtId.TabIndex = 141;
             this.txtId.TextChanged += new System.EventHandler(this.txtId_TextChanged);
+            this.txtId.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtId_KeyPress);
             // 
             // lblId
             // 

@@ -127,6 +127,7 @@
             this.txtNacionalidad.Size = new System.Drawing.Size(140, 23);
             this.txtNacionalidad.TabIndex = 156;
             this.txtNacionalidad.TextChanged += new System.EventHandler(this.txtNacionalidad_TextChanged);
+            this.txtNacionalidad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNacionalidad_KeyPress);
             // 
             // txtTelefono
             // 
@@ -135,6 +136,7 @@
             this.txtTelefono.Size = new System.Drawing.Size(140, 23);
             this.txtTelefono.TabIndex = 155;
             this.txtTelefono.TextChanged += new System.EventHandler(this.txtTelefono_TextChanged);
+            this.txtTelefono.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTelefono_KeyPress);
             // 
             // txtNumeroPasaporte
             // 
@@ -143,6 +145,7 @@
             this.txtNumeroPasaporte.Size = new System.Drawing.Size(140, 23);
             this.txtNumeroPasaporte.TabIndex = 154;
             this.txtNumeroPasaporte.TextChanged += new System.EventHandler(this.txtNumeroPasaporte_TextChanged);
+            this.txtNumeroPasaporte.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNumeroPasaporte_KeyPress);
             // 
             // txtNumeroIdentidad
             // 
@@ -151,6 +154,7 @@
             this.txtNumeroIdentidad.Size = new System.Drawing.Size(140, 23);
             this.txtNumeroIdentidad.TabIndex = 153;
             this.txtNumeroIdentidad.TextChanged += new System.EventHandler(this.txtNumeroIdentidad_TextChanged);
+            this.txtNumeroIdentidad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNumeroIdentidad_KeyPress);
             // 
             // lblNacionalidad
             // 
@@ -195,6 +199,7 @@
             this.txtEdad.Size = new System.Drawing.Size(140, 23);
             this.txtEdad.TabIndex = 148;
             this.txtEdad.TextChanged += new System.EventHandler(this.txtEdad_TextChanged);
+            this.txtEdad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtEdad_KeyPress);
             // 
             // txtGenero
             // 
@@ -203,6 +208,7 @@
             this.txtGenero.Size = new System.Drawing.Size(140, 23);
             this.txtGenero.TabIndex = 147;
             this.txtGenero.TextChanged += new System.EventHandler(this.txtGenero_TextChanged);
+            this.txtGenero.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtGenero_KeyPress);
             // 
             // txtRTN
             // 
@@ -211,6 +217,7 @@
             this.txtRTN.Size = new System.Drawing.Size(140, 23);
             this.txtRTN.TabIndex = 146;
             this.txtRTN.TextChanged += new System.EventHandler(this.txtRTN_TextChanged);
+            this.txtRTN.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtRTN_KeyPress);
             // 
             // txtNombre
             // 
@@ -219,6 +226,7 @@
             this.txtNombre.Size = new System.Drawing.Size(140, 23);
             this.txtNombre.TabIndex = 145;
             this.txtNombre.TextChanged += new System.EventHandler(this.txtNombre_TextChanged);
+            this.txtNombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNombre_KeyPress);
             // 
             // lblNumeroPasaporte
             // 
@@ -267,6 +275,7 @@
             this.txtId.Size = new System.Drawing.Size(140, 23);
             this.txtId.TabIndex = 158;
             this.txtId.TextChanged += new System.EventHandler(this.txtId_TextChanged);
+            this.txtId.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtId_KeyPress);
             // 
             // lblId
             // 

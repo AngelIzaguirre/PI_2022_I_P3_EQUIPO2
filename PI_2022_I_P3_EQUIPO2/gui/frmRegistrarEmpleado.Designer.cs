@@ -126,6 +126,7 @@
             this.txtCargo.Size = new System.Drawing.Size(140, 23);
             this.txtCargo.TabIndex = 139;
             this.txtCargo.TextChanged += new System.EventHandler(this.txtCargo_TextChanged);
+            this.txtCargo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCargo_KeyPress);
             // 
             // txtEdad
             // 
@@ -134,6 +135,7 @@
             this.txtEdad.Size = new System.Drawing.Size(140, 23);
             this.txtEdad.TabIndex = 138;
             this.txtEdad.TextChanged += new System.EventHandler(this.txtEdad_TextChanged);
+            this.txtEdad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtEdad_KeyPress);
             // 
             // txtNumeroContrato
             // 
@@ -142,6 +144,7 @@
             this.txtNumeroContrato.Size = new System.Drawing.Size(140, 23);
             this.txtNumeroContrato.TabIndex = 137;
             this.txtNumeroContrato.TextChanged += new System.EventHandler(this.txtNumeroContrato_TextChanged);
+            this.txtNumeroContrato.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNumeroContrato_KeyPress);
             // 
             // txtTelefono
             // 
@@ -150,6 +153,7 @@
             this.txtTelefono.Size = new System.Drawing.Size(140, 23);
             this.txtTelefono.TabIndex = 136;
             this.txtTelefono.TextChanged += new System.EventHandler(this.txtTelefono_TextChanged);
+            this.txtTelefono.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTelefono_KeyPress);
             // 
             // lblCargo
             // 
@@ -194,6 +198,7 @@
             this.txtGenero.Size = new System.Drawing.Size(140, 23);
             this.txtGenero.TabIndex = 131;
             this.txtGenero.TextChanged += new System.EventHandler(this.txtGenero_TextChanged);
+            this.txtGenero.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtGenero_KeyPress);
             // 
             // txtSalario
             // 
@@ -202,6 +207,7 @@
             this.txtSalario.Size = new System.Drawing.Size(140, 23);
             this.txtSalario.TabIndex = 130;
             this.txtSalario.TextChanged += new System.EventHandler(this.txtSalario_TextChanged);
+            this.txtSalario.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSalario_KeyPress);
             // 
             // txtDireccion
             // 
@@ -218,6 +224,7 @@
             this.txtNombre.Size = new System.Drawing.Size(140, 23);
             this.txtNombre.TabIndex = 128;
             this.txtNombre.TextChanged += new System.EventHandler(this.txtNombre_TextChanged);
+            this.txtNombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNombre_KeyPress);
             // 
             // lblNumeroContrato
             // 
@@ -266,6 +273,7 @@
             this.txtId.Size = new System.Drawing.Size(140, 23);
             this.txtId.TabIndex = 141;
             this.txtId.TextChanged += new System.EventHandler(this.txtId_TextChanged);
+            this.txtId.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtId_KeyPress);
             // 
             // lblId
             // 

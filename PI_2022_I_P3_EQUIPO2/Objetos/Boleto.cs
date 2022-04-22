@@ -21,7 +21,6 @@ namespace PI_2022_I_P3_EQUIPO2.Properties
         public string CiudadActual { get; set; }
         public string CiudadSalida { get; set; }
 
-
         public Boleto() : this(0,string.Empty, string.Empty, 0.00M, string.Empty,0, string.Empty, string.Empty,
             string.Empty)
         {
@@ -39,6 +38,6 @@ namespace PI_2022_I_P3_EQUIPO2.Properties
             CiudadActual = pCiudadActual;
             CiudadSalida = pCiudadSalida;
         }
-
+        
     }
 }
