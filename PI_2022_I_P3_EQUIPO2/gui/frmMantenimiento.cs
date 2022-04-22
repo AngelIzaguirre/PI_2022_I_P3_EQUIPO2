@@ -1,4 +1,5 @@
-﻿using PI_2022_I_P3_EQUIPO2.Properties;
+﻿using PI_2022_I_P3_EQUIPO2.Objetos;
+using PI_2022_I_P3_EQUIPO2.Properties;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -16,6 +17,9 @@ namespace PI_2022_I_P3_EQUIPO2.gui
         private int ContadorTextBox { get; set; } = 9;
         private StreamReader archivoReader;
         List<Mantenimiento> registroGrid = new List<Mantenimiento>();
+        List<ComboBoxItem> registrosCombo = new List<ComboBoxItem>();
+        public string? ValorRetorno1 { get; set; }
+        public string? ValorRetorno2 { get; set; }
         enum IndicesTextBox
         {
             Id,
@@ -142,12 +146,37 @@ namespace PI_2022_I_P3_EQUIPO2.gui
                 txtProblema.Text,
                 txtHoraIngreso.Text,
                 txtHoraSalida.Text));
+                registrosCombo.Add(new ComboBoxItem(
+                txtId.Text,
+                txtNombre.Text
+              ));
             }
         }
 
         private void btnMostrar_Click(object sender, EventArgs e)
         {
             dgvMostrar.DataSource = registroGrid;
+            cbxMantenimiento.DisplayMember = "Text";
+            cbxMantenimiento.ValueMember = "Value";
+            cbxMantenimiento.DataSource = registrosCombo;
+        }
+
+        private void btnSeleccionar_Click(object sender, EventArgs e)
+        {
+            int filaSeleccionada = dgvMostrar.CurrentCell.RowIndex;
+            MessageBox.Show($"Grid {dgvMostrar.Rows[filaSeleccionada].Cells[0].Value}");
+
+            ComboBoxItem itemSeleccionado = (ComboBoxItem)cbxMantenimiento.SelectedItem;
+            int valorSeleccionado = Convert.ToInt32(itemSeleccionado.Value);
+            MessageBox.Show($"ComboBox {itemSeleccionado} y {valorSeleccionado}");
+            this.ValorRetorno1 = valorSeleccionado.ToString();
+            this.ValorRetorno2 = itemSeleccionado.ToString();
+            this.DialogResult = DialogResult.OK;
+            this.Close();
         }
     }
 }
+ 
+    
+
+    

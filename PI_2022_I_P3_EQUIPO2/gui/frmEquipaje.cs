@@ -1,4 +1,5 @@
-﻿using PI_2022_I_P3_EQUIPO2.Properties;
+﻿using PI_2022_I_P3_EQUIPO2.Objetos;
+using PI_2022_I_P3_EQUIPO2.Properties;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -16,6 +17,10 @@ namespace PI_2022_I_P3_EQUIPO2.gui
         private int ContadorTextBox { get; set; } = 9;
         private StreamReader archivoReader;
         List<Equipaje> registroGrid = new List<Equipaje>();
+        List<ComboBoxItem> registrosCombo = new List<ComboBoxItem>();
+        public string? ValorRetorno1 { get; set; }
+        public string? ValorRetorno2 { get; set; }
+
         enum IndicesTextBox
         {
             Id,
@@ -143,6 +148,10 @@ namespace PI_2022_I_P3_EQUIPO2.gui
                 txtAerolinea.Text,
                 int.Parse(txtNumeroBoleto.Text),
                 txtDestino.Text));
+                registrosCombo.Add(new ComboBoxItem(
+                  txtId.Text,
+                  txtNombre.Text
+                ));
             }
 
         }
@@ -150,6 +159,25 @@ namespace PI_2022_I_P3_EQUIPO2.gui
         private void btnMostrar_Click(object sender, EventArgs e)
         {
             dgvMostrar.DataSource = registroGrid;
+            cbxEquipaje.DisplayMember = "Text";
+            cbxEquipaje.ValueMember = "Value";
+            cbxEquipaje.DataSource = registrosCombo;
+        }
+
+        private void btnSeleccionar_Click(object sender, EventArgs e)
+        {
+            int filaSeleccionada = dgvMostrar.CurrentCell.RowIndex;
+            MessageBox.Show($"Grid {dgvMostrar.Rows[filaSeleccionada].Cells[0].Value}");
+
+            ComboBoxItem itemSeleccionado = (ComboBoxItem)cbxEquipaje.SelectedItem;
+            int valorSeleccionado = Convert.ToInt32(itemSeleccionado.Value);
+            MessageBox.Show($"ComboBox {itemSeleccionado} y {valorSeleccionado}");
+            this.ValorRetorno1 = valorSeleccionado.ToString();
+            this.ValorRetorno2 = itemSeleccionado.ToString();
+            this.DialogResult = DialogResult.OK;
+            this.Close();
         }
     }
 }
+
+    

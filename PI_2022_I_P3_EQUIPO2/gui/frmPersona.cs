@@ -1,4 +1,5 @@
-﻿using PI_2022_I_P3_EQUIPO2.Properties;
+﻿using PI_2022_I_P3_EQUIPO2.Objetos;
+using PI_2022_I_P3_EQUIPO2.Properties;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -16,6 +17,9 @@ namespace PI_2022_I_P3_EQUIPO2.gui
         private int ContadorTextBox { get; set; } = 9;
         private StreamReader archivoReader;
         List<Persona> registroGrid = new List<Persona>();
+        List<ComboBoxItem> registrosCombo = new List<ComboBoxItem>();
+        public string? ValorRetorno1 { get; set; }
+        public string? ValorRetorno2 { get; set; }
         enum IndicesTextBox
         {
             Id,
@@ -133,8 +137,8 @@ namespace PI_2022_I_P3_EQUIPO2.gui
                 txtTelefono.Text = valores[(int)IndicesTextBox.Telefono];
                 txtNacionalidad.Text = valores[(int)IndicesTextBox.Nacionalidad];
                 registroGrid.Add(new Persona(
-                    Convert.ToInt32(txtId.Text),
-                    txtNombre.Text,
+                Convert.ToInt32(txtId.Text),
+                txtNombre.Text,
                 int.Parse(txtRTN.Text),
                 txtGenero.Text,
                 int.Parse(txtEdad.Text),
@@ -142,12 +146,35 @@ namespace PI_2022_I_P3_EQUIPO2.gui
                 txtNumeroPasaporte.Text,
                 int.Parse(txtTelefono.Text),
                 txtNacionalidad.Text));
+
+                registrosCombo.Add(new ComboBoxItem(
+                txtId.Text,
+                txtNombre.Text
+                ));
             }
         }
 
         private void btnMostrar_Click(object sender, EventArgs e)
         {
             dgvMostrar.DataSource = registroGrid;
+            cbxPersona.DisplayMember = "Text";
+            cbxPersona.ValueMember = "Value";
+            cbxPersona.DataSource = registrosCombo;
+        }
+
+        private void btnSeleccionar_Click(object sender, EventArgs e)
+        {
+            int filaSeleccionada = dgvMostrar.CurrentCell.RowIndex;
+            MessageBox.Show($"Grid {dgvMostrar.Rows[filaSeleccionada].Cells[0].Value}");
+
+            ComboBoxItem itemSeleccionado = (ComboBoxItem)cbxPersona.SelectedItem;
+            int valorSeleccionado = Convert.ToInt32(itemSeleccionado.Value);
+            MessageBox.Show($"ComboBox {itemSeleccionado} y {valorSeleccionado}");
+            this.ValorRetorno1 = valorSeleccionado.ToString();
+            this.ValorRetorno2 = itemSeleccionado.ToString();
+            this.DialogResult = DialogResult.OK;
+            this.Close();
         }
     }
 }
+ 

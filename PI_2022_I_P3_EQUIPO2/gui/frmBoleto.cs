@@ -18,6 +18,8 @@ namespace PI_2022_I_P3_EQUIPO2.gui
         private StreamReader archivoReader;
         List<Boleto> registroGrid = new List<Boleto>();
         List<ComboBoxItem> registrosCombo = new List<ComboBoxItem>();
+        public string? ValorRetorno1 { get; set; }
+        public string? ValorRetorno2 { get; set; }
         enum IndicesTextBox
         {
             Id,
@@ -166,8 +168,14 @@ namespace PI_2022_I_P3_EQUIPO2.gui
             MessageBox.Show($"Grid {dgvMostrar.Rows[filaSeleccionada].Cells[0].Value}");
 
             ComboBoxItem itemSeleccionado = (ComboBoxItem)cbxBoleto.SelectedItem;
-            int valorSeleccionado=Convert.ToInt32(itemSeleccionado.Value);
+            int valorSeleccionado = Convert.ToInt32(itemSeleccionado.Value);
             MessageBox.Show($"ComboBox {itemSeleccionado} y {valorSeleccionado}");
+            this.ValorRetorno1 = valorSeleccionado.ToString();
+            this.ValorRetorno2 = itemSeleccionado.ToString();
+            this.DialogResult = DialogResult.OK;
+            this.Close();
         }
     }
 }
+
+

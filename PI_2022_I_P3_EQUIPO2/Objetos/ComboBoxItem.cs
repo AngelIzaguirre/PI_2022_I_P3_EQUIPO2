@@ -8,16 +8,17 @@ namespace PI_2022_I_P3_EQUIPO2.Objetos
 {
     internal class ComboBoxItem
     {
-        public string Text { get; set; }
+
         public object Value { get; set; }
+        public string Text { get; set; }
         public override string ToString()
         {
             return Text;
         }
-        public ComboBoxItem(string pText, object pValue)
+        public ComboBoxItem(object pValue, string pText)
         {
-            Text=pText;
             Value=pValue;
+            Text = pText;
         }
     }
 }
