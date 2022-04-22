@@ -126,6 +126,7 @@
             this.txtCiudadSalida.Name = "txtCiudadSalida";
             this.txtCiudadSalida.Size = new System.Drawing.Size(140, 23);
             this.txtCiudadSalida.TabIndex = 98;
+            this.txtCiudadSalida.TextChanged += new System.EventHandler(this.txtCiudadSalida_TextChanged);
             // 
             // txtCiudadActual
             // 
@@ -133,6 +134,7 @@
             this.txtCiudadActual.Name = "txtCiudadActual";
             this.txtCiudadActual.Size = new System.Drawing.Size(140, 23);
             this.txtCiudadActual.TabIndex = 97;
+            this.txtCiudadActual.TextChanged += new System.EventHandler(this.txtCiudadActual_TextChanged);
             // 
             // txtTipoBoleto
             // 
@@ -140,6 +142,7 @@
             this.txtTipoBoleto.Name = "txtTipoBoleto";
             this.txtTipoBoleto.Size = new System.Drawing.Size(140, 23);
             this.txtTipoBoleto.TabIndex = 96;
+            this.txtTipoBoleto.TextChanged += new System.EventHandler(this.txtTipoBoleto_TextChanged);
             // 
             // txtNumeroBoleto
             // 
@@ -147,6 +150,7 @@
             this.txtNumeroBoleto.Name = "txtNumeroBoleto";
             this.txtNumeroBoleto.Size = new System.Drawing.Size(140, 23);
             this.txtNumeroBoleto.TabIndex = 95;
+            this.txtNumeroBoleto.TextChanged += new System.EventHandler(this.txtNumeroBoleto_TextChanged);
             // 
             // lblCiudadSalida
             // 
@@ -190,6 +194,7 @@
             this.txtFechaActual.Name = "txtFechaActual";
             this.txtFechaActual.Size = new System.Drawing.Size(140, 23);
             this.txtFechaActual.TabIndex = 90;
+            this.txtFechaActual.TextChanged += new System.EventHandler(this.txtFechaActual_TextChanged);
             // 
             // txtCosto
             // 
@@ -197,6 +202,7 @@
             this.txtCosto.Name = "txtCosto";
             this.txtCosto.Size = new System.Drawing.Size(140, 23);
             this.txtCosto.TabIndex = 89;
+            this.txtCosto.TextChanged += new System.EventHandler(this.txtCosto_TextChanged);
             // 
             // txtAerolinea
             // 
@@ -204,6 +210,7 @@
             this.txtAerolinea.Name = "txtAerolinea";
             this.txtAerolinea.Size = new System.Drawing.Size(140, 23);
             this.txtAerolinea.TabIndex = 88;
+            this.txtAerolinea.TextChanged += new System.EventHandler(this.txtAerolinea_TextChanged);
             // 
             // txtNombre
             // 
@@ -211,6 +218,7 @@
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(140, 23);
             this.txtNombre.TabIndex = 87;
+            this.txtNombre.TextChanged += new System.EventHandler(this.txtNombre_TextChanged);
             // 
             // lblTipoBoleto
             // 
@@ -267,6 +275,7 @@
             this.txtId.Name = "txtId";
             this.txtId.Size = new System.Drawing.Size(140, 23);
             this.txtId.TabIndex = 100;
+            this.txtId.TextChanged += new System.EventHandler(this.txtId_TextChanged);
             // 
             // frmRegistrarBoleto
             // 

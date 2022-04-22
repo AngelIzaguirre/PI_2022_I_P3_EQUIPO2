@@ -125,6 +125,7 @@
             this.txtHoraSalida.Name = "txtHoraSalida";
             this.txtHoraSalida.Size = new System.Drawing.Size(140, 23);
             this.txtHoraSalida.TabIndex = 140;
+            this.txtHoraSalida.TextChanged += new System.EventHandler(this.txtHoraSalida_TextChanged);
             // 
             // txtHoraIngreso
             // 
@@ -132,6 +133,7 @@
             this.txtHoraIngreso.Name = "txtHoraIngreso";
             this.txtHoraIngreso.Size = new System.Drawing.Size(140, 23);
             this.txtHoraIngreso.TabIndex = 139;
+            this.txtHoraIngreso.TextChanged += new System.EventHandler(this.txtHoraIngreso_TextChanged);
             // 
             // txtProblema
             // 
@@ -139,6 +141,7 @@
             this.txtProblema.Name = "txtProblema";
             this.txtProblema.Size = new System.Drawing.Size(140, 23);
             this.txtProblema.TabIndex = 138;
+            this.txtProblema.TextChanged += new System.EventHandler(this.txtProblema_TextChanged);
             // 
             // txtNumeroSerie
             // 
@@ -146,6 +149,7 @@
             this.txtNumeroSerie.Name = "txtNumeroSerie";
             this.txtNumeroSerie.Size = new System.Drawing.Size(140, 23);
             this.txtNumeroSerie.TabIndex = 137;
+            this.txtNumeroSerie.TextChanged += new System.EventHandler(this.txtNumeroSerie_TextChanged);
             // 
             // lblHoraSalida
             // 
@@ -189,6 +193,7 @@
             this.txtEmpresa.Name = "txtEmpresa";
             this.txtEmpresa.Size = new System.Drawing.Size(140, 23);
             this.txtEmpresa.TabIndex = 132;
+            this.txtEmpresa.TextChanged += new System.EventHandler(this.txtEmpresa_TextChanged);
             // 
             // txtCosto
             // 
@@ -196,6 +201,7 @@
             this.txtCosto.Name = "txtCosto";
             this.txtCosto.Size = new System.Drawing.Size(140, 23);
             this.txtCosto.TabIndex = 131;
+            this.txtCosto.TextChanged += new System.EventHandler(this.txtCosto_TextChanged);
             // 
             // txtMaterial
             // 
@@ -203,6 +209,7 @@
             this.txtMaterial.Name = "txtMaterial";
             this.txtMaterial.Size = new System.Drawing.Size(140, 23);
             this.txtMaterial.TabIndex = 130;
+            this.txtMaterial.TextChanged += new System.EventHandler(this.txtMaterial_TextChanged);
             // 
             // txtNombre
             // 
@@ -210,6 +217,7 @@
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(140, 23);
             this.txtNombre.TabIndex = 129;
+            this.txtNombre.TextChanged += new System.EventHandler(this.txtNombre_TextChanged);
             // 
             // lblProblema
             // 
@@ -257,6 +265,7 @@
             this.txtId.Name = "txtId";
             this.txtId.Size = new System.Drawing.Size(140, 23);
             this.txtId.TabIndex = 142;
+            this.txtId.TextChanged += new System.EventHandler(this.txtId_TextChanged);
             // 
             // lblId
             // 

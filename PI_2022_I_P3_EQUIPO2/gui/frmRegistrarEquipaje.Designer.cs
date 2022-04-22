@@ -126,6 +126,7 @@
             this.txtDestino.Name = "txtDestino";
             this.txtDestino.Size = new System.Drawing.Size(140, 23);
             this.txtDestino.TabIndex = 139;
+            this.txtDestino.TextChanged += new System.EventHandler(this.txtDestino_TextChanged);
             // 
             // txtNumeroBoleto
             // 
@@ -133,6 +134,7 @@
             this.txtNumeroBoleto.Name = "txtNumeroBoleto";
             this.txtNumeroBoleto.Size = new System.Drawing.Size(140, 23);
             this.txtNumeroBoleto.TabIndex = 138;
+            this.txtNumeroBoleto.TextChanged += new System.EventHandler(this.txtNumeroBoleto_TextChanged);
             // 
             // txtAerolinea
             // 
@@ -140,6 +142,7 @@
             this.txtAerolinea.Name = "txtAerolinea";
             this.txtAerolinea.Size = new System.Drawing.Size(140, 23);
             this.txtAerolinea.TabIndex = 137;
+            this.txtAerolinea.TextChanged += new System.EventHandler(this.txtAerolinea_TextChanged);
             // 
             // txtClaseBoleto
             // 
@@ -147,6 +150,7 @@
             this.txtClaseBoleto.Name = "txtClaseBoleto";
             this.txtClaseBoleto.Size = new System.Drawing.Size(140, 23);
             this.txtClaseBoleto.TabIndex = 136;
+            this.txtClaseBoleto.TextChanged += new System.EventHandler(this.txtClaseBoleto_TextChanged);
             // 
             // lblDestino
             // 
@@ -190,6 +194,7 @@
             this.txtPeso.Name = "txtPeso";
             this.txtPeso.Size = new System.Drawing.Size(140, 23);
             this.txtPeso.TabIndex = 131;
+            this.txtPeso.TextChanged += new System.EventHandler(this.txtPeso_TextChanged);
             // 
             // txtHora
             // 
@@ -197,6 +202,7 @@
             this.txtHora.Name = "txtHora";
             this.txtHora.Size = new System.Drawing.Size(140, 23);
             this.txtHora.TabIndex = 130;
+            this.txtHora.TextChanged += new System.EventHandler(this.txtHora_TextChanged);
             // 
             // txtCantidad
             // 
@@ -204,6 +210,7 @@
             this.txtCantidad.Name = "txtCantidad";
             this.txtCantidad.Size = new System.Drawing.Size(140, 23);
             this.txtCantidad.TabIndex = 129;
+            this.txtCantidad.TextChanged += new System.EventHandler(this.txtCantidad_TextChanged);
             // 
             // txtNombre
             // 
@@ -211,6 +218,7 @@
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(140, 23);
             this.txtNombre.TabIndex = 128;
+            this.txtNombre.TextChanged += new System.EventHandler(this.txtNombre_TextChanged);
             // 
             // lblAerolinea
             // 
@@ -258,6 +266,7 @@
             this.txtId.Name = "txtId";
             this.txtId.Size = new System.Drawing.Size(140, 23);
             this.txtId.TabIndex = 141;
+            this.txtId.TextChanged += new System.EventHandler(this.txtId_TextChanged);
             // 
             // lblId
             // 

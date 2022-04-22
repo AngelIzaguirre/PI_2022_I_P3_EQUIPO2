@@ -126,6 +126,7 @@
             this.txtNacionalidad.Name = "txtNacionalidad";
             this.txtNacionalidad.Size = new System.Drawing.Size(140, 23);
             this.txtNacionalidad.TabIndex = 156;
+            this.txtNacionalidad.TextChanged += new System.EventHandler(this.txtNacionalidad_TextChanged);
             // 
             // txtTelefono
             // 
@@ -133,6 +134,7 @@
             this.txtTelefono.Name = "txtTelefono";
             this.txtTelefono.Size = new System.Drawing.Size(140, 23);
             this.txtTelefono.TabIndex = 155;
+            this.txtTelefono.TextChanged += new System.EventHandler(this.txtTelefono_TextChanged);
             // 
             // txtNumeroPasaporte
             // 
@@ -140,6 +142,7 @@
             this.txtNumeroPasaporte.Name = "txtNumeroPasaporte";
             this.txtNumeroPasaporte.Size = new System.Drawing.Size(140, 23);
             this.txtNumeroPasaporte.TabIndex = 154;
+            this.txtNumeroPasaporte.TextChanged += new System.EventHandler(this.txtNumeroPasaporte_TextChanged);
             // 
             // txtNumeroIdentidad
             // 
@@ -147,6 +150,7 @@
             this.txtNumeroIdentidad.Name = "txtNumeroIdentidad";
             this.txtNumeroIdentidad.Size = new System.Drawing.Size(140, 23);
             this.txtNumeroIdentidad.TabIndex = 153;
+            this.txtNumeroIdentidad.TextChanged += new System.EventHandler(this.txtNumeroIdentidad_TextChanged);
             // 
             // lblNacionalidad
             // 
@@ -190,6 +194,7 @@
             this.txtEdad.Name = "txtEdad";
             this.txtEdad.Size = new System.Drawing.Size(140, 23);
             this.txtEdad.TabIndex = 148;
+            this.txtEdad.TextChanged += new System.EventHandler(this.txtEdad_TextChanged);
             // 
             // txtGenero
             // 
@@ -197,6 +202,7 @@
             this.txtGenero.Name = "txtGenero";
             this.txtGenero.Size = new System.Drawing.Size(140, 23);
             this.txtGenero.TabIndex = 147;
+            this.txtGenero.TextChanged += new System.EventHandler(this.txtGenero_TextChanged);
             // 
             // txtRTN
             // 
@@ -204,6 +210,7 @@
             this.txtRTN.Name = "txtRTN";
             this.txtRTN.Size = new System.Drawing.Size(140, 23);
             this.txtRTN.TabIndex = 146;
+            this.txtRTN.TextChanged += new System.EventHandler(this.txtRTN_TextChanged);
             // 
             // txtNombre
             // 
@@ -211,6 +218,7 @@
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(140, 23);
             this.txtNombre.TabIndex = 145;
+            this.txtNombre.TextChanged += new System.EventHandler(this.txtNombre_TextChanged);
             // 
             // lblNumeroPasaporte
             // 
@@ -258,6 +266,7 @@
             this.txtId.Name = "txtId";
             this.txtId.Size = new System.Drawing.Size(140, 23);
             this.txtId.TabIndex = 158;
+            this.txtId.TextChanged += new System.EventHandler(this.txtId_TextChanged);
             // 
             // lblId
             // 

@@ -154,5 +154,56 @@ namespace PI_2022_I_P3_EQUIPO2.gui
             }
             LimpiarTextBox();
         }
+        private void ValidarVacio()
+        {
+            var var = !string.IsNullOrEmpty(txtId.Text) && !string.IsNullOrEmpty(txtNombre.Text) && !string.IsNullOrEmpty(txtMaterial.Text) &&
+            !string.IsNullOrEmpty(txtCosto.Text) && !string.IsNullOrEmpty(txtEmpresa.Text) && !string.IsNullOrEmpty(txtNumeroSerie.Text) &&
+            !string.IsNullOrEmpty(txtHoraIngreso.Text) && !string.IsNullOrEmpty(txtHoraIngreso.Text) && !string.IsNullOrEmpty(txtHoraSalida.Text);
+            btnRegistrar.Enabled = var;
+        }
+        private void txtId_TextChanged(object sender, EventArgs e)
+        {
+            ValidarVacio();
+        }
+
+        private void txtNombre_TextChanged(object sender, EventArgs e)
+        {
+            ValidarVacio();
+        }
+
+        private void txtMaterial_TextChanged(object sender, EventArgs e)
+        {
+            ValidarVacio();
+        }
+
+        private void txtCosto_TextChanged(object sender, EventArgs e)
+        {
+            ValidarVacio();
+        }
+
+        private void txtEmpresa_TextChanged(object sender, EventArgs e)
+        {
+            ValidarVacio();
+        }
+
+        private void txtNumeroSerie_TextChanged(object sender, EventArgs e)
+        {
+            ValidarVacio();
+        }
+
+        private void txtProblema_TextChanged(object sender, EventArgs e)
+        {
+            ValidarVacio();
+        }
+
+        private void txtHoraIngreso_TextChanged(object sender, EventArgs e)
+        {
+            ValidarVacio();
+        }
+
+        private void txtHoraSalida_TextChanged(object sender, EventArgs e)
+        {
+            ValidarVacio();
+        }
     }
 }

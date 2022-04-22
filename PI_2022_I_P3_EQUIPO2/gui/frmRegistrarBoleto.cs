@@ -17,6 +17,8 @@ namespace PI_2022_I_P3_EQUIPO2.gui
         List<Boleto> registroGrid = new List<Boleto>();
         StreamWriter archivoWriter;
         StreamReader archivoReader;
+
+        ErrorProvider errorProvider = new ErrorProvider();
         enum IndicesTextBox
         {
             Id,
@@ -117,6 +119,7 @@ namespace PI_2022_I_P3_EQUIPO2.gui
             string[] valores = ObtenerValoresTextBox();
             if (!string.IsNullOrEmpty(valores[(int)IndicesTextBox.Id]))
             {
+                
                 try
                 {
                     int numero = int.Parse(valores[(int)IndicesTextBox.Id]);
@@ -133,8 +136,10 @@ namespace PI_2022_I_P3_EQUIPO2.gui
                             valores[(int)IndicesTextBox.CiudadActual],
                             valores[(int)IndicesTextBox.CiudadSalida]
                             );
-                        archivoWriter.WriteLine($"{cuenta.ID},{cuenta.Nombre},{cuenta.Aerolinea},{cuenta.Costo},{cuenta.FechaActual}," +
+                        archivoWriter.WriteLine($"{cuenta.Id},{cuenta.Nombre},{cuenta.Aerolinea},{cuenta.Costo},{cuenta.FechaActual}," +
                             $"{cuenta.NumeroBoleto},{cuenta.TipoBoleto},{cuenta.CiudadActual},{cuenta.CiudadSalida}");
+                         MessageBox.Show("Datos ingresados correctamente");
+                        
                     }
                     else
                     {
@@ -152,6 +157,58 @@ namespace PI_2022_I_P3_EQUIPO2.gui
                 }
             }
             LimpiarTextBox();
+        }
+        private void ValidarVacio()
+        {
+            var var = !string.IsNullOrEmpty(txtId.Text) && !string.IsNullOrEmpty(txtNombre.Text) && !string.IsNullOrEmpty(txtAerolinea.Text) &&
+            !string.IsNullOrEmpty(txtCosto.Text) && !string.IsNullOrEmpty(txtFechaActual.Text) && !string.IsNullOrEmpty(txtNumeroBoleto.Text) &&
+            !string.IsNullOrEmpty(txtTipoBoleto.Text) && !string.IsNullOrEmpty(txtCiudadActual.Text) && !string.IsNullOrEmpty(txtCiudadSalida.Text);
+            btnRegistrar.Enabled = var;
+        }
+
+        private void txtId_TextChanged(object sender, EventArgs e)
+        {
+            ValidarVacio();
+        }
+
+        private void txtNombre_TextChanged(object sender, EventArgs e)
+        {
+            ValidarVacio();
+        }
+
+        private void txtAerolinea_TextChanged(object sender, EventArgs e)
+        {
+            ValidarVacio();
+        }
+
+        private void txtCosto_TextChanged(object sender, EventArgs e)
+        {
+            ValidarVacio();
+        }
+
+        private void txtFechaActual_TextChanged(object sender, EventArgs e)
+        {
+            ValidarVacio();
+        }
+
+        private void txtNumeroBoleto_TextChanged(object sender, EventArgs e)
+        {
+            ValidarVacio();
+        }
+
+        private void txtTipoBoleto_TextChanged(object sender, EventArgs e)
+        {
+            ValidarVacio();
+        }
+
+        private void txtCiudadActual_TextChanged(object sender, EventArgs e)
+        {
+            ValidarVacio();
+        }
+
+        private void txtCiudadSalida_TextChanged(object sender, EventArgs e)
+        {
+            ValidarVacio();
         }
     }
 }

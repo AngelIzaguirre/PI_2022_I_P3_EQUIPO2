@@ -125,6 +125,7 @@
             this.txtCantidad.Name = "txtCantidad";
             this.txtCantidad.Size = new System.Drawing.Size(140, 23);
             this.txtCantidad.TabIndex = 118;
+            this.txtCantidad.TextChanged += new System.EventHandler(this.txtCantidad_TextChanged);
             // 
             // txtCompañia
             // 
@@ -132,6 +133,7 @@
             this.txtCompañia.Name = "txtCompañia";
             this.txtCompañia.Size = new System.Drawing.Size(140, 23);
             this.txtCompañia.TabIndex = 117;
+            this.txtCompañia.TextChanged += new System.EventHandler(this.txtCompañia_TextChanged);
             // 
             // txtTipoBoleto
             // 
@@ -139,6 +141,7 @@
             this.txtTipoBoleto.Name = "txtTipoBoleto";
             this.txtTipoBoleto.Size = new System.Drawing.Size(140, 23);
             this.txtTipoBoleto.TabIndex = 116;
+            this.txtTipoBoleto.TextChanged += new System.EventHandler(this.txtTipoBoleto_TextChanged);
             // 
             // txtTelefono
             // 
@@ -146,6 +149,7 @@
             this.txtTelefono.Name = "txtTelefono";
             this.txtTelefono.Size = new System.Drawing.Size(140, 23);
             this.txtTelefono.TabIndex = 115;
+            this.txtTelefono.TextChanged += new System.EventHandler(this.txtTelefono_TextChanged);
             // 
             // lblCantidad
             // 
@@ -189,6 +193,7 @@
             this.txtFechaActual.Name = "txtFechaActual";
             this.txtFechaActual.Size = new System.Drawing.Size(140, 23);
             this.txtFechaActual.TabIndex = 110;
+            this.txtFechaActual.TextChanged += new System.EventHandler(this.txtFechaActual_TextChanged);
             // 
             // txtCosto
             // 
@@ -196,6 +201,7 @@
             this.txtCosto.Name = "txtCosto";
             this.txtCosto.Size = new System.Drawing.Size(140, 23);
             this.txtCosto.TabIndex = 109;
+            this.txtCosto.TextChanged += new System.EventHandler(this.txtCosto_TextChanged);
             // 
             // txtDireccion
             // 
@@ -203,6 +209,7 @@
             this.txtDireccion.Name = "txtDireccion";
             this.txtDireccion.Size = new System.Drawing.Size(140, 23);
             this.txtDireccion.TabIndex = 108;
+            this.txtDireccion.TextChanged += new System.EventHandler(this.txtDireccion_TextChanged);
             // 
             // txtNombre
             // 
@@ -210,6 +217,7 @@
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(140, 23);
             this.txtNombre.TabIndex = 107;
+            this.txtNombre.TextChanged += new System.EventHandler(this.txtNombre_TextChanged);
             // 
             // lblTipoBoleto
             // 
@@ -257,6 +265,7 @@
             this.txtId.Name = "txtId";
             this.txtId.Size = new System.Drawing.Size(140, 23);
             this.txtId.TabIndex = 120;
+            this.txtId.TextChanged += new System.EventHandler(this.txtId_TextChanged);
             // 
             // lblId
             // 

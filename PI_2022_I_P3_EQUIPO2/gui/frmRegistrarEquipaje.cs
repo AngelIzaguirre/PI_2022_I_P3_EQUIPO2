@@ -153,5 +153,56 @@ namespace PI_2022_I_P3_EQUIPO2.gui
             }
             LimpiarTextBox();
         }
+        private void ValidarVacio()
+        {
+            var var = !string.IsNullOrEmpty(txtId.Text) && !string.IsNullOrEmpty(txtNombre.Text) && !string.IsNullOrEmpty(txtCantidad.Text) &&
+            !string.IsNullOrEmpty(txtHora.Text) && !string.IsNullOrEmpty(txtPeso.Text) && !string.IsNullOrEmpty(txtClaseBoleto.Text) &&
+            !string.IsNullOrEmpty(txtAerolinea.Text) && !string.IsNullOrEmpty(txtNumeroBoleto.Text) && !string.IsNullOrEmpty(txtDestino.Text);
+            btnRegistrar.Enabled = var;
+        }
+        private void txtId_TextChanged(object sender, EventArgs e)
+        {
+            ValidarVacio();
+        }
+
+        private void txtNombre_TextChanged(object sender, EventArgs e)
+        {
+            ValidarVacio();
+        }
+
+        private void txtCantidad_TextChanged(object sender, EventArgs e)
+        {
+            ValidarVacio();
+        }
+
+        private void txtHora_TextChanged(object sender, EventArgs e)
+        {
+            ValidarVacio();
+        }
+
+        private void txtPeso_TextChanged(object sender, EventArgs e)
+        {
+            ValidarVacio();
+        }
+
+        private void txtClaseBoleto_TextChanged(object sender, EventArgs e)
+        {
+            ValidarVacio();
+        }
+
+        private void txtAerolinea_TextChanged(object sender, EventArgs e)
+        {
+            ValidarVacio();
+        }
+
+        private void txtNumeroBoleto_TextChanged(object sender, EventArgs e)
+        {
+            ValidarVacio();
+        }
+
+        private void txtDestino_TextChanged(object sender, EventArgs e)
+        {
+            ValidarVacio();
+        }
     }
 }

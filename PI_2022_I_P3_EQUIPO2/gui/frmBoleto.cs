@@ -175,6 +175,8 @@ namespace PI_2022_I_P3_EQUIPO2.gui
             this.DialogResult = DialogResult.OK;
             this.Close();
         }
+
+       
     }
 }
 

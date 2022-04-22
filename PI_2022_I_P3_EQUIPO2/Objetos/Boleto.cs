@@ -11,7 +11,7 @@ namespace PI_2022_I_P3_EQUIPO2.Properties
     internal class Boleto
     {
 
-        public int ID { get; set; }
+        public int Id { get; set; }
         public string Nombre { get; set; }
         public string Aerolinea { get; set; }
         public decimal Costo { get; set; }
@@ -27,9 +27,9 @@ namespace PI_2022_I_P3_EQUIPO2.Properties
         {
         }
 
-        public Boleto( int pID, string pNombre, string pAerolinea, decimal pCosto, string pFechaActual, int pNumeroBoleto, string pTipoBoleto, string pCiudadActual, string pCiudadSalida)
+        public Boleto( int pId, string pNombre, string pAerolinea, decimal pCosto, string pFechaActual, int pNumeroBoleto, string pTipoBoleto, string pCiudadActual, string pCiudadSalida)
         {
-            ID = pID;
+            Id = pId;
             Nombre = pNombre;
             Aerolinea = pAerolinea;
             Costo = pCosto;
@@ -39,5 +39,6 @@ namespace PI_2022_I_P3_EQUIPO2.Properties
             CiudadActual = pCiudadActual;
             CiudadSalida = pCiudadSalida;
         }
+
     }
 }

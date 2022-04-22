@@ -155,5 +155,56 @@ namespace PI_2022_I_P3_EQUIPO2.gui
             }
             LimpiarTextBox();
         }
+        private void ValidarVacio()
+        {
+            var var = !string.IsNullOrEmpty(txtId.Text) && !string.IsNullOrEmpty(txtNombre.Text) && !string.IsNullOrEmpty(txtRTN.Text) &&
+            !string.IsNullOrEmpty(txtGenero.Text) && !string.IsNullOrEmpty(txtEdad.Text) && !string.IsNullOrEmpty(txtNumeroIdentidad.Text) &&
+            !string.IsNullOrEmpty(txtNumeroPasaporte.Text) && !string.IsNullOrEmpty(txtTelefono.Text) && !string.IsNullOrEmpty(txtNacionalidad.Text);
+            btnRegistrar.Enabled = var;
+        }
+        private void txtId_TextChanged(object sender, EventArgs e)
+        {
+            ValidarVacio();
+        }
+
+        private void txtNombre_TextChanged(object sender, EventArgs e)
+        {
+            ValidarVacio();
+        }
+
+        private void txtRTN_TextChanged(object sender, EventArgs e)
+        {
+            ValidarVacio();
+        }
+
+        private void txtGenero_TextChanged(object sender, EventArgs e)
+        {
+            ValidarVacio();
+        }
+
+        private void txtEdad_TextChanged(object sender, EventArgs e)
+        {
+            ValidarVacio();
+        }
+
+        private void txtNumeroIdentidad_TextChanged(object sender, EventArgs e)
+        {
+            ValidarVacio();
+        }
+
+        private void txtNumeroPasaporte_TextChanged(object sender, EventArgs e)
+        {
+            ValidarVacio();
+        }
+
+        private void txtTelefono_TextChanged(object sender, EventArgs e)
+        {
+            ValidarVacio();
+        }
+
+        private void txtNacionalidad_TextChanged(object sender, EventArgs e)
+        {
+            ValidarVacio();
+        }
     }
 }

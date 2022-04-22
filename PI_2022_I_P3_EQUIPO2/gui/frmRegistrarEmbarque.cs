@@ -155,5 +155,57 @@ namespace PI_2022_I_P3_EQUIPO2.gui
             }
             LimpiarTextBox();
         }
+        private void ValidarVacio()
+        {
+            var var = !string.IsNullOrEmpty(txtId.Text) && !string.IsNullOrEmpty(txtNombre.Text) && !string.IsNullOrEmpty(txtDireccion.Text) &&
+            !string.IsNullOrEmpty(txtCosto.Text) && !string.IsNullOrEmpty(txtFechaActual.Text) && !string.IsNullOrEmpty(txtTelefono.Text) &&
+            !string.IsNullOrEmpty(txtTipoBoleto.Text) && !string.IsNullOrEmpty(txtCantidad.Text) && !string.IsNullOrEmpty(txtCantidad.Text);
+            btnRegistrar.Enabled = var;
+        }
+
+        private void txtId_TextChanged(object sender, EventArgs e)
+        {
+            ValidarVacio();
+        }
+
+        private void txtNombre_TextChanged(object sender, EventArgs e)
+        {
+            ValidarVacio();
+        }
+
+        private void txtDireccion_TextChanged(object sender, EventArgs e)
+        {
+            ValidarVacio();
+        }
+
+        private void txtCosto_TextChanged(object sender, EventArgs e)
+        {
+            ValidarVacio();
+        }
+
+        private void txtFechaActual_TextChanged(object sender, EventArgs e)
+        {
+            ValidarVacio();
+        }
+
+        private void txtTelefono_TextChanged(object sender, EventArgs e)
+        {
+            ValidarVacio();
+        }
+
+        private void txtTipoBoleto_TextChanged(object sender, EventArgs e)
+        {
+            ValidarVacio();
+        }
+
+        private void txtCompañia_TextChanged(object sender, EventArgs e)
+        {
+            ValidarVacio();
+        }
+
+        private void txtCantidad_TextChanged(object sender, EventArgs e)
+        {
+            ValidarVacio();
+        }
     }
 }
