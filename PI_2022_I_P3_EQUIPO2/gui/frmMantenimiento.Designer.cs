@@ -37,7 +37,7 @@
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lblMantenimiento = new System.Windows.Forms.Label();
-            this.cbxMantenimiento = new System.Windows.Forms.ComboBox();
+            this.cboMantenimiento = new System.Windows.Forms.ComboBox();
             this.dgvMostrar = new System.Windows.Forms.DataGridView();
             this.lblSeleccionar = new System.Windows.Forms.Label();
             this.btnMostrar = new System.Windows.Forms.Button();
@@ -131,13 +131,13 @@
             this.lblMantenimiento.TabIndex = 44;
             this.lblMantenimiento.Text = "Mantenimiento";
             // 
-            // cbxMantenimiento
+            // cboMantenimiento
             // 
-            this.cbxMantenimiento.FormattingEnabled = true;
-            this.cbxMantenimiento.Location = new System.Drawing.Point(699, 396);
-            this.cbxMantenimiento.Name = "cbxMantenimiento";
-            this.cbxMantenimiento.Size = new System.Drawing.Size(121, 23);
-            this.cbxMantenimiento.TabIndex = 43;
+            this.cboMantenimiento.FormattingEnabled = true;
+            this.cboMantenimiento.Location = new System.Drawing.Point(699, 396);
+            this.cboMantenimiento.Name = "cboMantenimiento";
+            this.cboMantenimiento.Size = new System.Drawing.Size(121, 23);
+            this.cboMantenimiento.TabIndex = 43;
             // 
             // dgvMostrar
             // 
@@ -392,7 +392,7 @@
             this.Controls.Add(this.btnSiguientRegistro);
             this.Controls.Add(this.btnAbrirArchivo);
             this.Controls.Add(this.lblMantenimiento);
-            this.Controls.Add(this.cbxMantenimiento);
+            this.Controls.Add(this.cboMantenimiento);
             this.Controls.Add(this.dgvMostrar);
             this.Controls.Add(this.lblSeleccionar);
             this.Controls.Add(this.menuStrip1);
@@ -417,7 +417,7 @@
         private ToolStripMenuItem ayudaToolStripMenuItem;
         private ToolStripMenuItem acercaDeToolStripMenuItem;
         private Label lblMantenimiento;
-        private ComboBox cbxMantenimiento;
+        private ComboBox cboMantenimiento;
         private DataGridView dgvMostrar;
         private Label lblSeleccionar;
         private Button btnMostrar;

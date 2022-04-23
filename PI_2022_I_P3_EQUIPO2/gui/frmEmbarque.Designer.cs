@@ -37,7 +37,7 @@
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lblEmbarque1 = new System.Windows.Forms.Label();
-            this.cbxEmbarque = new System.Windows.Forms.ComboBox();
+            this.cboEmbarque = new System.Windows.Forms.ComboBox();
             this.dgvMostrar = new System.Windows.Forms.DataGridView();
             this.lblSeleccionar = new System.Windows.Forms.Label();
             this.btnMostrar = new System.Windows.Forms.Button();
@@ -131,13 +131,13 @@
             this.lblEmbarque1.TabIndex = 44;
             this.lblEmbarque1.Text = "Embarque";
             // 
-            // cbxEmbarque
+            // cboEmbarque
             // 
-            this.cbxEmbarque.FormattingEnabled = true;
-            this.cbxEmbarque.Location = new System.Drawing.Point(710, 392);
-            this.cbxEmbarque.Name = "cbxEmbarque";
-            this.cbxEmbarque.Size = new System.Drawing.Size(121, 23);
-            this.cbxEmbarque.TabIndex = 43;
+            this.cboEmbarque.FormattingEnabled = true;
+            this.cboEmbarque.Location = new System.Drawing.Point(710, 392);
+            this.cboEmbarque.Name = "cboEmbarque";
+            this.cboEmbarque.Size = new System.Drawing.Size(121, 23);
+            this.cboEmbarque.TabIndex = 43;
             // 
             // dgvMostrar
             // 
@@ -392,7 +392,7 @@
             this.Controls.Add(this.btnSiguientRegistro);
             this.Controls.Add(this.btnAbrirArchivo);
             this.Controls.Add(this.lblEmbarque1);
-            this.Controls.Add(this.cbxEmbarque);
+            this.Controls.Add(this.cboEmbarque);
             this.Controls.Add(this.dgvMostrar);
             this.Controls.Add(this.lblSeleccionar);
             this.Controls.Add(this.menuStrip1);
@@ -418,7 +418,7 @@
         private ToolStripMenuItem ayudaToolStripMenuItem;
         private ToolStripMenuItem acercaDeToolStripMenuItem;
         private Label lblEmbarque1;
-        private ComboBox cbxEmbarque;
+        private ComboBox cboEmbarque;
         private DataGridView dgvMostrar;
         private Label lblSeleccionar;
         private Button btnMostrar;

@@ -49,7 +49,7 @@
             this.txtAerolinea = new System.Windows.Forms.TextBox();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.lblBoleto1 = new System.Windows.Forms.Label();
-            this.cbxBoleto = new System.Windows.Forms.ComboBox();
+            this.cboBoleto = new System.Windows.Forms.ComboBox();
             this.lblTipoBoleto = new System.Windows.Forms.Label();
             this.lblCosto = new System.Windows.Forms.Label();
             this.lblAerolinea = new System.Windows.Forms.Label();
@@ -223,13 +223,14 @@
             this.lblBoleto1.TabIndex = 44;
             this.lblBoleto1.Text = "Boleto";
             // 
-            // cbxBoleto
+            // cboBoleto
             // 
-            this.cbxBoleto.FormattingEnabled = true;
-            this.cbxBoleto.Location = new System.Drawing.Point(739, 395);
-            this.cbxBoleto.Name = "cbxBoleto";
-            this.cbxBoleto.Size = new System.Drawing.Size(121, 23);
-            this.cbxBoleto.TabIndex = 43;
+            this.cboBoleto.FormattingEnabled = true;
+            this.cboBoleto.Location = new System.Drawing.Point(739, 395);
+            this.cboBoleto.Name = "cboBoleto";
+            this.cboBoleto.Size = new System.Drawing.Size(121, 23);
+            this.cboBoleto.TabIndex = 43;
+            this.cboBoleto.SelectedIndexChanged += new System.EventHandler(this.cboBoleto_SelectedIndexChanged);
             // 
             // lblTipoBoleto
             // 
@@ -385,7 +386,7 @@
             this.Controls.Add(this.txtAerolinea);
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.lblBoleto1);
-            this.Controls.Add(this.cbxBoleto);
+            this.Controls.Add(this.cboBoleto);
             this.Controls.Add(this.lblTipoBoleto);
             this.Controls.Add(this.lblCosto);
             this.Controls.Add(this.lblAerolinea);
@@ -430,7 +431,7 @@
         private TextBox txtAerolinea;
         private TextBox txtNombre;
         private Label lblBoleto1;
-        private ComboBox cbxBoleto;
+        private ComboBox cboBoleto;
         private Label lblTipoBoleto;
         private Label lblCosto;
         private Label lblAerolinea;

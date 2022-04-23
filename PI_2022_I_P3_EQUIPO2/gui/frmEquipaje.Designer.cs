@@ -37,7 +37,7 @@
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lblEquipaje = new System.Windows.Forms.Label();
-            this.cbxEquipaje = new System.Windows.Forms.ComboBox();
+            this.cboEquipaje = new System.Windows.Forms.ComboBox();
             this.dgvMostrar = new System.Windows.Forms.DataGridView();
             this.lblSeleccionar = new System.Windows.Forms.Label();
             this.btnMostrar = new System.Windows.Forms.Button();
@@ -131,13 +131,13 @@
             this.lblEquipaje.TabIndex = 44;
             this.lblEquipaje.Text = "Equipaje";
             // 
-            // cbxEquipaje
+            // cboEquipaje
             // 
-            this.cbxEquipaje.FormattingEnabled = true;
-            this.cbxEquipaje.Location = new System.Drawing.Point(707, 400);
-            this.cbxEquipaje.Name = "cbxEquipaje";
-            this.cbxEquipaje.Size = new System.Drawing.Size(121, 23);
-            this.cbxEquipaje.TabIndex = 43;
+            this.cboEquipaje.FormattingEnabled = true;
+            this.cboEquipaje.Location = new System.Drawing.Point(707, 400);
+            this.cboEquipaje.Name = "cboEquipaje";
+            this.cboEquipaje.Size = new System.Drawing.Size(121, 23);
+            this.cboEquipaje.TabIndex = 43;
             // 
             // dgvMostrar
             // 
@@ -392,7 +392,7 @@
             this.Controls.Add(this.btnSiguientRegistro);
             this.Controls.Add(this.btnAbrirArchivo);
             this.Controls.Add(this.lblEquipaje);
-            this.Controls.Add(this.cbxEquipaje);
+            this.Controls.Add(this.cboEquipaje);
             this.Controls.Add(this.dgvMostrar);
             this.Controls.Add(this.lblSeleccionar);
             this.Controls.Add(this.menuStrip1);
@@ -417,7 +417,7 @@
         private ToolStripMenuItem ayudaToolStripMenuItem;
         private ToolStripMenuItem acercaDeToolStripMenuItem;
         private Label lblEquipaje;
-        private ComboBox cbxEquipaje;
+        private ComboBox cboEquipaje;
         private DataGridView dgvMostrar;
         private Label lblSeleccionar;
         private Button btnMostrar;

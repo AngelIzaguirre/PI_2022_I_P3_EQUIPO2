@@ -157,9 +157,9 @@ namespace PI_2022_I_P3_EQUIPO2.gui
         private void btnMostrar_Click(object sender, EventArgs e)
         {
             dgvMostrar.DataSource = registroGrid;
-            cbxBoleto.DisplayMember = "Text";
-            cbxBoleto.ValueMember = "Value";
-            cbxBoleto.DataSource = registrosCombo;
+            cboBoleto.DisplayMember = "Text";
+            cboBoleto.ValueMember = "Value";
+            cboBoleto.DataSource = registrosCombo;
         }
 
         private void btnSeleccionar_Click(object sender, EventArgs e)
@@ -167,7 +167,7 @@ namespace PI_2022_I_P3_EQUIPO2.gui
             int filaSeleccionada = dgvMostrar.CurrentCell.RowIndex;
             MessageBox.Show($"Grid {dgvMostrar.Rows[filaSeleccionada].Cells[0].Value}");
 
-            ComboBoxItem itemSeleccionado = (ComboBoxItem)cbxBoleto.SelectedItem;
+            ComboBoxItem itemSeleccionado = (ComboBoxItem)cboBoleto.SelectedItem;
             int valorSeleccionado = Convert.ToInt32(itemSeleccionado.Value);
             MessageBox.Show($"ComboBox {itemSeleccionado} y {valorSeleccionado}");
             this.ValorRetorno1 = valorSeleccionado.ToString();
@@ -176,7 +176,10 @@ namespace PI_2022_I_P3_EQUIPO2.gui
             this.Close();
         }
 
-       
+        private void cboBoleto_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

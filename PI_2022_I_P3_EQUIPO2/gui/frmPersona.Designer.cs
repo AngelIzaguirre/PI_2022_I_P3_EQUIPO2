@@ -37,7 +37,7 @@
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lblPersona = new System.Windows.Forms.Label();
-            this.cbxPersona = new System.Windows.Forms.ComboBox();
+            this.cboPersona = new System.Windows.Forms.ComboBox();
             this.dgvMostrar = new System.Windows.Forms.DataGridView();
             this.lblSeleccionar = new System.Windows.Forms.Label();
             this.btnMostrar = new System.Windows.Forms.Button();
@@ -131,13 +131,13 @@
             this.lblPersona.TabIndex = 44;
             this.lblPersona.Text = "Persona";
             // 
-            // cbxPersona
+            // cboPersona
             // 
-            this.cbxPersona.FormattingEnabled = true;
-            this.cbxPersona.Location = new System.Drawing.Point(713, 398);
-            this.cbxPersona.Name = "cbxPersona";
-            this.cbxPersona.Size = new System.Drawing.Size(121, 23);
-            this.cbxPersona.TabIndex = 43;
+            this.cboPersona.FormattingEnabled = true;
+            this.cboPersona.Location = new System.Drawing.Point(713, 398);
+            this.cboPersona.Name = "cboPersona";
+            this.cboPersona.Size = new System.Drawing.Size(121, 23);
+            this.cboPersona.TabIndex = 43;
             // 
             // dgvMostrar
             // 
@@ -392,7 +392,7 @@
             this.Controls.Add(this.btnSiguientRegistro);
             this.Controls.Add(this.btnAbrirArchivo);
             this.Controls.Add(this.lblPersona);
-            this.Controls.Add(this.cbxPersona);
+            this.Controls.Add(this.cboPersona);
             this.Controls.Add(this.dgvMostrar);
             this.Controls.Add(this.lblSeleccionar);
             this.Controls.Add(this.menuStrip1);
@@ -417,7 +417,7 @@
         private ToolStripMenuItem ayudaToolStripMenuItem;
         private ToolStripMenuItem acercaDeToolStripMenuItem;
         private Label lblPersona;
-        private ComboBox cbxPersona;
+        private ComboBox cboPersona;
         private DataGridView dgvMostrar;
         private Label lblSeleccionar;
         private Button btnMostrar;
